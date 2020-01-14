@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="eleonard_asm" targetName="eleonard_asm" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f06f8881-3af1-49d8-a4eb-b585aabe22f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WNvyfYRxLazZbHjSPI80DsXUYs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libft/srcs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libft/srcs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="eleonard_asm" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="ex.s" PASS_PARENT_ENVS_2="true" PROJECT_NAME="eleonard_asm" TARGET_NAME="eleonard_asm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="eleonard_asm" RUN_TARGET_NAME="eleonard_asm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f06f8881-3af1-49d8-a4eb-b585aabe22f5" name="Default Changelist" comment="" />
+      <created>1579003124123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579003124123</updated>
+      <workItem from="1579003133556" duration="2557000" />
+      <workItem from="1579010056800" duration="739000" />
+      <workItem from="1579011395605" duration="6655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="357" key="#C/C++" timestamp="1579003499780">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="880" y="357" key="#C/C++/0.23.2560.1337@0.23.2560.1337" timestamp="1579003499780" />
+    <state x="744" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579010802098">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="744" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579010802098" />
+    <state x="989" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579003146229">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="989" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1579003146229" />
+    <state width="2518" height="469" key="GridCell.Tab.0.bottom" timestamp="1579020764143">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764143" />
+    <state width="2518" height="469" key="GridCell.Tab.0.center" timestamp="1579020764143">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764143" />
+    <state width="2518" height="469" key="GridCell.Tab.0.left" timestamp="1579020764143">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764143" />
+    <state width="2518" height="469" key="GridCell.Tab.0.right" timestamp="1579020764143">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764143" />
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1579020764144">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764144" />
+    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1579020764144">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764144" />
+    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1579020764144">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764144" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1579020764144">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579020764144" />
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1579011397247">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579011397247" />
+    <state x="1005" y="352" key="refactoring.ChangeSignatureDialog" timestamp="1579010368402">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1005" y="352" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579010368402" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/asm.c</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/encrypt_line.c</url>
+          <line>109</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

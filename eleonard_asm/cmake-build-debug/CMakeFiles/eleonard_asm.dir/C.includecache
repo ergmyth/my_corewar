@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/asm.h
+libft.h
+../includes/libft.h
+op.h
+../includes/op.h
+stdio.h
+-
+
+../includes/op.h
+
+../libft/includes/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+
+/Users/eleonard/corewar/eleonard_asm/srcs/add_str_to_byte_code.c
+asm.h
+/Users/eleonard/corewar/eleonard_asm/srcs/asm.h
+
