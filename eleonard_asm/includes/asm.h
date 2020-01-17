@@ -30,20 +30,26 @@ typedef struct		s_op
     int             loops;
     char			*description;
     int             arg_type;
-    int             some_int2;
+    int             dir_size;
 }					t_op;
+
+
 
 typedef struct		s_s
 {
-	int				quote_opened;
 	char 			*name;
 	char 			*comment;
 	int 			fd;
+	t_op            op_tab[17];
 	int				has_name;
 	int				has_comment;
+	int 			comment_written;
 	char			*byte_code;
 }					t_s;
 
+void                read_line(char *line, t_s *s);
+void				add_till_CEC(t_s *s);
+void				fill_by_zeroes(char *str, int len);
 void				add_str_to_byte_code(t_s *s, char *str, int len);
 void				encrypt_line(char *line, t_s *s);
 char            	*pf_hex(int n);
@@ -55,5 +61,6 @@ void				print_func(char *msg, char *src_name);
 int					check_name(char *name);
 void				do_parse(t_s *s);
 void				case_of_error(void);
+void				add_null_octets(t_s *s);
 
 #endif

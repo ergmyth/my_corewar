@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/eleonard/corewar/eleonard_asm/includes -I/Users/eleonard/corewar/eleonard_asm/libft/includes 
+C_INCLUDES = -I/Users/eleonard/my_corewar/eleonard_asm/includes -I/Users/eleonard/my_corewar/eleonard_asm/libft/includes 
 

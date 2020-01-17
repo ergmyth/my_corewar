@@ -106,8 +106,9 @@ void	encrypt_line(char *line, t_s *s)
 
 	if (s->has_comment && s->has_name)
 	{
-		printf("%s\n", s->byte_code);
-		str = skip_whitespaces(line);
+		if (!s->comment_written)
+			add_till_CEC(s);
+		read_line(line, s);
 		ft_strdel(&line);
 	}
 	else

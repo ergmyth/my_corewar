@@ -187,10 +187,20 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: ../libft/srcs/get_symbol_index.c
 
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../srcs/add_null_octets.c
+
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../srcs/add_str_to_byte_code.c
+
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: ../srcs/add_till_CEC.c
 
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../includes/op.h
@@ -222,6 +232,11 @@ CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o: ../srcs/encrypt_line.c
 
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../srcs/fill_by_zeroes.c
+
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../libft/includes/libft.h
@@ -241,6 +256,11 @@ CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../srcs/print_func.c
+
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: ../srcs/read_line.c
 
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/op.h

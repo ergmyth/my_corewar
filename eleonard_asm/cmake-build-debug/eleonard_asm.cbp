@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug"/>
+				<Option working_dir="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="eleonard_asm">
-				<Option output="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/eleonard_asm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug"/>
+				<Option output="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/eleonard_asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/eleonard/corewar/eleonard_asm/includes"/>
-					<Add directory="/Users/eleonard/corewar/eleonard_asm/libft/includes"/>
+					<Add directory="/Users/eleonard/my_corewar/eleonard_asm/includes"/>
+					<Add directory="/Users/eleonard/my_corewar/eleonard_asm/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -54,21 +54,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 eleonard_asm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 eleonard_asm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="eleonard_asm/fast">
-				<Option output="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/eleonard_asm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eleonard/corewar/eleonard_asm/cmake-build-debug"/>
+				<Option output="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/eleonard_asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/eleonard/corewar/eleonard_asm/includes"/>
-					<Add directory="/Users/eleonard/corewar/eleonard_asm/libft/includes"/>
+					<Add directory="/Users/eleonard/my_corewar/eleonard_asm/includes"/>
+					<Add directory="/Users/eleonard/my_corewar/eleonard_asm/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -77,260 +77,272 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 eleonard_asm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 eleonard_asm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/includes/asm.h">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/includes/asm.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/includes/op.h">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/includes/op.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/includes/libft.h">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/includes/libft.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_abs.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_atoi.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_atoi.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_bzero.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_bzero.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_check_overlap.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_check_overlap.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_freep.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_freep.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalnum.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalnum.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalpha.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalpha.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isascii.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isascii.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isdigit.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isdigit.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isprint.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isprint.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_itoa.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itoa.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstadd.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstadd.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdel.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdel.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdelone.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdelone.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstiter.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstiter.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstmap.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstmap.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstnew.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstnew.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memalloc.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memalloc.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memccpy.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memccpy.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memchr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memchr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcmp.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcmp.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcpy.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcpy.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memdel.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memdel.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memmove.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memmove.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memset.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memset.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstrn.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstrn.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_sqrt.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_sqrt.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcat.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcat.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strchr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strchr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strclr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strclr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcmp.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcmp.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcpy.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcpy.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdel.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdel.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdup.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdup.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strequ.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strequ.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striter.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striter.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striteri.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striteri.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strjoin.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strjoin.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlcat.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlcat.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlen.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlen.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmap.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmap.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmapi.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmapi.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncat.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncat.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncmp.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncmp.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncpy.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncpy.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnequ.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnequ.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnew.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnew.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnstr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnstr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strrchr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strrchr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsplit.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsplit.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strstr.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strstr.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsub.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsub.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strtrim.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strtrim.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_tolower.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_tolower.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_toupper.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_toupper.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/get_next_line.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_next_line.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/libft/srcs/get_symbol_index.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/add_str_to_byte_code.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/asm.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/case_of_error.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/check_name.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/create_file.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/do_parse.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/encrypt_line.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/initialize.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/op.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/pf_hex.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/print_func.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/skip_whitespaces.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/srcs/wrong_end_of_line.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/corewar/eleonard_asm/CMakeLists.txt">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

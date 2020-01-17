@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eleonard/corewar/eleonard_asm
+CMAKE_SOURCE_DIR = /Users/eleonard/my_corewar/eleonard_asm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eleonard/corewar/eleonard_asm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eleonard_asm.dir/depend.make
@@ -59,1030 +59,1082 @@ include CMakeFiles/eleonard_asm.dir/flags.make
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_next_line.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_next_line.c > CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_next_line.c > CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_next_line.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_next_line.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o: ../libft/srcs/ft_abs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_abs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_abs.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_abs.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o: ../libft/srcs/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_atoi.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_atoi.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_atoi.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_atoi.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_atoi.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o: ../libft/srcs/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_bzero.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_bzero.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_bzero.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_bzero.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_bzero.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o: ../libft/srcs/ft_check_overlap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_check_overlap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_check_overlap.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_check_overlap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_check_overlap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_check_overlap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_check_overlap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o: ../libft/srcs/ft_freep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_freep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_freep.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_freep.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_freep.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_freep.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_freep.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o: ../libft/srcs/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalnum.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalnum.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalnum.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalnum.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalnum.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o: ../libft/srcs/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalpha.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalpha.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalpha.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isalpha.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalpha.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o: ../libft/srcs/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isascii.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isascii.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isascii.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isascii.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isascii.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o: ../libft/srcs/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isdigit.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isdigit.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isdigit.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isdigit.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isdigit.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o: ../libft/srcs/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isprint.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isprint.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isprint.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_isprint.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isprint.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o: ../libft/srcs/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itoa.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_itoa.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itoa.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_itoa.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itoa.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o: ../libft/srcs/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstadd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstadd.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstadd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstadd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstadd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstadd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o: ../libft/srcs/ft_lstaddtoend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstaddtoend.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o: ../libft/srcs/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdel.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o: ../libft/srcs/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdelone.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdelone.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdelone.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstdelone.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstdelone.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o: ../libft/srcs/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstiter.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstiter.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstiter.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstiter.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstiter.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o: ../libft/srcs/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstmap.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstmap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstmap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstmap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstmap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o: ../libft/srcs/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstnew.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstnew.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstnew.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_lstnew.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstnew.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o: ../libft/srcs/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memalloc.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memalloc.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memalloc.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memalloc.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memalloc.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o: ../libft/srcs/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memccpy.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memccpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memccpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memccpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memccpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o: ../libft/srcs/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memchr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o: ../libft/srcs/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcmp.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o: ../libft/srcs/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcpy.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memcpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memcpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o: ../libft/srcs/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memdel.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o: ../libft/srcs/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memmove.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memmove.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memmove.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memmove.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memmove.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o: ../libft/srcs/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memset.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memset.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memset.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_memset.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_memset.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o: ../libft/srcs/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o: ../libft/srcs/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putchar_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o: ../libft/srcs/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o: ../libft/srcs/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putendl_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o: ../libft/srcs/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o: ../libft/srcs/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putnbr_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o: ../libft/srcs/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o: ../libft/srcs/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstr_fd.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o: ../libft/srcs/ft_putstrn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstrn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstrn.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstrn.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstrn.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_putstrn.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstrn.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o: ../libft/srcs/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_sqrt.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_sqrt.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_sqrt.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_sqrt.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_sqrt.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o: ../libft/srcs/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcat.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o: ../libft/srcs/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strchr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o: ../libft/srcs/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strclr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strclr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strclr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strclr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strclr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o: ../libft/srcs/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcmp.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o: ../libft/srcs/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcpy.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strcpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strcpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o: ../libft/srcs/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdel.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdel.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdel.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o: ../libft/srcs/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdup.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdup.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdup.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strdup.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strdup.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o: ../libft/srcs/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strequ.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strequ.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strequ.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strequ.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strequ.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o: ../libft/srcs/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striter.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striter.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striter.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striter.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striter.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o: ../libft/srcs/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striteri.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striteri.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striteri.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_striteri.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_striteri.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o: ../libft/srcs/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strjoin.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strjoin.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strjoin.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strjoin.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strjoin.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o: ../libft/srcs/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlcat.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlcat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlcat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlcat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlcat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o: ../libft/srcs/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlen.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlen.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlen.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strlen.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strlen.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o: ../libft/srcs/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmap.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmap.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmap.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o: ../libft/srcs/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmapi.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmapi.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmapi.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strmapi.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strmapi.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o: ../libft/srcs/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncat.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncat.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncat.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o: ../libft/srcs/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncmp.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncmp.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncmp.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o: ../libft/srcs/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncpy.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncpy.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strncpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strncpy.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o: ../libft/srcs/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnequ.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnequ.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnequ.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnequ.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnequ.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o: ../libft/srcs/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnew.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnew.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnew.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnew.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnew.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o: ../libft/srcs/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnstr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strnstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strnstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o: ../libft/srcs/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strrchr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strrchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strrchr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strrchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strrchr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o: ../libft/srcs/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsplit.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsplit.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsplit.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsplit.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsplit.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o: ../libft/srcs/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strstr.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strstr.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strstr.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o: ../libft/srcs/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsub.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsub.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsub.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strsub.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strsub.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o: ../libft/srcs/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strtrim.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strtrim.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strtrim.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_strtrim.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_strtrim.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o: ../libft/srcs/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_tolower.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_tolower.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_tolower.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_tolower.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_tolower.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o: ../libft/srcs/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_toupper.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_toupper.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_toupper.c > CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/ft_toupper.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_toupper.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../srcs/asm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/eleonard_asm.dir/srcs/asm.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/asm.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/asm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/eleonard_asm.dir/srcs/asm.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/asm.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c
 
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/asm.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/asm.c > CMakeFiles/eleonard_asm.dir/srcs/asm.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c > CMakeFiles/eleonard_asm.dir/srcs/asm.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/asm.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/asm.c -o CMakeFiles/eleonard_asm.dir/srcs/asm.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c -o CMakeFiles/eleonard_asm.dir/srcs/asm.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../srcs/case_of_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/case_of_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c
 
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/case_of_error.c > CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c > CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/case_of_error.c -o CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c -o CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../srcs/check_name.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/check_name.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c
 
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/check_name.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/check_name.c > CMakeFiles/eleonard_asm.dir/srcs/check_name.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c > CMakeFiles/eleonard_asm.dir/srcs/check_name.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/check_name.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/check_name.c -o CMakeFiles/eleonard_asm.dir/srcs/check_name.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c -o CMakeFiles/eleonard_asm.dir/srcs/check_name.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o: ../srcs/create_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/create_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c
 
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/create_file.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/create_file.c > CMakeFiles/eleonard_asm.dir/srcs/create_file.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c > CMakeFiles/eleonard_asm.dir/srcs/create_file.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/create_file.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/create_file.c -o CMakeFiles/eleonard_asm.dir/srcs/create_file.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c -o CMakeFiles/eleonard_asm.dir/srcs/create_file.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o: ../srcs/do_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/do_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c
 
 CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/do_parse.c > CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c > CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/do_parse.c -o CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c -o CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o: ../srcs/encrypt_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/encrypt_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c
 
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/encrypt_line.c > CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c > CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/encrypt_line.c -o CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c -o CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../srcs/initialize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/initialize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c
 
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/initialize.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/initialize.c > CMakeFiles/eleonard_asm.dir/srcs/initialize.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c > CMakeFiles/eleonard_asm.dir/srcs/initialize.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/initialize.c -o CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c -o CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/op.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../srcs/op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/eleonard_asm.dir/srcs/op.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/op.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/eleonard_asm.dir/srcs/op.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/op.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/op.c
 
 CMakeFiles/eleonard_asm.dir/srcs/op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/op.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/op.c > CMakeFiles/eleonard_asm.dir/srcs/op.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/op.c > CMakeFiles/eleonard_asm.dir/srcs/op.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/op.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/op.c -o CMakeFiles/eleonard_asm.dir/srcs/op.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/op.c -o CMakeFiles/eleonard_asm.dir/srcs/op.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../srcs/pf_hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/pf_hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c
 
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/pf_hex.c > CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c > CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/pf_hex.c -o CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c -o CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../srcs/print_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/print_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c
 
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/print_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/print_func.c > CMakeFiles/eleonard_asm.dir/srcs/print_func.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c > CMakeFiles/eleonard_asm.dir/srcs/print_func.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/print_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/print_func.c -o CMakeFiles/eleonard_asm.dir/srcs/print_func.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c -o CMakeFiles/eleonard_asm.dir/srcs/print_func.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../srcs/skip_whitespaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/skip_whitespaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c
 
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/skip_whitespaces.c > CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c > CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/skip_whitespaces.c -o CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c -o CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: ../libft/srcs/get_symbol_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o   -c /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_symbol_index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_symbol_index.c > CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c > CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.i
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/libft/srcs/get_symbol_index.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o: ../srcs/wrong_end_of_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/wrong_end_of_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c
 
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/wrong_end_of_line.c > CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c > CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/wrong_end_of_line.c -o CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c -o CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../srcs/add_str_to_byte_code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o   -c /Users/eleonard/corewar/eleonard_asm/srcs/add_str_to_byte_code.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c
 
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/corewar/eleonard_asm/srcs/add_str_to_byte_code.c > CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c > CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.i
 
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/corewar/eleonard_asm/srcs/add_str_to_byte_code.c -o CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c -o CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o: ../srcs/add_till_CEC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c
+
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c > CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c -o CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../srcs/add_null_octets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c
+
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c > CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c -o CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../srcs/fill_by_zeroes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c
+
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c > CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c -o CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o: ../srcs/read_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c
+
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/read_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c > CMakeFiles/eleonard_asm.dir/srcs/read_line.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/read_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/read_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c -o CMakeFiles/eleonard_asm.dir/srcs/read_line.c.s
 
 # Object files for target eleonard_asm
 eleonard_asm_OBJECTS = \
@@ -1164,7 +1216,11 @@ eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o" \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o" \
-"CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o"
+"CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
 
 # External object files for target eleonard_asm
 eleonard_asm_EXTERNAL_OBJECTS =
@@ -1248,9 +1304,13 @@ eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/build.make
 eleonard_asm: CMakeFiles/eleonard_asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Linking C executable eleonard_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking C executable eleonard_asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eleonard_asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1263,6 +1323,6 @@ CMakeFiles/eleonard_asm.dir/clean:
 .PHONY : CMakeFiles/eleonard_asm.dir/clean
 
 CMakeFiles/eleonard_asm.dir/depend:
-	cd /Users/eleonard/corewar/eleonard_asm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eleonard/corewar/eleonard_asm /Users/eleonard/corewar/eleonard_asm /Users/eleonard/corewar/eleonard_asm/cmake-build-debug /Users/eleonard/corewar/eleonard_asm/cmake-build-debug /Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eleonard/my_corewar/eleonard_asm /Users/eleonard/my_corewar/eleonard_asm /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eleonard_asm.dir/depend
 

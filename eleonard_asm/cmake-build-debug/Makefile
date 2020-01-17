@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eleonard/corewar/eleonard_asm
+CMAKE_SOURCE_DIR = /Users/eleonard/my_corewar/eleonard_asm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eleonard/corewar/eleonard_asm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles /Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eleonard/corewar/eleonard_asm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1905,6 +1905,33 @@ libft/srcs/get_symbol_index.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s
 .PHONY : libft/srcs/get_symbol_index.c.s
 
+srcs/add_null_octets.o: srcs/add_null_octets.c.o
+
+.PHONY : srcs/add_null_octets.o
+
+# target to build an object file
+srcs/add_null_octets.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o
+.PHONY : srcs/add_null_octets.c.o
+
+srcs/add_null_octets.i: srcs/add_null_octets.c.i
+
+.PHONY : srcs/add_null_octets.i
+
+# target to preprocess a source file
+srcs/add_null_octets.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.i
+.PHONY : srcs/add_null_octets.c.i
+
+srcs/add_null_octets.s: srcs/add_null_octets.c.s
+
+.PHONY : srcs/add_null_octets.s
+
+# target to generate assembly for a file
+srcs/add_null_octets.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.s
+.PHONY : srcs/add_null_octets.c.s
+
 srcs/add_str_to_byte_code.o: srcs/add_str_to_byte_code.c.o
 
 .PHONY : srcs/add_str_to_byte_code.o
@@ -1931,6 +1958,33 @@ srcs/add_str_to_byte_code.s: srcs/add_str_to_byte_code.c.s
 srcs/add_str_to_byte_code.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
 .PHONY : srcs/add_str_to_byte_code.c.s
+
+srcs/add_till_CEC.o: srcs/add_till_CEC.c.o
+
+.PHONY : srcs/add_till_CEC.o
+
+# target to build an object file
+srcs/add_till_CEC.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o
+.PHONY : srcs/add_till_CEC.c.o
+
+srcs/add_till_CEC.i: srcs/add_till_CEC.c.i
+
+.PHONY : srcs/add_till_CEC.i
+
+# target to preprocess a source file
+srcs/add_till_CEC.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.i
+.PHONY : srcs/add_till_CEC.c.i
+
+srcs/add_till_CEC.s: srcs/add_till_CEC.c.s
+
+.PHONY : srcs/add_till_CEC.s
+
+# target to generate assembly for a file
+srcs/add_till_CEC.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.s
+.PHONY : srcs/add_till_CEC.c.s
 
 srcs/asm.o: srcs/asm.c.o
 
@@ -2094,6 +2148,33 @@ srcs/encrypt_line.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.s
 .PHONY : srcs/encrypt_line.c.s
 
+srcs/fill_by_zeroes.o: srcs/fill_by_zeroes.c.o
+
+.PHONY : srcs/fill_by_zeroes.o
+
+# target to build an object file
+srcs/fill_by_zeroes.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o
+.PHONY : srcs/fill_by_zeroes.c.o
+
+srcs/fill_by_zeroes.i: srcs/fill_by_zeroes.c.i
+
+.PHONY : srcs/fill_by_zeroes.i
+
+# target to preprocess a source file
+srcs/fill_by_zeroes.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.i
+.PHONY : srcs/fill_by_zeroes.c.i
+
+srcs/fill_by_zeroes.s: srcs/fill_by_zeroes.c.s
+
+.PHONY : srcs/fill_by_zeroes.s
+
+# target to generate assembly for a file
+srcs/fill_by_zeroes.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
+.PHONY : srcs/fill_by_zeroes.c.s
+
 srcs/initialize.o: srcs/initialize.c.o
 
 .PHONY : srcs/initialize.o
@@ -2201,6 +2282,33 @@ srcs/print_func.s: srcs/print_func.c.s
 srcs/print_func.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/print_func.c.s
 .PHONY : srcs/print_func.c.s
+
+srcs/read_line.o: srcs/read_line.c.o
+
+.PHONY : srcs/read_line.o
+
+# target to build an object file
+srcs/read_line.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o
+.PHONY : srcs/read_line.c.o
+
+srcs/read_line.i: srcs/read_line.c.i
+
+.PHONY : srcs/read_line.i
+
+# target to preprocess a source file
+srcs/read_line.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_line.c.i
+.PHONY : srcs/read_line.c.i
+
+srcs/read_line.s: srcs/read_line.c.s
+
+.PHONY : srcs/read_line.s
+
+# target to generate assembly for a file
+srcs/read_line.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_line.c.s
+.PHONY : srcs/read_line.c.s
 
 srcs/skip_whitespaces.o: srcs/skip_whitespaces.c.o
 
@@ -2463,9 +2571,15 @@ help:
 	@echo "... libft/srcs/get_symbol_index.o"
 	@echo "... libft/srcs/get_symbol_index.i"
 	@echo "... libft/srcs/get_symbol_index.s"
+	@echo "... srcs/add_null_octets.o"
+	@echo "... srcs/add_null_octets.i"
+	@echo "... srcs/add_null_octets.s"
 	@echo "... srcs/add_str_to_byte_code.o"
 	@echo "... srcs/add_str_to_byte_code.i"
 	@echo "... srcs/add_str_to_byte_code.s"
+	@echo "... srcs/add_till_CEC.o"
+	@echo "... srcs/add_till_CEC.i"
+	@echo "... srcs/add_till_CEC.s"
 	@echo "... srcs/asm.o"
 	@echo "... srcs/asm.i"
 	@echo "... srcs/asm.s"
@@ -2484,6 +2598,9 @@ help:
 	@echo "... srcs/encrypt_line.o"
 	@echo "... srcs/encrypt_line.i"
 	@echo "... srcs/encrypt_line.s"
+	@echo "... srcs/fill_by_zeroes.o"
+	@echo "... srcs/fill_by_zeroes.i"
+	@echo "... srcs/fill_by_zeroes.s"
 	@echo "... srcs/initialize.o"
 	@echo "... srcs/initialize.i"
 	@echo "... srcs/initialize.s"
@@ -2496,6 +2613,9 @@ help:
 	@echo "... srcs/print_func.o"
 	@echo "... srcs/print_func.i"
 	@echo "... srcs/print_func.s"
+	@echo "... srcs/read_line.o"
+	@echo "... srcs/read_line.i"
+	@echo "... srcs/read_line.s"
 	@echo "... srcs/skip_whitespaces.o"
 	@echo "... srcs/skip_whitespaces.i"
 	@echo "... srcs/skip_whitespaces.s"
