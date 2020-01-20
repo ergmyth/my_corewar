@@ -12,13 +12,6 @@
 
 #include "asm.h"
 
-static int	is_space(char c)
-{
-	if (c == ' ' || c == '\t')
-		return (1);
-	return (0);
-}
-
 char		*skip_whitespaces(char *line)
 {
 	char	*str;

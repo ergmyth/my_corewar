@@ -12,119 +12,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f06f8881-3af1-49d8-a4eb-b585aabe22f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/add_null_octets.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/add_till_CEC.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/fill_by_zeroes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/read_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/is_space.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/check_args.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/get_args.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/read_operation.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_check_overlap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalnum.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isalpha.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isascii.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isdigit.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_isprint.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstadd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstaddtoend.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstdelone.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstiter.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstmap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_lstnew.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memalloc.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memccpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memcpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memmove.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_memset.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putchar_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putendl_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putnbr_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstr_fd.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_sqrt.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strclr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strcpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdel.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strdup.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strequ.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striter.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_striteri.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strjoin.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlcat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strlen.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmap.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strmapi.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncat.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncmp.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strncpy.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnequ.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnew.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strnstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strrchr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsplit.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strstr.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strsub.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_strtrim.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_tolower.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_toupper.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/asm.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/asm.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/op.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/op.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex.s" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/asm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/add_str_to_byte_code.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/add_str_to_byte_code.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/libft/includes/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/asm.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/asm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/do_parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/do_parse.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/encrypt_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/encrypt_line.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/initialize.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/initialize.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/op.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/op.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/read_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/read_line.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/skip_whitespaces.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/skip_whitespaces.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/wrong_end_of_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/wrong_end_of_line.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +115,9 @@
       <workItem from="1579011395605" duration="6655000" />
       <workItem from="1579087173746" duration="4314000" />
       <workItem from="1579250318020" duration="4398000" />
+      <workItem from="1579260053706" duration="11514000" />
+      <workItem from="1579345898949" duration="3227000" />
+      <workItem from="1579366663690" duration="37000" />
     </task>
     <servers />
   </component>
@@ -197,10 +125,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="880" y="357" key="#C/C++" timestamp="1579003499780">
+    <state x="880" y="357" key="#C/C++" timestamp="1579261733836">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="880" y="357" key="#C/C++/0.23.2560.1337@0.23.2560.1337" timestamp="1579003499780" />
+    <state x="880" y="357" key="#C/C++/0.23.2560.1337@0.23.2560.1337" timestamp="1579261733836" />
     <state x="744" y="377" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579010802098">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -209,42 +137,42 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="989" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1579003146229" />
-    <state width="2518" height="451" key="GridCell.Tab.0.bottom" timestamp="1579254376044">
+    <state width="2518" height="451" key="GridCell.Tab.0.bottom" timestamp="1579347737418">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376044" />
-    <state width="2518" height="451" key="GridCell.Tab.0.center" timestamp="1579254376043">
+    <state width="2518" height="451" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737418" />
+    <state width="2518" height="451" key="GridCell.Tab.0.center" timestamp="1579347737417">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376043" />
-    <state width="2518" height="451" key="GridCell.Tab.0.left" timestamp="1579254376043">
+    <state width="2518" height="451" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737417" />
+    <state width="2518" height="451" key="GridCell.Tab.0.left" timestamp="1579347737410">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376043" />
-    <state width="2518" height="451" key="GridCell.Tab.0.right" timestamp="1579254376044">
+    <state width="2518" height="451" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737410" />
+    <state width="2518" height="451" key="GridCell.Tab.0.right" timestamp="1579347737417">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376044" />
-    <state width="2518" height="451" key="GridCell.Tab.1.bottom" timestamp="1579254376604">
+    <state width="2518" height="451" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737417" />
+    <state width="2518" height="451" key="GridCell.Tab.1.bottom" timestamp="1579347737971">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376604" />
-    <state width="2518" height="451" key="GridCell.Tab.1.center" timestamp="1579254376604">
+    <state width="2518" height="451" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737971" />
+    <state width="2518" height="451" key="GridCell.Tab.1.center" timestamp="1579347737971">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376604" />
-    <state width="2518" height="451" key="GridCell.Tab.1.left" timestamp="1579254376603">
+    <state width="2518" height="451" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737971" />
+    <state width="2518" height="451" key="GridCell.Tab.1.left" timestamp="1579347737970">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376603" />
-    <state width="2518" height="451" key="GridCell.Tab.1.right" timestamp="1579254376604">
+    <state width="2518" height="451" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737970" />
+    <state width="2518" height="451" key="GridCell.Tab.1.right" timestamp="1579347737971">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579254376604" />
-    <state x="959" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1579250345621">
+    <state width="2518" height="451" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579347737971" />
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1579366700149">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579250345621" />
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579366700149" />
     <state x="1005" y="352" key="refactoring.ChangeSignatureDialog" timestamp="1579252223767">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -259,8 +187,63 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/srcs/asm.c</url>
-          <line>29</line>
+          <line>35</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/do_parse.c</url>
+          <line>54</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/encrypt_line.c</url>
+          <line>108</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/read_line.c</url>
+          <line>74</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/read_line.c</url>
+          <line>76</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/get_args.c</url>
+          <line>86</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/read_operation.c</url>
+          <line>77</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/read_line.c</url>
+          <line>65</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/encrypt_line.c</url>
+          <line>52</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/encrypt_line.c</url>
+          <line>51</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/encrypt_line.c</url>
+          <line>49</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/asm.c</url>
+          <line>44</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

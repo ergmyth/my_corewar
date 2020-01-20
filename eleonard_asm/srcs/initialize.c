@@ -80,6 +80,29 @@ static void create_op_tab(t_s *s)
     t_op_add_to_struct(s, op_tab);
 }
 
+static void init_operations(t_s *s)
+{
+    int i;
+    int size;
+    int k;
+    int labels_size;
+
+    labels_size = 10;
+    k = 0;
+    i = 0;
+    if (!(s->operations = (t_op_elem*)malloc((sizeof(t_op_elem)) * size)))
+        case_of_error();
+    while (i < size)
+    {
+        s->operations[i].bytes_before = -1;
+        s->operations[i].labels = (char**)malloc(sizeof(char*) * labels_size);
+        while (k < labels_size)
+            s->operations[i].labels[k++] = 0;
+        s->operations[i++].name = NULL;
+    }
+    s->operations[0].bytes_before = 0;
+}
+
 t_s			*initialize(void)
 {
 	t_s	*s;
@@ -89,10 +112,12 @@ t_s			*initialize(void)
 	s->has_name = 0;
 	s->comment_written = 0;
 	s->has_comment = 0;
+	s->operations_size = 0;
 	create_op_tab(s);
 	if (!(s->byte_code = ft_strnew((COMMENT_LENGTH + PROG_NAME_LENGTH
 			+ 16 + CHAMP_MAX_SIZE) * 2 + 1)))
 		case_of_error();
 	start_byte_code(s->byte_code);
-	return (s);
+    init_operations(s);
+    return (s);
 }

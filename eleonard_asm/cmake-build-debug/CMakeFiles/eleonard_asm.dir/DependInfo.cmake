@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/eleonard/my_corewar/eleonard_asm/libft/is_space.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/is_space.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_atoi.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_atoi.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_bzero.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/libft/srcs/ft_bzero.c.o"
@@ -75,16 +76,19 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/asm.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/op.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o"
   )

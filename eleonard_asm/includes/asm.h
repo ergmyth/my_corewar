@@ -33,13 +33,21 @@ typedef struct		s_op
     int             dir_size;
 }					t_op;
 
-
+typedef struct		s_op_elem
+{
+    char            **labels;
+    char            *name;
+    int             bytes_before;
+}                   t_op_elem;
 
 typedef struct		s_s
 {
+    char            **cur_args;
 	char 			*name;
 	char 			*comment;
 	int 			fd;
+	t_op_elem       *operations;
+	int 			operations_size;
 	t_op            op_tab[17];
 	int				has_name;
 	int				has_comment;
@@ -47,6 +55,9 @@ typedef struct		s_s
 	char			*byte_code;
 }					t_s;
 
+int 				check_args(int op_index, t_s *s);
+void	            get_args(int op_index, t_s *s, char *str);
+void	            read_operation(char *line, t_s *s);
 void                read_line(char *line, t_s *s);
 void				add_till_CEC(t_s *s);
 void				fill_by_zeroes(char *str, int len);

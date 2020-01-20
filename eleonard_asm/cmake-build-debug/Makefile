@@ -123,6 +123,33 @@ eleonard_asm/fast:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/build
 .PHONY : eleonard_asm/fast
 
+libft/is_space.o: libft/is_space.c.o
+
+.PHONY : libft/is_space.o
+
+# target to build an object file
+libft/is_space.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.o
+.PHONY : libft/is_space.c.o
+
+libft/is_space.i: libft/is_space.c.i
+
+.PHONY : libft/is_space.i
+
+# target to preprocess a source file
+libft/is_space.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.i
+.PHONY : libft/is_space.c.i
+
+libft/is_space.s: libft/is_space.c.s
+
+.PHONY : libft/is_space.s
+
+# target to generate assembly for a file
+libft/is_space.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.s
+.PHONY : libft/is_space.c.s
+
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 .PHONY : libft/srcs/ft_abs.o
@@ -2040,6 +2067,33 @@ srcs/case_of_error.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.s
 .PHONY : srcs/case_of_error.c.s
 
+srcs/check_args.o: srcs/check_args.c.o
+
+.PHONY : srcs/check_args.o
+
+# target to build an object file
+srcs/check_args.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o
+.PHONY : srcs/check_args.c.o
+
+srcs/check_args.i: srcs/check_args.c.i
+
+.PHONY : srcs/check_args.i
+
+# target to preprocess a source file
+srcs/check_args.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_args.c.i
+.PHONY : srcs/check_args.c.i
+
+srcs/check_args.s: srcs/check_args.c.s
+
+.PHONY : srcs/check_args.s
+
+# target to generate assembly for a file
+srcs/check_args.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s
+.PHONY : srcs/check_args.c.s
+
 srcs/check_name.o: srcs/check_name.c.o
 
 .PHONY : srcs/check_name.o
@@ -2174,6 +2228,33 @@ srcs/fill_by_zeroes.s: srcs/fill_by_zeroes.c.s
 srcs/fill_by_zeroes.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
 .PHONY : srcs/fill_by_zeroes.c.s
+
+srcs/get_args.o: srcs/get_args.c.o
+
+.PHONY : srcs/get_args.o
+
+# target to build an object file
+srcs/get_args.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o
+.PHONY : srcs/get_args.c.o
+
+srcs/get_args.i: srcs/get_args.c.i
+
+.PHONY : srcs/get_args.i
+
+# target to preprocess a source file
+srcs/get_args.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/get_args.c.i
+.PHONY : srcs/get_args.c.i
+
+srcs/get_args.s: srcs/get_args.c.s
+
+.PHONY : srcs/get_args.s
+
+# target to generate assembly for a file
+srcs/get_args.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/get_args.c.s
+.PHONY : srcs/get_args.c.s
 
 srcs/initialize.o: srcs/initialize.c.o
 
@@ -2310,6 +2391,33 @@ srcs/read_line.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_line.c.s
 .PHONY : srcs/read_line.c.s
 
+srcs/read_operation.o: srcs/read_operation.c.o
+
+.PHONY : srcs/read_operation.o
+
+# target to build an object file
+srcs/read_operation.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o
+.PHONY : srcs/read_operation.c.o
+
+srcs/read_operation.i: srcs/read_operation.c.i
+
+.PHONY : srcs/read_operation.i
+
+# target to preprocess a source file
+srcs/read_operation.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.i
+.PHONY : srcs/read_operation.c.i
+
+srcs/read_operation.s: srcs/read_operation.c.s
+
+.PHONY : srcs/read_operation.s
+
+# target to generate assembly for a file
+srcs/read_operation.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.s
+.PHONY : srcs/read_operation.c.s
+
 srcs/skip_whitespaces.o: srcs/skip_whitespaces.c.o
 
 .PHONY : srcs/skip_whitespaces.o
@@ -2373,6 +2481,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... eleonard_asm"
+	@echo "... libft/is_space.o"
+	@echo "... libft/is_space.i"
+	@echo "... libft/is_space.s"
 	@echo "... libft/srcs/ft_abs.o"
 	@echo "... libft/srcs/ft_abs.i"
 	@echo "... libft/srcs/ft_abs.s"
@@ -2586,6 +2697,9 @@ help:
 	@echo "... srcs/case_of_error.o"
 	@echo "... srcs/case_of_error.i"
 	@echo "... srcs/case_of_error.s"
+	@echo "... srcs/check_args.o"
+	@echo "... srcs/check_args.i"
+	@echo "... srcs/check_args.s"
 	@echo "... srcs/check_name.o"
 	@echo "... srcs/check_name.i"
 	@echo "... srcs/check_name.s"
@@ -2601,6 +2715,9 @@ help:
 	@echo "... srcs/fill_by_zeroes.o"
 	@echo "... srcs/fill_by_zeroes.i"
 	@echo "... srcs/fill_by_zeroes.s"
+	@echo "... srcs/get_args.o"
+	@echo "... srcs/get_args.i"
+	@echo "... srcs/get_args.s"
 	@echo "... srcs/initialize.o"
 	@echo "... srcs/initialize.i"
 	@echo "... srcs/initialize.s"
@@ -2616,6 +2733,9 @@ help:
 	@echo "... srcs/read_line.o"
 	@echo "... srcs/read_line.i"
 	@echo "... srcs/read_line.s"
+	@echo "... srcs/read_operation.o"
+	@echo "... srcs/read_operation.i"
+	@echo "... srcs/read_operation.s"
 	@echo "... srcs/skip_whitespaces.o"
 	@echo "... srcs/skip_whitespaces.i"
 	@echo "... srcs/skip_whitespaces.s"

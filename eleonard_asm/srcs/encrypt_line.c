@@ -102,20 +102,17 @@ static void	getter(t_s *s, char *line, char c)
 
 void	encrypt_line(char *line, t_s *s)
 {
-	char *str;
-
 	if (s->has_comment && s->has_name)
 	{
 		if (!s->comment_written)
 			add_till_CEC(s);
 		read_line(line, s);
-		ft_strdel(&line);
 	}
 	else
 	{
-		if (!ft_strncmp(".name", line, 5))
+		if (!ft_strncmp(NAME_CMD_STRING, line, 5))
 			getter(s, line, 'n');
-		else if (!ft_strncmp(".comment", line, 5))
+		else if (!ft_strncmp(COMMENT_CMD_STRING, line, 5))
 			getter(s, line, 'c');
 	}
 }

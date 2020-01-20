@@ -93,6 +93,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/includes/libft.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/is_space.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -306,6 +309,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -321,6 +327,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -334,6 +343,9 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c">

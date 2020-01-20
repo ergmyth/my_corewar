@@ -28,6 +28,7 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
+int 			is_space(char c);
 int 			get_symbol_index(char *str, char c);
 int		        get_next_line(const int fd, char **line);
 void			ft_putnbr_fd(int n, int fd);

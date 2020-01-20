@@ -9,7 +9,7 @@ int	wrong_end_of_line(char *str)
 	{
 		if (str[i] != ' ' && str[i] != '\t')
 		{
-			if (str[i] == '#' || str[i] == ';')
+			if (str[i] == COMMENT_CHAR || str[i] == ALT_COMMENT_CHAR)
 				break ;
 			else
 				return (1);
