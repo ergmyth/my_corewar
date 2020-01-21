@@ -14,20 +14,30 @@
 
 void	free_struct(t_s *s)
 {
-	ft_strdel(&s->byte_code);
+	int i;
+	int k;
 
+	ft_strdel(&s->byte_code);
+	i = 0;
+	while (i < s->operations_index)
+	{
+		ft_strdel(&s->operations[i].name);
+		k = 0;
+		while (s->operations[i].labels[k])
+			ft_strdel(&s->operations[i].labels[k++]);
+		ft_strdel(s->operations[i++].labels);
+	}
 }
 
 int		main(int ac, char **av)
 {
-	int		fd;
 	t_s		*s;
 
 	if (ac == 2)
 	{
 		s = initialize();
 		s->fd = open(av[1], O_RDONLY);
-		if (fd == -1)
+		if (s->fd == -1)
 			print_func(INVALID_READ_MSG, av[1]);
 		else if (check_name(av[1]))
 		{
@@ -37,9 +47,8 @@ int		main(int ac, char **av)
 		}
 		else
 			print_func(USAGE, av[1]);//Не подходит имя, что делать
+		free_struct(s);
 	}
 	else
 		print_func(USAGE, av[1]);
-	free_struct(s);
-	//ft_strdel bytecode, operations
 }

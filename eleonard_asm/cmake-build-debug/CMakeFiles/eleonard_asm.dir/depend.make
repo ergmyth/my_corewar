@@ -215,6 +215,11 @@ CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../srcs/case_of_error.c
 
+CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../srcs/check_args.c
+
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../libft/includes/libft.h

@@ -38,7 +38,16 @@ typedef struct		s_op_elem
     char            **labels;
     char            *name;
     int             bytes_before;
+    
 }                   t_op_elem;
+
+typedef struct		s_labels
+{
+	char			**labels;
+	int 			*line;
+	int 			label_index;
+	int 			labels_size;
+}					t_labels;
 
 typedef struct		s_s
 {
@@ -48,6 +57,9 @@ typedef struct		s_s
 	int 			fd;
 	t_op_elem       *operations;
 	int 			operations_size;
+	t_labels 		*labels;
+	int				line_index;
+	int 			operations_index;
 	t_op            op_tab[17];
 	int				has_name;
 	int				has_comment;

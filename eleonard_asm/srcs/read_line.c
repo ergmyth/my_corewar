@@ -38,9 +38,9 @@ void            add_label(char *label, t_s *s)
     int k;
 
     k = 0;
-    while (s->operations[s->operations_size].labels[k])
+    while (s->operations[s->operations_index].labels[k])
     	k++;
-    s->operations[s->operations_size].labels[k] = label;
+    s->operations[s->operations_index].labels[k] = label;
 }
 
 void            read_label(char *line, int label_c_index, t_s *s)

@@ -53,6 +53,7 @@ void		do_parse(t_s *s)
 			case_of_error();
 		else if (line && not_a_comment(line) && not_empty_line(line))
 			encrypt_line(line, s);
+		s->line_index++;
 		ft_strdel(&line);
 	}
 }

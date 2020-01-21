@@ -215,6 +215,11 @@ CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o
  ../includes/op.h
  ../libft/includes/libft.h
  /Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c
+CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o
+ ../includes/asm.h
+ ../includes/op.h
+ ../libft/includes/libft.h
+ /Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o
  ../includes/asm.h
  ../includes/op.h

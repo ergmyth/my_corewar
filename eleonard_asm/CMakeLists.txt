@@ -82,7 +82,6 @@ add_executable(eleonard_asm
         srcs/do_parse.c
         srcs/encrypt_line.c
         srcs/initialize.c
-        srcs/op.c
         srcs/pf_hex.c
         srcs/print_func.c
         srcs/skip_whitespaces.c libft/srcs/get_symbol_index.c srcs/wrong_end_of_line.c srcs/add_str_to_byte_code.c srcs/add_till_CEC.c srcs/add_null_octets.c srcs/fill_by_zeroes.c srcs/read_line.c libft/is_space.c srcs/read_operation.c srcs/get_args.c srcs/check_args.c)

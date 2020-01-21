@@ -83,16 +83,15 @@ static void create_op_tab(t_s *s)
 static void init_operations(t_s *s)
 {
     int i;
-    int size;
     int k;
     int labels_size;
 
     labels_size = 10;
     k = 0;
     i = 0;
-    if (!(s->operations = (t_op_elem*)malloc((sizeof(t_op_elem)) * size)))
+    if (!(s->operations = (t_op_elem*)malloc((sizeof(t_op_elem)) * s->operations_size)))
         case_of_error();
-    while (i < size)
+    while (i < s->operations_size)
     {
         s->operations[i].bytes_before = -1;
         s->operations[i].labels = (char**)malloc(sizeof(char*) * labels_size);
@@ -103,6 +102,22 @@ static void init_operations(t_s *s)
     s->operations[0].bytes_before = 0;
 }
 
+static void	init_labels_struct(t_s *s)
+{
+	t_labels	*l_struct;
+
+	if (!(s->labels = (t_labels*)malloc(sizeof(t_labels))))
+		case_of_error();
+	l_struct = s->labels;
+	l_struct->labels_size = 128;
+	if (!(s->labels = (char**)malloc(sizeof(char*) * l_struct->labels_size)))
+		case_of_error();
+	s->labels[l_struct->labels_size - 1] = 0;
+	l_struct->label_index = 0;
+	if (!(l_struct->line = (int*)malloc(sizeof(int) * l_struct->labels_size)))
+		case_of_error();
+}
+
 t_s			*initialize(void)
 {
 	t_s	*s;
@@ -111,8 +126,11 @@ t_s			*initialize(void)
 	    case_of_error();
 	s->has_name = 0;
 	s->comment_written = 0;
+	init_labels_struct(s);
+	s->line_index = 0;
 	s->has_comment = 0;
-	s->operations_size = 0;
+	s->operations_size = 128;
+	s->operations_index = 0;
 	create_op_tab(s);
 	if (!(s->byte_code = ft_strnew((COMMENT_LENGTH + PROG_NAME_LENGTH
 			+ 16 + CHAMP_MAX_SIZE) * 2 + 1)))

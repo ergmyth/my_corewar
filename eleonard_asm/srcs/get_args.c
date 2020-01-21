@@ -63,10 +63,9 @@ static void	del_matrix(char **matrix)
 	int i;
 
 	i = 0;
-	while ()
-	{
-
-	}
+	while (matrix[i])
+		ft_strdel(&matrix[i++]);
+	ft_strdel(matrix);
 }
 
 void		get_args(int op_index, t_s *s, char *str)
@@ -77,7 +76,7 @@ void		get_args(int op_index, t_s *s, char *str)
 	edited_str = edit_str(str);
 	put_args(s, edited_str, op_index);
 	if (check_args(op_index, s))
-		s->operations_size++;
+		s->operations_index++;
 	ft_strdel(&s->name);
 	s->has_comment = 0;
 	s->has_name = 0;

@@ -46,6 +46,7 @@ static char *read_(t_s *s, char *line)
 			case_of_error();
 		else if (str)
 		{
+			s->line_index++;
 			temp = ft_strjoin(line, "\n");
 			ft_strdel(&line);
 			line = ft_strjoin(temp, str);
