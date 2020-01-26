@@ -294,6 +294,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -306,13 +309,25 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/btoh.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_labels.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/convert_labels_to_numbers.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/convert_operations_to_byte_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/create_file.c">
@@ -333,7 +348,7 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/only_numbers.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c">

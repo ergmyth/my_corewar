@@ -255,11 +255,6 @@ CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o
  ../includes/op.h
  ../libft/includes/libft.h
  /Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c
-CMakeFiles/eleonard_asm.dir/srcs/op.c.o
- ../includes/asm.h
- ../includes/op.h
- ../libft/includes/libft.h
- /Users/eleonard/my_corewar/eleonard_asm/srcs/op.c
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o
  ../includes/asm.h
  ../includes/op.h

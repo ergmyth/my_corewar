@@ -87,17 +87,21 @@ static void init_operations(t_s *s)
     int labels_size;
 
     labels_size = 10;
-    k = 0;
     i = 0;
     if (!(s->operations = (t_op_elem*)malloc((sizeof(t_op_elem)) * s->operations_size)))
         case_of_error();
     while (i < s->operations_size)
     {
         s->operations[i].bytes_before = -1;
-        s->operations[i].labels = (char**)malloc(sizeof(char*) * labels_size);
-        while (k < labels_size)
+		k = 0;
+		s->operations[i].labels = (char**)malloc(sizeof(char*) * labels_size);
+		while (k < labels_size)
             s->operations[i].labels[k++] = 0;
-        s->operations[i++].name = NULL;
+		k = 0;
+		s->operations[i].value = (char**)malloc(sizeof(char*) * 4);
+		while (k < 4)
+			s->operations[i].value[k++] = 0;
+        s->operations[i++].name = 0;
     }
     s->operations[0].bytes_before = 0;
 }
@@ -110,9 +114,9 @@ static void	init_labels_struct(t_s *s)
 		case_of_error();
 	l_struct = s->labels;
 	l_struct->labels_size = 128;
-	if (!(s->labels = (char**)malloc(sizeof(char*) * l_struct->labels_size)))
+	if (!(l_struct->labels = (char**)malloc(sizeof(char*) * l_struct->labels_size)))
 		case_of_error();
-	s->labels[l_struct->labels_size - 1] = 0;
+	l_struct->labels[l_struct->labels_size - 1] = 0;
 	l_struct->label_index = 0;
 	if (!(l_struct->line = (int*)malloc(sizeof(int) * l_struct->labels_size)))
 		case_of_error();

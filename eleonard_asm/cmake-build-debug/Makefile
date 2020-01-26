@@ -1932,6 +1932,33 @@ libft/srcs/get_symbol_index.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s
 .PHONY : libft/srcs/get_symbol_index.c.s
 
+srcs/add_args_code.o: srcs/add_args_code.c.o
+
+.PHONY : srcs/add_args_code.o
+
+# target to build an object file
+srcs/add_args_code.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o
+.PHONY : srcs/add_args_code.c.o
+
+srcs/add_args_code.i: srcs/add_args_code.c.i
+
+.PHONY : srcs/add_args_code.i
+
+# target to preprocess a source file
+srcs/add_args_code.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.i
+.PHONY : srcs/add_args_code.c.i
+
+srcs/add_args_code.s: srcs/add_args_code.c.s
+
+.PHONY : srcs/add_args_code.s
+
+# target to generate assembly for a file
+srcs/add_args_code.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.s
+.PHONY : srcs/add_args_code.c.s
+
 srcs/add_null_octets.o: srcs/add_null_octets.c.o
 
 .PHONY : srcs/add_null_octets.o
@@ -2040,6 +2067,33 @@ srcs/asm.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/asm.c.s
 .PHONY : srcs/asm.c.s
 
+srcs/btoh.o: srcs/btoh.c.o
+
+.PHONY : srcs/btoh.o
+
+# target to build an object file
+srcs/btoh.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o
+.PHONY : srcs/btoh.c.o
+
+srcs/btoh.i: srcs/btoh.c.i
+
+.PHONY : srcs/btoh.i
+
+# target to preprocess a source file
+srcs/btoh.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.i
+.PHONY : srcs/btoh.c.i
+
+srcs/btoh.s: srcs/btoh.c.s
+
+.PHONY : srcs/btoh.s
+
+# target to generate assembly for a file
+srcs/btoh.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s
+.PHONY : srcs/btoh.c.s
+
 srcs/case_of_error.o: srcs/case_of_error.c.o
 
 .PHONY : srcs/case_of_error.o
@@ -2094,6 +2148,33 @@ srcs/check_args.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s
 .PHONY : srcs/check_args.c.s
 
+srcs/check_labels.o: srcs/check_labels.c.o
+
+.PHONY : srcs/check_labels.o
+
+# target to build an object file
+srcs/check_labels.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o
+.PHONY : srcs/check_labels.c.o
+
+srcs/check_labels.i: srcs/check_labels.c.i
+
+.PHONY : srcs/check_labels.i
+
+# target to preprocess a source file
+srcs/check_labels.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.i
+.PHONY : srcs/check_labels.c.i
+
+srcs/check_labels.s: srcs/check_labels.c.s
+
+.PHONY : srcs/check_labels.s
+
+# target to generate assembly for a file
+srcs/check_labels.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.s
+.PHONY : srcs/check_labels.c.s
+
 srcs/check_name.o: srcs/check_name.c.o
 
 .PHONY : srcs/check_name.o
@@ -2120,6 +2201,60 @@ srcs/check_name.s: srcs/check_name.c.s
 srcs/check_name.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_name.c.s
 .PHONY : srcs/check_name.c.s
+
+srcs/convert_labels_to_numbers.o: srcs/convert_labels_to_numbers.c.o
+
+.PHONY : srcs/convert_labels_to_numbers.o
+
+# target to build an object file
+srcs/convert_labels_to_numbers.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o
+.PHONY : srcs/convert_labels_to_numbers.c.o
+
+srcs/convert_labels_to_numbers.i: srcs/convert_labels_to_numbers.c.i
+
+.PHONY : srcs/convert_labels_to_numbers.i
+
+# target to preprocess a source file
+srcs/convert_labels_to_numbers.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.i
+.PHONY : srcs/convert_labels_to_numbers.c.i
+
+srcs/convert_labels_to_numbers.s: srcs/convert_labels_to_numbers.c.s
+
+.PHONY : srcs/convert_labels_to_numbers.s
+
+# target to generate assembly for a file
+srcs/convert_labels_to_numbers.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.s
+.PHONY : srcs/convert_labels_to_numbers.c.s
+
+srcs/convert_operations_to_byte_code.o: srcs/convert_operations_to_byte_code.c.o
+
+.PHONY : srcs/convert_operations_to_byte_code.o
+
+# target to build an object file
+srcs/convert_operations_to_byte_code.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o
+.PHONY : srcs/convert_operations_to_byte_code.c.o
+
+srcs/convert_operations_to_byte_code.i: srcs/convert_operations_to_byte_code.c.i
+
+.PHONY : srcs/convert_operations_to_byte_code.i
+
+# target to preprocess a source file
+srcs/convert_operations_to_byte_code.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.i
+.PHONY : srcs/convert_operations_to_byte_code.c.i
+
+srcs/convert_operations_to_byte_code.s: srcs/convert_operations_to_byte_code.c.s
+
+.PHONY : srcs/convert_operations_to_byte_code.s
+
+# target to generate assembly for a file
+srcs/convert_operations_to_byte_code.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.s
+.PHONY : srcs/convert_operations_to_byte_code.c.s
 
 srcs/create_file.o: srcs/create_file.c.o
 
@@ -2283,32 +2418,32 @@ srcs/initialize.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s
 .PHONY : srcs/initialize.c.s
 
-srcs/op.o: srcs/op.c.o
+srcs/only_numbers.o: srcs/only_numbers.c.o
 
-.PHONY : srcs/op.o
+.PHONY : srcs/only_numbers.o
 
 # target to build an object file
-srcs/op.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.o
-.PHONY : srcs/op.c.o
+srcs/only_numbers.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o
+.PHONY : srcs/only_numbers.c.o
 
-srcs/op.i: srcs/op.c.i
+srcs/only_numbers.i: srcs/only_numbers.c.i
 
-.PHONY : srcs/op.i
+.PHONY : srcs/only_numbers.i
 
 # target to preprocess a source file
-srcs/op.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.i
-.PHONY : srcs/op.c.i
+srcs/only_numbers.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.i
+.PHONY : srcs/only_numbers.c.i
 
-srcs/op.s: srcs/op.c.s
+srcs/only_numbers.s: srcs/only_numbers.c.s
 
-.PHONY : srcs/op.s
+.PHONY : srcs/only_numbers.s
 
 # target to generate assembly for a file
-srcs/op.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.s
-.PHONY : srcs/op.c.s
+srcs/only_numbers.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.s
+.PHONY : srcs/only_numbers.c.s
 
 srcs/pf_hex.o: srcs/pf_hex.c.o
 
@@ -2682,6 +2817,9 @@ help:
 	@echo "... libft/srcs/get_symbol_index.o"
 	@echo "... libft/srcs/get_symbol_index.i"
 	@echo "... libft/srcs/get_symbol_index.s"
+	@echo "... srcs/add_args_code.o"
+	@echo "... srcs/add_args_code.i"
+	@echo "... srcs/add_args_code.s"
 	@echo "... srcs/add_null_octets.o"
 	@echo "... srcs/add_null_octets.i"
 	@echo "... srcs/add_null_octets.s"
@@ -2694,15 +2832,27 @@ help:
 	@echo "... srcs/asm.o"
 	@echo "... srcs/asm.i"
 	@echo "... srcs/asm.s"
+	@echo "... srcs/btoh.o"
+	@echo "... srcs/btoh.i"
+	@echo "... srcs/btoh.s"
 	@echo "... srcs/case_of_error.o"
 	@echo "... srcs/case_of_error.i"
 	@echo "... srcs/case_of_error.s"
 	@echo "... srcs/check_args.o"
 	@echo "... srcs/check_args.i"
 	@echo "... srcs/check_args.s"
+	@echo "... srcs/check_labels.o"
+	@echo "... srcs/check_labels.i"
+	@echo "... srcs/check_labels.s"
 	@echo "... srcs/check_name.o"
 	@echo "... srcs/check_name.i"
 	@echo "... srcs/check_name.s"
+	@echo "... srcs/convert_labels_to_numbers.o"
+	@echo "... srcs/convert_labels_to_numbers.i"
+	@echo "... srcs/convert_labels_to_numbers.s"
+	@echo "... srcs/convert_operations_to_byte_code.o"
+	@echo "... srcs/convert_operations_to_byte_code.i"
+	@echo "... srcs/convert_operations_to_byte_code.s"
 	@echo "... srcs/create_file.o"
 	@echo "... srcs/create_file.i"
 	@echo "... srcs/create_file.s"
@@ -2721,9 +2871,9 @@ help:
 	@echo "... srcs/initialize.o"
 	@echo "... srcs/initialize.i"
 	@echo "... srcs/initialize.s"
-	@echo "... srcs/op.o"
-	@echo "... srcs/op.i"
-	@echo "... srcs/op.s"
+	@echo "... srcs/only_numbers.o"
+	@echo "... srcs/only_numbers.i"
+	@echo "... srcs/only_numbers.s"
 	@echo "... srcs/pf_hex.o"
 	@echo "... srcs/pf_hex.i"
 	@echo "... srcs/pf_hex.s"

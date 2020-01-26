@@ -42,7 +42,6 @@ int		main(int ac, char **av)
 		else if (check_name(av[1]))
 		{
 			do_parse(s);
-			//create_file();
 			print_func(PARSE_COMPLETE_MSG, av[1]);
 		}
 		else

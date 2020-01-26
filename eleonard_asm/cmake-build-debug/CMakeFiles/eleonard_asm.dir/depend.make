@@ -255,11 +255,6 @@ CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../srcs/initialize.c
 
-CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../includes/asm.h
-CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../includes/op.h
-CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../libft/includes/libft.h
-CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../srcs/op.c
-
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../libft/includes/libft.h

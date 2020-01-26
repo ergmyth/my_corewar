@@ -9,6 +9,10 @@
 /*   Updated: 2020/01/13 18:59:45 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+//ПРОВЕРИТЬ ВСЕ МЕТКИ
+//ПРЕВРАТИТЬ ВСЕ МЕТКИ В ЗНАЧЕНИЯ
+//ПРОЧИТАТЬ ВСЕ КОМАНДЫ И СОСТАВИТЬ КОД
+
 
 #ifndef ASM_H
 # define ASM_H
@@ -37,8 +41,11 @@ typedef struct		s_op_elem
 {
     char            **labels;
     char            *name;
-    int             bytes_before;
-    
+    int				args[3];
+    char 			**value;
+	int             bytes_before;
+	int             index;
+
 }                   t_op_elem;
 
 typedef struct		s_labels
@@ -51,6 +58,7 @@ typedef struct		s_labels
 
 typedef struct		s_s
 {
+	int				byte_value;
     char            **cur_args;
 	char 			*name;
 	char 			*comment;
@@ -67,6 +75,11 @@ typedef struct		s_s
 	char			*byte_code;
 }					t_s;
 
+char				*btoh(char *str);
+void				add_args_code(char *str, int *len, t_op_elem cur_op, t_s *s);
+int					only_numbers(const char *str);
+void				convert_labels_to_numbers(t_s *s);
+int					check_labels(t_s *s);
 int 				check_args(int op_index, t_s *s);
 void	            get_args(int op_index, t_s *s, char *str);
 void	            read_operation(char *line, t_s *s);
@@ -77,8 +90,6 @@ void				add_str_to_byte_code(t_s *s, char *str, int len);
 void				encrypt_line(char *line, t_s *s);
 char            	*pf_hex(int n);
 int 				wrong_end_of_line(char *str);
-char		        *skip_whitespaces(char *line);
-void				create_file(void);
 t_s					*initialize(void);
 void				print_func(char *msg, char *src_name);
 int					check_name(char *name);
