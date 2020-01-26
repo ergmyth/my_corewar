@@ -26,6 +26,10 @@ string.h
 fcntl.h
 -
 
+/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
 /Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
@@ -42,6 +46,14 @@ asm.h
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 
+/Users/eleonard/my_corewar/eleonard_asm/srcs/btoh.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
 /Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
@@ -50,7 +62,19 @@ asm.h
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 
+/Users/eleonard/my_corewar/eleonard_asm/srcs/check_labels.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
 /Users/eleonard/my_corewar/eleonard_asm/srcs/check_name.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/convert_labels_to_numbers.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/convert_operations_to_byte_code.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 
@@ -78,6 +102,10 @@ asm.h
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 
+/Users/eleonard/my_corewar/eleonard_asm/srcs/only_numbers.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
 /Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
@@ -93,6 +121,8 @@ asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c
 
 /Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c
 asm.h

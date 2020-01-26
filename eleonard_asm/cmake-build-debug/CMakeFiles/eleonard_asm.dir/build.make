@@ -1253,6 +1253,32 @@ CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/btoh.c -o CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s
 
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: ../srcs/btoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c
+
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/btoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c > CMakeFiles/eleonard_asm.dir/srcs/btoi.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/btoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c -o CMakeFiles/eleonard_asm.dir/srcs/btoi.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o: ../srcs/recursive_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c
+
+CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c > CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c -o CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s
+
 # Object files for target eleonard_asm
 eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o" \
@@ -1346,7 +1372,9 @@ eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o" \
-"CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o"
+"CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o"
 
 # External object files for target eleonard_asm
 eleonard_asm_EXTERNAL_OBJECTS =
@@ -1443,9 +1471,11 @@ eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/build.make
 eleonard_asm: CMakeFiles/eleonard_asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking C executable eleonard_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking C executable eleonard_asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eleonard_asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

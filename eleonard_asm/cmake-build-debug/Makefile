@@ -2094,6 +2094,33 @@ srcs/btoh.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s
 .PHONY : srcs/btoh.c.s
 
+srcs/btoi.o: srcs/btoi.c.o
+
+.PHONY : srcs/btoi.o
+
+# target to build an object file
+srcs/btoi.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o
+.PHONY : srcs/btoi.c.o
+
+srcs/btoi.i: srcs/btoi.c.i
+
+.PHONY : srcs/btoi.i
+
+# target to preprocess a source file
+srcs/btoi.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.i
+.PHONY : srcs/btoi.c.i
+
+srcs/btoi.s: srcs/btoi.c.s
+
+.PHONY : srcs/btoi.s
+
+# target to generate assembly for a file
+srcs/btoi.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.s
+.PHONY : srcs/btoi.c.s
+
 srcs/case_of_error.o: srcs/case_of_error.c.o
 
 .PHONY : srcs/case_of_error.o
@@ -2553,6 +2580,33 @@ srcs/read_operation.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.s
 .PHONY : srcs/read_operation.c.s
 
+srcs/recursive_power.o: srcs/recursive_power.c.o
+
+.PHONY : srcs/recursive_power.o
+
+# target to build an object file
+srcs/recursive_power.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o
+.PHONY : srcs/recursive_power.c.o
+
+srcs/recursive_power.i: srcs/recursive_power.c.i
+
+.PHONY : srcs/recursive_power.i
+
+# target to preprocess a source file
+srcs/recursive_power.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.i
+.PHONY : srcs/recursive_power.c.i
+
+srcs/recursive_power.s: srcs/recursive_power.c.s
+
+.PHONY : srcs/recursive_power.s
+
+# target to generate assembly for a file
+srcs/recursive_power.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s
+.PHONY : srcs/recursive_power.c.s
+
 srcs/skip_whitespaces.o: srcs/skip_whitespaces.c.o
 
 .PHONY : srcs/skip_whitespaces.o
@@ -2835,6 +2889,9 @@ help:
 	@echo "... srcs/btoh.o"
 	@echo "... srcs/btoh.i"
 	@echo "... srcs/btoh.s"
+	@echo "... srcs/btoi.o"
+	@echo "... srcs/btoi.i"
+	@echo "... srcs/btoi.s"
 	@echo "... srcs/case_of_error.o"
 	@echo "... srcs/case_of_error.i"
 	@echo "... srcs/case_of_error.s"
@@ -2886,6 +2943,9 @@ help:
 	@echo "... srcs/read_operation.o"
 	@echo "... srcs/read_operation.i"
 	@echo "... srcs/read_operation.s"
+	@echo "... srcs/recursive_power.o"
+	@echo "... srcs/recursive_power.i"
+	@echo "... srcs/recursive_power.s"
 	@echo "... srcs/skip_whitespaces.o"
 	@echo "... srcs/skip_whitespaces.i"
 	@echo "... srcs/skip_whitespaces.s"

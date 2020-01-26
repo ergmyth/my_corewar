@@ -312,6 +312,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/btoh.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -361,6 +364,9 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c">

@@ -75,6 +75,9 @@ typedef struct		s_s
 	char			*byte_code;
 }					t_s;
 
+int 				btoi(char *str);
+int 				recursive_power(int n, int pow);
+void				convert_operations_to_byte_code(t_s *s);
 char				*btoh(char *str);
 void				add_args_code(char *str, int *len, t_op_elem cur_op, t_s *s);
 int					only_numbers(const char *str);

@@ -190,6 +190,11 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o: ../libft/srcs/get_symbol_index.c
 
+CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../srcs/add_args_code.c
+
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../libft/includes/libft.h
@@ -210,6 +215,16 @@ CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../srcs/asm.c
 
+CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o: ../srcs/btoh.c
+
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o: ../srcs/btoi.c
+
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/case_of_error.c.o: ../libft/includes/libft.h
@@ -220,10 +235,25 @@ CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../srcs/check_args.c
 
+CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../srcs/check_labels.c
+
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../srcs/check_name.c
+
+CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: ../srcs/convert_labels_to_numbers.c
+
+CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: ../srcs/convert_operations_to_byte_code.c
 
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/create_file.c.o: ../includes/op.h
@@ -255,6 +285,11 @@ CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../srcs/initialize.c
 
+CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o: ../srcs/only_numbers.c
+
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o: ../libft/includes/libft.h
@@ -274,6 +309,8 @@ CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../srcs/read_operation.c
+
+CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o: ../srcs/recursive_power.c
 
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/op.h

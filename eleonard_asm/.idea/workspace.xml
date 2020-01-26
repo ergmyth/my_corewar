@@ -12,15 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f06f8881-3af1-49d8-a4eb-b585aabe22f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srcs/add_args_code.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/btoh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/check_labels.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/convert_labels_to_numbers.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/convert_operations_to_byte_code.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srcs/only_numbers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/btoi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/recursive_power.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/build.make" afterDir="false" />
@@ -29,29 +35,17 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/asm.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/asm.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/op.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eleonard_asm.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/asm.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/asm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/asm.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/asm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/check_args.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/check_args.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/do_parse.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/do_parse.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srcs/initialize.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/initialize.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/add_args_code.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/add_args_code.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/btoh.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/btoh.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srcs/convert_operations_to_byte_code.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/convert_operations_to_byte_code.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +117,7 @@
       <workItem from="1579516916636" duration="4034000" />
       <workItem from="1579604310311" duration="6192000" />
       <workItem from="1580040917051" duration="7820000" />
+      <workItem from="1580050823447" duration="2922000" />
     </task>
     <servers />
   </component>
@@ -142,42 +137,42 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="989" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1579003146229" />
-    <state width="2518" height="451" key="GridCell.Tab.0.bottom" timestamp="1579519219135">
+    <state width="1216" height="353" key="GridCell.Tab.0.bottom" timestamp="1580053981709">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579519219135" />
-    <state width="2518" height="451" key="GridCell.Tab.0.center" timestamp="1579519219134">
+    <state width="1216" height="353" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981709" />
+    <state width="1216" height="353" key="GridCell.Tab.0.center" timestamp="1580053981709">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579519219134" />
-    <state width="2518" height="451" key="GridCell.Tab.0.left" timestamp="1579519219132">
+    <state width="1216" height="353" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981709" />
+    <state width="1216" height="353" key="GridCell.Tab.0.left" timestamp="1580053981709">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579519219132" />
-    <state width="2518" height="451" key="GridCell.Tab.0.right" timestamp="1579519219134">
+    <state width="1216" height="353" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981709" />
+    <state width="1216" height="353" key="GridCell.Tab.0.right" timestamp="1580053981709">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579519219134" />
-    <state width="2518" height="451" key="GridCell.Tab.1.bottom" timestamp="1579519229499">
+    <state width="1216" height="353" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981709" />
+    <state width="1216" height="353" key="GridCell.Tab.1.bottom" timestamp="1580053981710">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579519229499" />
-    <state width="2518" height="451" key="GridCell.Tab.1.center" timestamp="1579519229498">
+    <state width="1216" height="353" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981710" />
+    <state width="1216" height="353" key="GridCell.Tab.1.center" timestamp="1580053981710">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579519229498" />
-    <state width="2518" height="451" key="GridCell.Tab.1.left" timestamp="1579519229498">
+    <state width="1216" height="353" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981710" />
+    <state width="1216" height="353" key="GridCell.Tab.1.left" timestamp="1580053981710">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579519229498" />
-    <state width="2518" height="451" key="GridCell.Tab.1.right" timestamp="1579519229499">
+    <state width="1216" height="353" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981709" />
+    <state width="1216" height="353" key="GridCell.Tab.1.right" timestamp="1580053981710">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="451" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579519229499" />
-    <state x="959" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1580040943534">
+    <state width="1216" height="353" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1580053981710" />
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1580050850152">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580040943534" />
+    <state x="959" y="523" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1580050850152" />
     <state x="1005" y="352" key="refactoring.ChangeSignatureDialog" timestamp="1579252223767">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -209,11 +204,6 @@
           <url>file://$PROJECT_DIR$/srcs/read_line.c</url>
           <line>76</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/srcs/get_args.c</url>
-          <line>85</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/srcs/read_operation.c</url>

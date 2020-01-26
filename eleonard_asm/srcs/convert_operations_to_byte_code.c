@@ -1,5 +1,4 @@
 #include "asm.h"
-//кодирую индекс команды + если нужен, то код типов аргументов + сами аргументы
 
 static int	add_command_index(char *str, int *len, t_op_elem cur_op, t_s *s)
 {
@@ -35,6 +34,7 @@ static void	add_code_types(char *str, int *len, t_op_elem cur_op, t_s *s)
 	str[(*len)++] = hex[0];
 	str[(*len)++] = hex[1];
 	ft_strdel(&binary);
+	ft_strdel(&hex);
 }
 
 void		convert_operations_to_byte_code(t_s *s)
