@@ -123,33 +123,6 @@ eleonard_asm/fast:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/build
 .PHONY : eleonard_asm/fast
 
-libft/is_space.o: libft/is_space.c.o
-
-.PHONY : libft/is_space.o
-
-# target to build an object file
-libft/is_space.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.o
-.PHONY : libft/is_space.c.o
-
-libft/is_space.i: libft/is_space.c.i
-
-.PHONY : libft/is_space.i
-
-# target to preprocess a source file
-libft/is_space.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.i
-.PHONY : libft/is_space.c.i
-
-libft/is_space.s: libft/is_space.c.s
-
-.PHONY : libft/is_space.s
-
-# target to generate assembly for a file
-libft/is_space.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/is_space.c.s
-.PHONY : libft/is_space.c.s
-
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 .PHONY : libft/srcs/ft_abs.o
@@ -1932,6 +1905,33 @@ libft/srcs/get_symbol_index.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.s
 .PHONY : libft/srcs/get_symbol_index.c.s
 
+libft/srcs/is_space.o: libft/srcs/is_space.c.o
+
+.PHONY : libft/srcs/is_space.o
+
+# target to build an object file
+libft/srcs/is_space.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.o
+.PHONY : libft/srcs/is_space.c.o
+
+libft/srcs/is_space.i: libft/srcs/is_space.c.i
+
+.PHONY : libft/srcs/is_space.i
+
+# target to preprocess a source file
+libft/srcs/is_space.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.i
+.PHONY : libft/srcs/is_space.c.i
+
+libft/srcs/is_space.s: libft/srcs/is_space.c.s
+
+.PHONY : libft/srcs/is_space.s
+
+# target to generate assembly for a file
+libft/srcs/is_space.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.s
+.PHONY : libft/srcs/is_space.c.s
+
 srcs/add_args_code.o: srcs/add_args_code.c.o
 
 .PHONY : srcs/add_args_code.o
@@ -2697,9 +2697,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... eleonard_asm"
-	@echo "... libft/is_space.o"
-	@echo "... libft/is_space.i"
-	@echo "... libft/is_space.s"
 	@echo "... libft/srcs/ft_abs.o"
 	@echo "... libft/srcs/ft_abs.i"
 	@echo "... libft/srcs/ft_abs.s"
@@ -2898,6 +2895,9 @@ help:
 	@echo "... libft/srcs/get_symbol_index.o"
 	@echo "... libft/srcs/get_symbol_index.i"
 	@echo "... libft/srcs/get_symbol_index.s"
+	@echo "... libft/srcs/is_space.o"
+	@echo "... libft/srcs/is_space.i"
+	@echo "... libft/srcs/is_space.s"
 	@echo "... srcs/add_args_code.o"
 	@echo "... srcs/add_args_code.i"
 	@echo "... srcs/add_args_code.s"

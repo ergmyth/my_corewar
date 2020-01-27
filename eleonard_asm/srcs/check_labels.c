@@ -21,7 +21,10 @@ static int 	check_label(t_s *s, t_op_elem cur_op)
 		}
 		k++;
 	}
-	return (0);
+	if (k == 0)
+		return (1);
+	else
+		return (0);
 }
 
 int			check_labels(t_s *s)

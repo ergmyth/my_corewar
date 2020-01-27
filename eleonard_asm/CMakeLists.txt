@@ -84,4 +84,4 @@ add_executable(eleonard_asm
         srcs/initialize.c
         srcs/pf_hex.c
         srcs/print_func.c
-        libft/srcs/get_symbol_index.c srcs/wrong_end_of_line.c srcs/add_str_to_byte_code.c srcs/add_till_CEC.c srcs/add_null_octets.c srcs/fill_by_zeroes.c srcs/read_line.c libft/is_space.c srcs/read_operation.c srcs/get_args.c srcs/check_args.c srcs/check_labels.c srcs/convert_labels_to_numbers.c srcs/only_numbers.c srcs/convert_operations_to_byte_code.c srcs/add_args_code.c srcs/btoh.c srcs/btoi.c srcs/recursive_power.c srcs/ft_itob.c srcs/ft_rev_binary.c)
+        libft/srcs/get_symbol_index.c srcs/wrong_end_of_line.c srcs/add_str_to_byte_code.c srcs/add_till_CEC.c srcs/add_null_octets.c srcs/fill_by_zeroes.c srcs/read_line.c libft/srcs/is_space.c srcs/read_operation.c srcs/get_args.c srcs/check_args.c srcs/check_labels.c srcs/convert_labels_to_numbers.c srcs/only_numbers.c srcs/convert_operations_to_byte_code.c srcs/add_args_code.c srcs/btoh.c srcs/btoi.c srcs/recursive_power.c srcs/ft_itob.c srcs/ft_rev_binary.c)

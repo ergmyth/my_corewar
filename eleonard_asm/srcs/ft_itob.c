@@ -13,8 +13,8 @@ char	*ft_itob(int n)
 	if (!(arr = (char*)malloc(len + 1)))
 		case_of_error();
 	arr[len] = '\0';
-	arr[--len] = n % 2;
+	arr[--len] = n % 2 == 0 ? '0' : '1';
 	while (n /= 2)
-		arr[--len] = n % 2;
+		arr[--len] = n % 2 == 0 ? '0' : '1';
 	return (arr);
 }

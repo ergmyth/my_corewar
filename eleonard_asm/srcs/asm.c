@@ -52,6 +52,7 @@ int		main(int ac, char **av)
 		}
 		else
 			print_func(USAGE, av[1]);//Не подходит имя, что делать
+		close(s->fd);
 		free_struct(s);
 	}
 	else

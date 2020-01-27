@@ -20,8 +20,14 @@ void            add_label(char *label, t_s *s)
 
     k = 0;
     while (s->operations[s->operations_index].labels[k])
-    	k++;
+        k++;
     s->operations[s->operations_index].labels[k] = label;
+    if (s->labels->labels_size == s->labels->label_index + 1)
+    {
+        s->labels->labels_size *= 2;
+        s->labels->labels = (char**)realloc(s->labels->labels, sizeof(char*) * s->labels->labels_size + 1);
+    }
+    s->labels->labels[s->labels->label_index++] = label;
 }
 
 void            read_label(char *line, int label_c_index, t_s *s)
@@ -42,7 +48,7 @@ void            read_label(char *line, int label_c_index, t_s *s)
         read_operation(end_of_string, s);
     }
     else
-        read_operation(label, s);
+        read_operation(line, s);
     ft_strdel(&end_of_string);
 }
 

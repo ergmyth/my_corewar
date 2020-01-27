@@ -56,4 +56,6 @@ void		do_parse(t_s *s)
 		s->line_index++;
 		ft_strdel(&line);
 	}
+	ft_strdel(&s->name);
+	ft_strdel(&s->comment);
 }

@@ -1,11 +1,9 @@
 #include "asm.h"
 
-static void	init_cur_args(t_s *s)
+static void	init_cur_args(t_s *s, int size)
 {
-	int size;
 	int i;
 
-	size = 3;
 	if (!(s->cur_args = (char**)malloc(sizeof(char*) * (size + 1))))
 		case_of_error();
 	i = 0;
@@ -51,22 +49,27 @@ static void	put_args(t_s *s, char *str, int op_index)
 	while (k < s->op_tab[op_index].arg_count)
 	{
 		if (k + 1 == s->op_tab[op_index].arg_count)
-			s->cur_args[k] = ft_strdup(str);
+		{
+			if (k == 0)
+				s->cur_args[k] = ft_strdup(str);
+			else
+				s->cur_args[k] = ft_strdup(str + index);
+		}
 		else
 		{
-			s->cur_args[k] = ft_strsub(str, index, get_symbol_index(str, SEPARATOR_CHAR));//Что-то не то
-			index = (int)ft_strlen(s->cur_args[k]) + 1;
+			s->cur_args[k] = ft_strsub(str, index, get_symbol_index(str + index, SEPARATOR_CHAR));
+			index += (int)ft_strlen(s->cur_args[k]) + 1;
 		}
 		k++;
 	}
 }
 
-static void	del_matrix(char **matrix)
+static void	del_matrix(char **matrix, int size)
 {
 	int i;
 
 	i = 0;
-	while (matrix[i])
+	while (i < size)
 		ft_strdel(&matrix[i++]);
 	ft_strdel(matrix);
 }
@@ -75,16 +78,11 @@ void		get_args(int op_index, t_s *s, char *str)
 {
 	char	*edited_str;
 
-	init_cur_args(s);
+	init_cur_args(s, s->op_tab[op_index].arg_count);
 	edited_str = edit_str(str);
 	put_args(s, edited_str, op_index);
 	if (check_args(op_index, s))
 		s->operations_index++;
-	ft_strdel(&s->name);
-	s->has_comment = 0;
-	s->has_name = 0;
-	s->comment_written = 0;
-	ft_strdel(&s->comment);
-	del_matrix(s->cur_args);
+	del_matrix(s->cur_args, s->op_tab[op_index].arg_count);
 	ft_strdel(&edited_str);
 }

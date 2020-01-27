@@ -18,8 +18,6 @@ static int	check_reg(const char *str, t_s *s, int index)
 		else
 			case_of_error();
 	}
-	else
-		case_of_error();
 	return (0);
 }
 
@@ -42,31 +40,24 @@ static int	check_ind(const char *str, t_s *s, int index)
 		s->byte_value = 2;
 		return (1);
 	}
-	else
-		case_of_error();
 	return (0);
 }
 
 static int	check_dir(const char *str, t_s *s, int op_index, int index)
 {
-	int res;
-
 	s->byte_value = 0;
 	if (str[0] == DIRECT_CHAR)
 	{
-		res = check_ind(str + 1, s, index);
+		check_ind(str + 1, s, index);
 		if (s->op_tab[op_index].dir_size == 0)
-			res += 2;
+			s->byte_value += 2;
 		if (str[1] == LABEL_CHAR)
 			s->operations[s->operations_index].value[index] = ft_strdup(str + 2);
 		else
 			s->operations[s->operations_index].value[index] = ft_strdup(str + 1);
 		s->operations[s->operations_index].args[index] = 2;
-		s->byte_value = res;
 		return (1);
 	}
-	else
-		case_of_error();
 	return (0);
 }
 

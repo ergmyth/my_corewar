@@ -93,9 +93,6 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/includes/libft.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/is_space.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -292,6 +289,9 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/get_symbol_index.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/is_space.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c">

@@ -1,5 +1,3 @@
-#include "libft.h"
-
 int	get_symbol_index(char *str, char c)
 {
 	int		res;
@@ -9,9 +7,9 @@ int	get_symbol_index(char *str, char c)
 	index = 0;
 	if (str)
 	{
-		while(str[index] != c)
+		while(str && str[index] && str[index] != c)
 			index++;
-		if (str[index] == c)
+		if (str[index] && str[index] == c)
 			res = index;
 	}
 	return (res);

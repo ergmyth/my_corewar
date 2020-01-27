@@ -5,10 +5,10 @@ int	only_numbers(const char *str)
 	int i;
 
 	i = 0;
-	while (str[i])
+	while (str && str[i])
 	{
-		if (str[i] >= 48 && str[i] <= 57)
-			case_of_error();
+		if (str[i] < 48 || str[i] > 57)
+			return (0);
 		i++;
 	}
 	return (1);

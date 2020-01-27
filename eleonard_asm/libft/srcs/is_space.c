@@ -1,5 +1,3 @@
-#include "libft.h"
-
 int 	is_space(char c)
 {
 	if (c == ' ' || c == '\t')
