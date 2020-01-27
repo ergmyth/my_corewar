@@ -14,25 +14,6 @@ static int      is_label(char *label)
     return (1);
 }
 
-/*static int      orig_label(char *label, t_s *s)
-{
-    int i;
-    int k;
-
-    i = 0;
-    while (s->operations[i].bytes_before != -1) {
-        k = 0;
-        while (s->operations[i].labels[k])
-        {
-            if (!ft_strcmp(label, s->operations[i].labels[k]))
-                return (0);
-            k++;
-        }
-        i++;
-    }
-    return (1);
-}*/
-
 void            add_label(char *label, t_s *s)
 {
     int k;
@@ -57,7 +38,6 @@ void            read_label(char *line, int label_c_index, t_s *s)
     if (is_label(label))
     {
         add_label(label, s);
-        //if (orig_label(label, s))
         end_of_string = ft_strsub(line, label_c_index + 1, ft_strlen(line) - label_c_index - 1);
         read_operation(end_of_string, s);
     }

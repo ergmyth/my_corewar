@@ -2391,6 +2391,60 @@ srcs/fill_by_zeroes.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
 .PHONY : srcs/fill_by_zeroes.c.s
 
+srcs/ft_itob.o: srcs/ft_itob.c.o
+
+.PHONY : srcs/ft_itob.o
+
+# target to build an object file
+srcs/ft_itob.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o
+.PHONY : srcs/ft_itob.c.o
+
+srcs/ft_itob.i: srcs/ft_itob.c.i
+
+.PHONY : srcs/ft_itob.i
+
+# target to preprocess a source file
+srcs/ft_itob.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.i
+.PHONY : srcs/ft_itob.c.i
+
+srcs/ft_itob.s: srcs/ft_itob.c.s
+
+.PHONY : srcs/ft_itob.s
+
+# target to generate assembly for a file
+srcs/ft_itob.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.s
+.PHONY : srcs/ft_itob.c.s
+
+srcs/ft_rev_binary.o: srcs/ft_rev_binary.c.o
+
+.PHONY : srcs/ft_rev_binary.o
+
+# target to build an object file
+srcs/ft_rev_binary.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.o
+.PHONY : srcs/ft_rev_binary.c.o
+
+srcs/ft_rev_binary.i: srcs/ft_rev_binary.c.i
+
+.PHONY : srcs/ft_rev_binary.i
+
+# target to preprocess a source file
+srcs/ft_rev_binary.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.i
+.PHONY : srcs/ft_rev_binary.c.i
+
+srcs/ft_rev_binary.s: srcs/ft_rev_binary.c.s
+
+.PHONY : srcs/ft_rev_binary.s
+
+# target to generate assembly for a file
+srcs/ft_rev_binary.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.s
+.PHONY : srcs/ft_rev_binary.c.s
+
 srcs/get_args.o: srcs/get_args.c.o
 
 .PHONY : srcs/get_args.o
@@ -2606,33 +2660,6 @@ srcs/recursive_power.s: srcs/recursive_power.c.s
 srcs/recursive_power.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s
 .PHONY : srcs/recursive_power.c.s
-
-srcs/skip_whitespaces.o: srcs/skip_whitespaces.c.o
-
-.PHONY : srcs/skip_whitespaces.o
-
-# target to build an object file
-srcs/skip_whitespaces.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o
-.PHONY : srcs/skip_whitespaces.c.o
-
-srcs/skip_whitespaces.i: srcs/skip_whitespaces.c.i
-
-.PHONY : srcs/skip_whitespaces.i
-
-# target to preprocess a source file
-srcs/skip_whitespaces.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.i
-.PHONY : srcs/skip_whitespaces.c.i
-
-srcs/skip_whitespaces.s: srcs/skip_whitespaces.c.s
-
-.PHONY : srcs/skip_whitespaces.s
-
-# target to generate assembly for a file
-srcs/skip_whitespaces.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.s
-.PHONY : srcs/skip_whitespaces.c.s
 
 srcs/wrong_end_of_line.o: srcs/wrong_end_of_line.c.o
 
@@ -2922,6 +2949,12 @@ help:
 	@echo "... srcs/fill_by_zeroes.o"
 	@echo "... srcs/fill_by_zeroes.i"
 	@echo "... srcs/fill_by_zeroes.s"
+	@echo "... srcs/ft_itob.o"
+	@echo "... srcs/ft_itob.i"
+	@echo "... srcs/ft_itob.s"
+	@echo "... srcs/ft_rev_binary.o"
+	@echo "... srcs/ft_rev_binary.i"
+	@echo "... srcs/ft_rev_binary.s"
 	@echo "... srcs/get_args.o"
 	@echo "... srcs/get_args.i"
 	@echo "... srcs/get_args.s"
@@ -2946,9 +2979,6 @@ help:
 	@echo "... srcs/recursive_power.o"
 	@echo "... srcs/recursive_power.i"
 	@echo "... srcs/recursive_power.s"
-	@echo "... srcs/skip_whitespaces.o"
-	@echo "... srcs/skip_whitespaces.i"
-	@echo "... srcs/skip_whitespaces.s"
 	@echo "... srcs/wrong_end_of_line.o"
 	@echo "... srcs/wrong_end_of_line.i"
 	@echo "... srcs/wrong_end_of_line.s"

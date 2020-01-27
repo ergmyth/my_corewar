@@ -56,10 +56,4 @@ void		do_parse(t_s *s)
 		s->line_index++;
 		ft_strdel(&line);
 	}
-	if (check_labels(s))
-	{
-		convert_labels_to_numbers(s);
-		convert_operations_to_byte_code(s);
-		//create_file();
-	}
 }

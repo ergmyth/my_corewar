@@ -42,7 +42,13 @@ int		main(int ac, char **av)
 		else if (check_name(av[1]))
 		{
 			do_parse(s);
-			print_func(PARSE_COMPLETE_MSG, av[1]);
+			if (check_labels(s))
+			{
+				convert_labels_to_numbers(s);
+				convert_operations_to_byte_code(s);
+				create_file(av, s->byte_code);
+				print_func(PARSE_COMPLETE_MSG, av[1]);
+			}
 		}
 		else
 			print_func(USAGE, av[1]);//Не подходит имя, что делать
@@ -50,4 +56,5 @@ int		main(int ac, char **av)
 	}
 	else
 		print_func(USAGE, av[1]);
+	return (0);
 }

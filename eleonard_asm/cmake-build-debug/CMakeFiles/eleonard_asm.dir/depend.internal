@@ -275,6 +275,13 @@ CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o
  ../includes/op.h
  ../libft/includes/libft.h
  /Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c
+CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o
+ ../includes/asm.h
+ ../includes/op.h
+ ../libft/includes/libft.h
+ /Users/eleonard/my_corewar/eleonard_asm/srcs/ft_itob.c
+CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.o
+ /Users/eleonard/my_corewar/eleonard_asm/srcs/ft_rev_binary.c
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o
  ../includes/asm.h
  ../includes/op.h
@@ -312,11 +319,6 @@ CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o
  /Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c
 CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o
  /Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c
-CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o
- ../includes/asm.h
- ../includes/op.h
- ../libft/includes/libft.h
- /Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o
  ../includes/asm.h
  ../includes/op.h

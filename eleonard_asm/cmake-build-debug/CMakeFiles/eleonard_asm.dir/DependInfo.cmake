@@ -88,6 +88,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/do_parse.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/encrypt_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/ft_itob.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/ft_rev_binary.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/only_numbers.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o"
@@ -96,7 +98,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o"
-  "/Users/eleonard/my_corewar/eleonard_asm/srcs/skip_whitespaces.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

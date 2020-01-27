@@ -75,7 +75,10 @@ typedef struct		s_s
 	char			*byte_code;
 }					t_s;
 
+void 				create_file(char **av, char *str);
+void				ft_rev_binary(char *str);
 int 				btoi(char *str);
+char 				*ft_itob(int n);
 int 				recursive_power(int n, int pow);
 void				convert_operations_to_byte_code(t_s *s);
 char				*btoh(char *str);

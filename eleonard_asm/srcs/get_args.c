@@ -3,11 +3,14 @@
 static void	init_cur_args(t_s *s)
 {
 	int size;
+	int i;
 
 	size = 3;
 	if (!(s->cur_args = (char**)malloc(sizeof(char*) * (size + 1))))
 		case_of_error();
-	s->cur_args[size] = 0;
+	i = 0;
+	while (i <= size)
+		s->cur_args[i++] = 0;
 }
 
 static char *edit_str(char *str)
@@ -51,7 +54,7 @@ static void	put_args(t_s *s, char *str, int op_index)
 			s->cur_args[k] = ft_strdup(str);
 		else
 		{
-			s->cur_args[k] = ft_strsub(str, index, get_symbol_index(str, SEPARATOR_CHAR));
+			s->cur_args[k] = ft_strsub(str, index, get_symbol_index(str, SEPARATOR_CHAR));//Что-то не то
 			index = (int)ft_strlen(s->cur_args[k]) + 1;
 		}
 		k++;

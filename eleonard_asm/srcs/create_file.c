@@ -12,7 +12,10 @@
 
 #include "asm.h"
 
-void 	create_file(void)
+void 	create_file(char **av, char *str)
 {
+	int fd;
 
+	fd = open(av[1], O_CREAT);
+	write(fd, str, ft_strlen(str));
 }

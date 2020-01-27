@@ -275,6 +275,13 @@ CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../srcs/fill_by_zeroes.c
 
+CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o: ../srcs/ft_itob.c
+
+CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.o: ../srcs/ft_rev_binary.c
+
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../libft/includes/libft.h
@@ -311,11 +318,6 @@ CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o: ../srcs/read_operation.c
 
 CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o: ../srcs/recursive_power.c
-
-CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/asm.h
-CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../includes/op.h
-CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../libft/includes/libft.h
-CMakeFiles/eleonard_asm.dir/srcs/skip_whitespaces.c.o: ../srcs/skip_whitespaces.c
 
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o: ../includes/op.h
