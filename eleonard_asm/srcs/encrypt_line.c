@@ -6,13 +6,13 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 17:59:41 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 19:03:32 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:02:47 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "asm.h"
 
-static int 	have_one_quote(char *line)
+static int	have_one_quote(char *line)
 {
 	int	i;
 	int k;
@@ -30,11 +30,11 @@ static int 	have_one_quote(char *line)
 		i++;
 	}
 	if (k == 0)
-		case_of_error();//NO STRING
+		case_of_error(ERR_NAME_OR_COMMENT);
 	return (1);
 }
 
-static char *read_(t_s *s, char *line)
+static char	*read_(t_s *s, char *line)
 {
 	char	*str;
 	int		gnl_ret;
@@ -43,7 +43,7 @@ static char *read_(t_s *s, char *line)
 	while ((gnl_ret = get_next_line(s->fd, &str)))
 	{
 		if (gnl_ret == -1)
-			case_of_error();
+			case_of_error(ERR_GNL);
 		else if (str)
 		{
 			s->line_index++;
@@ -57,25 +57,25 @@ static char *read_(t_s *s, char *line)
 			break ;
 	}
 	if (gnl_ret == 0)
-		case_of_error();//нет закрывающей кавычки
+		case_of_error(ERR_HAVENT_END_QUOTE);
 	return (line);
 }
 
-static char *put_after_quote(char *str)
+static char	*put_after_quote(char *str)
 {
-	int 	i;
+	int		i;
 	char	*res;
-	int 	end_quote_ind;
-	int 	start_quote_ind;
+	int		end_quote_ind;
+	int		start_ind;
 
 	i = 0;
 	while (str[i] != '"')
 		i++;
-	start_quote_ind = i + 1;
-	end_quote_ind = get_symbol_index(str + start_quote_ind, '"') + start_quote_ind;
-	res = ft_strsub(str, start_quote_ind, end_quote_ind - start_quote_ind);
+	start_ind = i + 1;
+	end_quote_ind = get_symbol_index(str + start_ind, '"') + start_ind;
+	res = ft_strsub(str, start_ind, end_quote_ind - start_ind);
 	if (wrong_end_of_line(str + end_quote_ind + 1))
-		case_of_error();
+		case_of_error(ERR_LEXICAL);
 	return (res);
 }
 
@@ -88,7 +88,7 @@ static void	getter(t_s *s, char *line, char c)
 		s->has_name = 1;
 		s->name = put_after_quote(line);
 		if (ft_strlen(s->name) > PROG_NAME_LENGTH)
-			case_of_error();//TOO LONG NAME
+			case_of_error(ERR_TOO_LONG_NAME);
 		add_str_to_byte_code(s, s->name, PROG_NAME_LENGTH * 2);
 	}
 	else
@@ -96,17 +96,16 @@ static void	getter(t_s *s, char *line, char c)
 		s->has_comment = 1;
 		s->comment = put_after_quote(line);
 		if (ft_strlen(s->comment) > COMMENT_LENGTH)
-			case_of_error();//TOO LONG COMMENT
-
+			case_of_error(ERR_TOO_LONG_COMMENT);
 	}
 }
 
-void	encrypt_line(char *line, t_s *s)
+void		encrypt_line(char *line, t_s *s)
 {
 	if (s->has_comment && s->has_name)
 	{
 		if (!s->comment_written)
-			add_till_CEC(s);
+			add_till_cec(s);
 		read_line(line, s);
 	}
 	else

@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 16:32:24 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 19:03:10 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:02:42 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void		do_parse(t_s *s)
 	while ((gnl_ret = get_next_line(s->fd, &line)))
 	{
 		if (gnl_ret == -1)
-			case_of_error();
+			case_of_error(ERR_GNL);
 		else if (line && not_a_comment(line) && not_empty_line(line))
 			encrypt_line(line, s);
 		s->line_index++;

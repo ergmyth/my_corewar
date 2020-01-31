@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   convert_operations_to_byte_code.c                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/01/29 15:02:26 by eleonard          #+#    #+#             */
+/*   Updated: 2020/01/29 15:02:28 by eleonard         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "asm.h"
 
 static int	add_command_index(char *str, int *len, t_op_elem cur_op, t_s *s)
@@ -13,13 +25,13 @@ static int	add_command_index(char *str, int *len, t_op_elem cur_op, t_s *s)
 static void	add_code_types(char *str, int *len, t_op_elem cur_op, t_s *s)
 {
 	char	*binary;
-	int 	i;
+	int		i;
 	char	*hex;
 
 	if (!(binary = ft_strnew(9)))
-		case_of_error();
+		case_of_error(ERR_MALLOC);
 	i = 0;
-	while (i < 3)
+	while (cur_op.args[i] > 0)
 	{
 		if (cur_op.args[i] == 1)
 			ft_strcat(binary, "01");
@@ -29,7 +41,8 @@ static void	add_code_types(char *str, int *len, t_op_elem cur_op, t_s *s)
 			ft_strcat(binary, "11");
 		i++;
 	}
-	ft_strcat(binary, "00");
+	while (i++ <= 3)
+		ft_strcat(binary, "00");
 	hex = btoh(binary);
 	str[(*len)++] = hex[0];
 	str[(*len)++] = hex[1];
@@ -39,14 +52,14 @@ static void	add_code_types(char *str, int *len, t_op_elem cur_op, t_s *s)
 
 void		convert_operations_to_byte_code(t_s *s)
 {
-	int 		i;
+	int			i;
 	t_op_elem	cur_op;
-	int 		len;
-	int 		res;
+	int			len;
+	int			res;
 
 	i = 0;
 	len = (int)ft_strlen(s->byte_code);
-	while (i < s->operations_index)
+	while (i < s->oper_index)
 	{
 		cur_op = s->operations[i];
 		res = add_command_index(s->byte_code, &len, cur_op, s);

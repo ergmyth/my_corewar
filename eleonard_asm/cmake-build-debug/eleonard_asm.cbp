@@ -93,6 +93,12 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/includes/libft.h">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/btoh.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/btoi.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_abs.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -124,6 +130,9 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itoa.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itob.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_lstadd.c">
@@ -196,6 +205,12 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_putstrn.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_recursive_power.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_rev_binary.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_sqrt.c">
@@ -294,6 +309,15 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/is_space.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_numbers.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_spaces.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/pf_hex.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
@@ -303,16 +327,10 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_CEC.c">
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_cec.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/btoh.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/btoi.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/case_of_error.c">
@@ -345,22 +363,10 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/ft_itob.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/ft_rev_binary.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/only_numbers.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/pf_hex.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c">
@@ -370,9 +376,6 @@
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/recursive_power.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/wrong_end_of_line.c">

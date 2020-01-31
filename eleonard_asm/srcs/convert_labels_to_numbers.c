@@ -1,15 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   convert_labels_to_numbers.c                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/01/29 15:02:20 by eleonard          #+#    #+#             */
+/*   Updated: 2020/01/29 15:02:21 by eleonard         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "asm.h"
 
 static void	convert_label(t_op_elem *cur_op, t_s *s, char *label, int index)
 {
-	int 		i;
+	int			i;
 	t_op_elem	*dir_op;
-	char 		*dir_label;
-	int 		k;
-	int 		res;
+	char		*dir_label;
+	int			k;
+	int			res;
 
 	i = 0;
-	while (i < s->operations_index)
+	while (i < s->oper_index)
 	{
 		dir_op = &(s->operations[i++]);
 		k = 0;
@@ -21,7 +33,7 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, char *label, int index)
 				res = (cur_op->bytes_before - dir_op->bytes_before) * -1;
 				ft_strdel(&cur_op->value[index]);
 				if (!(cur_op->value[index] = ft_itoa(res)))
-					case_of_error();
+					case_of_error(ERR_MALLOC);
 				return ;
 			}
 		}
@@ -30,12 +42,12 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, char *label, int index)
 
 void		convert_labels_to_numbers(t_s *s)
 {
-	int 		i;
+	int			i;
 	t_op_elem	cur_op;
-	int 		k;
+	int			k;
 
 	i = 0;
-	while (i < s->operations_index)
+	while (i < s->oper_index)
 	{
 		cur_op = s->operations[i];
 		k = 0;

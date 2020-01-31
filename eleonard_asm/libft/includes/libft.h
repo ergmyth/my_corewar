@@ -13,8 +13,7 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# define BUFF_SIZE 1
-
+# define BUFF_SIZE 32000
 
 # include <unistd.h>
 # include <stdlib.h>
@@ -28,9 +27,17 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-int 			is_space(char c);
-int 			get_symbol_index(char *str, char c);
-int		        get_next_line(const int fd, char **line);
+int				only_numbers(const char *str);
+int 			only_spaces(char *str);
+char			*ft_itob(int n);
+void			ft_rev_binary(char *str);
+int				btoi(char *str);
+char			*btoh(char *str);
+char			*pf_hex(int n);
+int				ft_recursive_power(int n, int pow);
+int				is_space(char c);
+int				get_symbol_index(char *str, char c);
+int				get_next_line(const int fd, char **line);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putendl_fd(char const *s, int fd);
 void			ft_putstr_fd(char const *s, int fd);

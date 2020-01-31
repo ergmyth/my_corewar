@@ -123,6 +123,60 @@ eleonard_asm/fast:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/build
 .PHONY : eleonard_asm/fast
 
+libft/srcs/btoh.o: libft/srcs/btoh.c.o
+
+.PHONY : libft/srcs/btoh.o
+
+# target to build an object file
+libft/srcs/btoh.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o
+.PHONY : libft/srcs/btoh.c.o
+
+libft/srcs/btoh.i: libft/srcs/btoh.c.i
+
+.PHONY : libft/srcs/btoh.i
+
+# target to preprocess a source file
+libft/srcs/btoh.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.i
+.PHONY : libft/srcs/btoh.c.i
+
+libft/srcs/btoh.s: libft/srcs/btoh.c.s
+
+.PHONY : libft/srcs/btoh.s
+
+# target to generate assembly for a file
+libft/srcs/btoh.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.s
+.PHONY : libft/srcs/btoh.c.s
+
+libft/srcs/btoi.o: libft/srcs/btoi.c.o
+
+.PHONY : libft/srcs/btoi.o
+
+# target to build an object file
+libft/srcs/btoi.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o
+.PHONY : libft/srcs/btoi.c.o
+
+libft/srcs/btoi.i: libft/srcs/btoi.c.i
+
+.PHONY : libft/srcs/btoi.i
+
+# target to preprocess a source file
+libft/srcs/btoi.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.i
+.PHONY : libft/srcs/btoi.c.i
+
+libft/srcs/btoi.s: libft/srcs/btoi.c.s
+
+.PHONY : libft/srcs/btoi.s
+
+# target to generate assembly for a file
+libft/srcs/btoi.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.s
+.PHONY : libft/srcs/btoi.c.s
+
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 .PHONY : libft/srcs/ft_abs.o
@@ -419,6 +473,33 @@ libft/srcs/ft_itoa.s: libft/srcs/ft_itoa.c.s
 libft/srcs/ft_itoa.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itoa.c.s
 .PHONY : libft/srcs/ft_itoa.c.s
+
+libft/srcs/ft_itob.o: libft/srcs/ft_itob.c.o
+
+.PHONY : libft/srcs/ft_itob.o
+
+# target to build an object file
+libft/srcs/ft_itob.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o
+.PHONY : libft/srcs/ft_itob.c.o
+
+libft/srcs/ft_itob.i: libft/srcs/ft_itob.c.i
+
+.PHONY : libft/srcs/ft_itob.i
+
+# target to preprocess a source file
+libft/srcs/ft_itob.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.i
+.PHONY : libft/srcs/ft_itob.c.i
+
+libft/srcs/ft_itob.s: libft/srcs/ft_itob.c.s
+
+.PHONY : libft/srcs/ft_itob.s
+
+# target to generate assembly for a file
+libft/srcs/ft_itob.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.s
+.PHONY : libft/srcs/ft_itob.c.s
 
 libft/srcs/ft_lstadd.o: libft/srcs/ft_lstadd.c.o
 
@@ -1067,6 +1148,60 @@ libft/srcs/ft_putstrn.s: libft/srcs/ft_putstrn.c.s
 libft/srcs/ft_putstrn.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_putstrn.c.s
 .PHONY : libft/srcs/ft_putstrn.c.s
+
+libft/srcs/ft_recursive_power.o: libft/srcs/ft_recursive_power.c.o
+
+.PHONY : libft/srcs/ft_recursive_power.o
+
+# target to build an object file
+libft/srcs/ft_recursive_power.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o
+.PHONY : libft/srcs/ft_recursive_power.c.o
+
+libft/srcs/ft_recursive_power.i: libft/srcs/ft_recursive_power.c.i
+
+.PHONY : libft/srcs/ft_recursive_power.i
+
+# target to preprocess a source file
+libft/srcs/ft_recursive_power.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.i
+.PHONY : libft/srcs/ft_recursive_power.c.i
+
+libft/srcs/ft_recursive_power.s: libft/srcs/ft_recursive_power.c.s
+
+.PHONY : libft/srcs/ft_recursive_power.s
+
+# target to generate assembly for a file
+libft/srcs/ft_recursive_power.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.s
+.PHONY : libft/srcs/ft_recursive_power.c.s
+
+libft/srcs/ft_rev_binary.o: libft/srcs/ft_rev_binary.c.o
+
+.PHONY : libft/srcs/ft_rev_binary.o
+
+# target to build an object file
+libft/srcs/ft_rev_binary.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o
+.PHONY : libft/srcs/ft_rev_binary.c.o
+
+libft/srcs/ft_rev_binary.i: libft/srcs/ft_rev_binary.c.i
+
+.PHONY : libft/srcs/ft_rev_binary.i
+
+# target to preprocess a source file
+libft/srcs/ft_rev_binary.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.i
+.PHONY : libft/srcs/ft_rev_binary.c.i
+
+libft/srcs/ft_rev_binary.s: libft/srcs/ft_rev_binary.c.s
+
+.PHONY : libft/srcs/ft_rev_binary.s
+
+# target to generate assembly for a file
+libft/srcs/ft_rev_binary.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.s
+.PHONY : libft/srcs/ft_rev_binary.c.s
 
 libft/srcs/ft_sqrt.o: libft/srcs/ft_sqrt.c.o
 
@@ -1932,6 +2067,87 @@ libft/srcs/is_space.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.s
 .PHONY : libft/srcs/is_space.c.s
 
+libft/srcs/only_numbers.o: libft/srcs/only_numbers.c.o
+
+.PHONY : libft/srcs/only_numbers.o
+
+# target to build an object file
+libft/srcs/only_numbers.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o
+.PHONY : libft/srcs/only_numbers.c.o
+
+libft/srcs/only_numbers.i: libft/srcs/only_numbers.c.i
+
+.PHONY : libft/srcs/only_numbers.i
+
+# target to preprocess a source file
+libft/srcs/only_numbers.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.i
+.PHONY : libft/srcs/only_numbers.c.i
+
+libft/srcs/only_numbers.s: libft/srcs/only_numbers.c.s
+
+.PHONY : libft/srcs/only_numbers.s
+
+# target to generate assembly for a file
+libft/srcs/only_numbers.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.s
+.PHONY : libft/srcs/only_numbers.c.s
+
+libft/srcs/only_spaces.o: libft/srcs/only_spaces.c.o
+
+.PHONY : libft/srcs/only_spaces.o
+
+# target to build an object file
+libft/srcs/only_spaces.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o
+.PHONY : libft/srcs/only_spaces.c.o
+
+libft/srcs/only_spaces.i: libft/srcs/only_spaces.c.i
+
+.PHONY : libft/srcs/only_spaces.i
+
+# target to preprocess a source file
+libft/srcs/only_spaces.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.i
+.PHONY : libft/srcs/only_spaces.c.i
+
+libft/srcs/only_spaces.s: libft/srcs/only_spaces.c.s
+
+.PHONY : libft/srcs/only_spaces.s
+
+# target to generate assembly for a file
+libft/srcs/only_spaces.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.s
+.PHONY : libft/srcs/only_spaces.c.s
+
+libft/srcs/pf_hex.o: libft/srcs/pf_hex.c.o
+
+.PHONY : libft/srcs/pf_hex.o
+
+# target to build an object file
+libft/srcs/pf_hex.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o
+.PHONY : libft/srcs/pf_hex.c.o
+
+libft/srcs/pf_hex.i: libft/srcs/pf_hex.c.i
+
+.PHONY : libft/srcs/pf_hex.i
+
+# target to preprocess a source file
+libft/srcs/pf_hex.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.i
+.PHONY : libft/srcs/pf_hex.c.i
+
+libft/srcs/pf_hex.s: libft/srcs/pf_hex.c.s
+
+.PHONY : libft/srcs/pf_hex.s
+
+# target to generate assembly for a file
+libft/srcs/pf_hex.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.s
+.PHONY : libft/srcs/pf_hex.c.s
+
 srcs/add_args_code.o: srcs/add_args_code.c.o
 
 .PHONY : srcs/add_args_code.o
@@ -2013,32 +2229,32 @@ srcs/add_str_to_byte_code.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
 .PHONY : srcs/add_str_to_byte_code.c.s
 
-srcs/add_till_CEC.o: srcs/add_till_CEC.c.o
+srcs/add_till_cec.o: srcs/add_till_cec.c.o
 
-.PHONY : srcs/add_till_CEC.o
+.PHONY : srcs/add_till_cec.o
 
 # target to build an object file
-srcs/add_till_CEC.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.o
-.PHONY : srcs/add_till_CEC.c.o
+srcs/add_till_cec.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o
+.PHONY : srcs/add_till_cec.c.o
 
-srcs/add_till_CEC.i: srcs/add_till_CEC.c.i
+srcs/add_till_cec.i: srcs/add_till_cec.c.i
 
-.PHONY : srcs/add_till_CEC.i
+.PHONY : srcs/add_till_cec.i
 
 # target to preprocess a source file
-srcs/add_till_CEC.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.i
-.PHONY : srcs/add_till_CEC.c.i
+srcs/add_till_cec.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.i
+.PHONY : srcs/add_till_cec.c.i
 
-srcs/add_till_CEC.s: srcs/add_till_CEC.c.s
+srcs/add_till_cec.s: srcs/add_till_cec.c.s
 
-.PHONY : srcs/add_till_CEC.s
+.PHONY : srcs/add_till_cec.s
 
 # target to generate assembly for a file
-srcs/add_till_CEC.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_CEC.c.s
-.PHONY : srcs/add_till_CEC.c.s
+srcs/add_till_cec.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.s
+.PHONY : srcs/add_till_cec.c.s
 
 srcs/asm.o: srcs/asm.c.o
 
@@ -2066,60 +2282,6 @@ srcs/asm.s: srcs/asm.c.s
 srcs/asm.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/asm.c.s
 .PHONY : srcs/asm.c.s
-
-srcs/btoh.o: srcs/btoh.c.o
-
-.PHONY : srcs/btoh.o
-
-# target to build an object file
-srcs/btoh.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.o
-.PHONY : srcs/btoh.c.o
-
-srcs/btoh.i: srcs/btoh.c.i
-
-.PHONY : srcs/btoh.i
-
-# target to preprocess a source file
-srcs/btoh.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.i
-.PHONY : srcs/btoh.c.i
-
-srcs/btoh.s: srcs/btoh.c.s
-
-.PHONY : srcs/btoh.s
-
-# target to generate assembly for a file
-srcs/btoh.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoh.c.s
-.PHONY : srcs/btoh.c.s
-
-srcs/btoi.o: srcs/btoi.c.o
-
-.PHONY : srcs/btoi.o
-
-# target to build an object file
-srcs/btoi.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.o
-.PHONY : srcs/btoi.c.o
-
-srcs/btoi.i: srcs/btoi.c.i
-
-.PHONY : srcs/btoi.i
-
-# target to preprocess a source file
-srcs/btoi.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.i
-.PHONY : srcs/btoi.c.i
-
-srcs/btoi.s: srcs/btoi.c.s
-
-.PHONY : srcs/btoi.s
-
-# target to generate assembly for a file
-srcs/btoi.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/btoi.c.s
-.PHONY : srcs/btoi.c.s
 
 srcs/case_of_error.o: srcs/case_of_error.c.o
 
@@ -2391,60 +2553,6 @@ srcs/fill_by_zeroes.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
 .PHONY : srcs/fill_by_zeroes.c.s
 
-srcs/ft_itob.o: srcs/ft_itob.c.o
-
-.PHONY : srcs/ft_itob.o
-
-# target to build an object file
-srcs/ft_itob.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.o
-.PHONY : srcs/ft_itob.c.o
-
-srcs/ft_itob.i: srcs/ft_itob.c.i
-
-.PHONY : srcs/ft_itob.i
-
-# target to preprocess a source file
-srcs/ft_itob.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.i
-.PHONY : srcs/ft_itob.c.i
-
-srcs/ft_itob.s: srcs/ft_itob.c.s
-
-.PHONY : srcs/ft_itob.s
-
-# target to generate assembly for a file
-srcs/ft_itob.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_itob.c.s
-.PHONY : srcs/ft_itob.c.s
-
-srcs/ft_rev_binary.o: srcs/ft_rev_binary.c.o
-
-.PHONY : srcs/ft_rev_binary.o
-
-# target to build an object file
-srcs/ft_rev_binary.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.o
-.PHONY : srcs/ft_rev_binary.c.o
-
-srcs/ft_rev_binary.i: srcs/ft_rev_binary.c.i
-
-.PHONY : srcs/ft_rev_binary.i
-
-# target to preprocess a source file
-srcs/ft_rev_binary.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.i
-.PHONY : srcs/ft_rev_binary.c.i
-
-srcs/ft_rev_binary.s: srcs/ft_rev_binary.c.s
-
-.PHONY : srcs/ft_rev_binary.s
-
-# target to generate assembly for a file
-srcs/ft_rev_binary.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/ft_rev_binary.c.s
-.PHONY : srcs/ft_rev_binary.c.s
-
 srcs/get_args.o: srcs/get_args.c.o
 
 .PHONY : srcs/get_args.o
@@ -2498,60 +2606,6 @@ srcs/initialize.s: srcs/initialize.c.s
 srcs/initialize.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s
 .PHONY : srcs/initialize.c.s
-
-srcs/only_numbers.o: srcs/only_numbers.c.o
-
-.PHONY : srcs/only_numbers.o
-
-# target to build an object file
-srcs/only_numbers.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.o
-.PHONY : srcs/only_numbers.c.o
-
-srcs/only_numbers.i: srcs/only_numbers.c.i
-
-.PHONY : srcs/only_numbers.i
-
-# target to preprocess a source file
-srcs/only_numbers.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.i
-.PHONY : srcs/only_numbers.c.i
-
-srcs/only_numbers.s: srcs/only_numbers.c.s
-
-.PHONY : srcs/only_numbers.s
-
-# target to generate assembly for a file
-srcs/only_numbers.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_numbers.c.s
-.PHONY : srcs/only_numbers.c.s
-
-srcs/pf_hex.o: srcs/pf_hex.c.o
-
-.PHONY : srcs/pf_hex.o
-
-# target to build an object file
-srcs/pf_hex.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.o
-.PHONY : srcs/pf_hex.c.o
-
-srcs/pf_hex.i: srcs/pf_hex.c.i
-
-.PHONY : srcs/pf_hex.i
-
-# target to preprocess a source file
-srcs/pf_hex.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.i
-.PHONY : srcs/pf_hex.c.i
-
-srcs/pf_hex.s: srcs/pf_hex.c.s
-
-.PHONY : srcs/pf_hex.s
-
-# target to generate assembly for a file
-srcs/pf_hex.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/pf_hex.c.s
-.PHONY : srcs/pf_hex.c.s
 
 srcs/print_func.o: srcs/print_func.c.o
 
@@ -2634,33 +2688,6 @@ srcs/read_operation.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.s
 .PHONY : srcs/read_operation.c.s
 
-srcs/recursive_power.o: srcs/recursive_power.c.o
-
-.PHONY : srcs/recursive_power.o
-
-# target to build an object file
-srcs/recursive_power.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.o
-.PHONY : srcs/recursive_power.c.o
-
-srcs/recursive_power.i: srcs/recursive_power.c.i
-
-.PHONY : srcs/recursive_power.i
-
-# target to preprocess a source file
-srcs/recursive_power.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.i
-.PHONY : srcs/recursive_power.c.i
-
-srcs/recursive_power.s: srcs/recursive_power.c.s
-
-.PHONY : srcs/recursive_power.s
-
-# target to generate assembly for a file
-srcs/recursive_power.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/recursive_power.c.s
-.PHONY : srcs/recursive_power.c.s
-
 srcs/wrong_end_of_line.o: srcs/wrong_end_of_line.c.o
 
 .PHONY : srcs/wrong_end_of_line.o
@@ -2697,6 +2724,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... eleonard_asm"
+	@echo "... libft/srcs/btoh.o"
+	@echo "... libft/srcs/btoh.i"
+	@echo "... libft/srcs/btoh.s"
+	@echo "... libft/srcs/btoi.o"
+	@echo "... libft/srcs/btoi.i"
+	@echo "... libft/srcs/btoi.s"
 	@echo "... libft/srcs/ft_abs.o"
 	@echo "... libft/srcs/ft_abs.i"
 	@echo "... libft/srcs/ft_abs.s"
@@ -2730,6 +2763,9 @@ help:
 	@echo "... libft/srcs/ft_itoa.o"
 	@echo "... libft/srcs/ft_itoa.i"
 	@echo "... libft/srcs/ft_itoa.s"
+	@echo "... libft/srcs/ft_itob.o"
+	@echo "... libft/srcs/ft_itob.i"
+	@echo "... libft/srcs/ft_itob.s"
 	@echo "... libft/srcs/ft_lstadd.o"
 	@echo "... libft/srcs/ft_lstadd.i"
 	@echo "... libft/srcs/ft_lstadd.s"
@@ -2802,6 +2838,12 @@ help:
 	@echo "... libft/srcs/ft_putstrn.o"
 	@echo "... libft/srcs/ft_putstrn.i"
 	@echo "... libft/srcs/ft_putstrn.s"
+	@echo "... libft/srcs/ft_recursive_power.o"
+	@echo "... libft/srcs/ft_recursive_power.i"
+	@echo "... libft/srcs/ft_recursive_power.s"
+	@echo "... libft/srcs/ft_rev_binary.o"
+	@echo "... libft/srcs/ft_rev_binary.i"
+	@echo "... libft/srcs/ft_rev_binary.s"
 	@echo "... libft/srcs/ft_sqrt.o"
 	@echo "... libft/srcs/ft_sqrt.i"
 	@echo "... libft/srcs/ft_sqrt.s"
@@ -2898,6 +2940,15 @@ help:
 	@echo "... libft/srcs/is_space.o"
 	@echo "... libft/srcs/is_space.i"
 	@echo "... libft/srcs/is_space.s"
+	@echo "... libft/srcs/only_numbers.o"
+	@echo "... libft/srcs/only_numbers.i"
+	@echo "... libft/srcs/only_numbers.s"
+	@echo "... libft/srcs/only_spaces.o"
+	@echo "... libft/srcs/only_spaces.i"
+	@echo "... libft/srcs/only_spaces.s"
+	@echo "... libft/srcs/pf_hex.o"
+	@echo "... libft/srcs/pf_hex.i"
+	@echo "... libft/srcs/pf_hex.s"
 	@echo "... srcs/add_args_code.o"
 	@echo "... srcs/add_args_code.i"
 	@echo "... srcs/add_args_code.s"
@@ -2907,18 +2958,12 @@ help:
 	@echo "... srcs/add_str_to_byte_code.o"
 	@echo "... srcs/add_str_to_byte_code.i"
 	@echo "... srcs/add_str_to_byte_code.s"
-	@echo "... srcs/add_till_CEC.o"
-	@echo "... srcs/add_till_CEC.i"
-	@echo "... srcs/add_till_CEC.s"
+	@echo "... srcs/add_till_cec.o"
+	@echo "... srcs/add_till_cec.i"
+	@echo "... srcs/add_till_cec.s"
 	@echo "... srcs/asm.o"
 	@echo "... srcs/asm.i"
 	@echo "... srcs/asm.s"
-	@echo "... srcs/btoh.o"
-	@echo "... srcs/btoh.i"
-	@echo "... srcs/btoh.s"
-	@echo "... srcs/btoi.o"
-	@echo "... srcs/btoi.i"
-	@echo "... srcs/btoi.s"
 	@echo "... srcs/case_of_error.o"
 	@echo "... srcs/case_of_error.i"
 	@echo "... srcs/case_of_error.s"
@@ -2949,24 +2994,12 @@ help:
 	@echo "... srcs/fill_by_zeroes.o"
 	@echo "... srcs/fill_by_zeroes.i"
 	@echo "... srcs/fill_by_zeroes.s"
-	@echo "... srcs/ft_itob.o"
-	@echo "... srcs/ft_itob.i"
-	@echo "... srcs/ft_itob.s"
-	@echo "... srcs/ft_rev_binary.o"
-	@echo "... srcs/ft_rev_binary.i"
-	@echo "... srcs/ft_rev_binary.s"
 	@echo "... srcs/get_args.o"
 	@echo "... srcs/get_args.i"
 	@echo "... srcs/get_args.s"
 	@echo "... srcs/initialize.o"
 	@echo "... srcs/initialize.i"
 	@echo "... srcs/initialize.s"
-	@echo "... srcs/only_numbers.o"
-	@echo "... srcs/only_numbers.i"
-	@echo "... srcs/only_numbers.s"
-	@echo "... srcs/pf_hex.o"
-	@echo "... srcs/pf_hex.i"
-	@echo "... srcs/pf_hex.s"
 	@echo "... srcs/print_func.o"
 	@echo "... srcs/print_func.i"
 	@echo "... srcs/print_func.s"
@@ -2976,9 +3009,6 @@ help:
 	@echo "... srcs/read_operation.o"
 	@echo "... srcs/read_operation.i"
 	@echo "... srcs/read_operation.s"
-	@echo "... srcs/recursive_power.o"
-	@echo "... srcs/recursive_power.i"
-	@echo "... srcs/recursive_power.s"
 	@echo "... srcs/wrong_end_of_line.o"
 	@echo "... srcs/wrong_end_of_line.i"
 	@echo "... srcs/wrong_end_of_line.s"

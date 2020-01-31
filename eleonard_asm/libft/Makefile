@@ -32,6 +32,9 @@ SRC =           ft_atoi.c 			ft_bzero.c 			ft_strchr.c \
 				ft_putstr_fd.c		ft_putendl_fd.c		ft_putnbr_fd.c \
 				ft_sqrt.c			ft_freep.c			ft_putstrn.c \
 				ft_abs.c            get_next_line.c     get_symbol_index.c \
+				recursive_power.c   pf_hex.c            btoh.c \
+				btoi.c              ft_itob.c           only_numbers.c \
+
 
 NAME	= libft.a
 

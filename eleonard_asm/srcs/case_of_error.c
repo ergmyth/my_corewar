@@ -6,13 +6,14 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 17:46:04 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 17:46:25 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:01:30 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "asm.h"
 
-void	case_of_error(void)
+void	case_of_error(int n)
 {
+	ft_putnbr_fd(n, 2);
 	exit(1);
 }

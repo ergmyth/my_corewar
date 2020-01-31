@@ -6,20 +6,20 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 15:56:42 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 18:04:32 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:01:08 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "asm.h"
 
-void	free_struct(t_s *s)
+static void	free_struct(t_s *s)
 {
 	int i;
 	int k;
 
 	ft_strdel(&s->byte_code);
 	i = 0;
-	while (i < s->operations_index)
+	while (i < s->oper_index)
 	{
 		ft_strdel(&s->operations[i].name);
 		k = 0;
@@ -29,7 +29,32 @@ void	free_struct(t_s *s)
 	}
 }
 
-int		main(int ac, char **av)
+static void	commands_to_code(char **av, t_s *s)
+{
+	int 	res;
+	char	*str;
+	int 	len;
+	int 	i;
+
+	s->commands_start_ind = (int)ft_strlen(s->byte_code);
+	convert_labels_to_numbers(s);
+	convert_operations_to_byte_code(s);
+	res = ((int)ft_strlen(s->byte_code) - s->commands_start_ind) / 2;
+	if (res > CHAMP_MAX_SIZE)
+		case_of_error(ERR_TOO_BIG_CHAMP_SIZE);
+	if (!(str = pf_hex(res)))
+		case_of_error(ERR_MALLOC);
+	len = (int)ft_strlen(str);
+	i = 0;
+	while (len--)
+	{
+		s->byte_code[s->cec_ind - i] = str[len];
+		i++;
+	}
+	create_file(av, s->byte_code);
+}
+
+int			main(int ac, char **av)
 {
 	t_s		*s;
 
@@ -43,12 +68,7 @@ int		main(int ac, char **av)
 		{
 			do_parse(s);
 			if (check_labels(s))
-			{
-				convert_labels_to_numbers(s);
-				convert_operations_to_byte_code(s);
-				create_file(av, s->byte_code);
-				print_func(PARSE_COMPLETE_MSG, av[1]);
-			}
+				commands_to_code(av, s);
 		}
 		else
 			print_func(USAGE, av[1]);//Не подходит имя, что делать
