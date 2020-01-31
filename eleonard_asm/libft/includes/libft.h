@@ -6,7 +6,7 @@
 /*   By: ifran <ifran@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/08 17:20:27 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 18:57:00 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 18:00:25 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ typedef struct	s_list
 
 char			ft_htod(char *str);
 int				only_numbers(const char *str);
-int 			only_spaces(char *str);
+int				only_spaces(char *str);
 char			*ft_itob(int n);
 void			ft_rev_binary(char *str);
 int				btoi(char *str);

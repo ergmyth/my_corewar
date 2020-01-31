@@ -6,7 +6,7 @@
 #    By: ifran <ifran@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/04 15:14:58 by eleonard          #+#    #+#              #
-#    Updated: 2020/01/13 18:56:46 by eleonard         ###   ########.fr        #
+#    Updated: 2020/01/31 17:58:40 by eleonard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,9 +32,10 @@ SRC =           ft_atoi.c 			ft_bzero.c 			ft_strchr.c \
 				ft_putstr_fd.c		ft_putendl_fd.c		ft_putnbr_fd.c \
 				ft_sqrt.c			ft_freep.c			ft_putstrn.c \
 				ft_abs.c            get_next_line.c     get_symbol_index.c \
-				recursive_power.c   pf_hex.c            btoh.c \
+				pf_hex.c            btoh.c 				ft_recursive_power.c \
 				btoi.c              ft_itob.c           only_numbers.c \
-                ft_htod.c
+                ft_htod.c			ft_rev_binary.c		is_space.c \
+				only_spaces.c
 
 NAME	= libft.a
 

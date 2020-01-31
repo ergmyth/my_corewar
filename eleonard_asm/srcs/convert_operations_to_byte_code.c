@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/29 15:02:26 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/29 15:02:28 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 17:57:14 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static int	add_command_index(char *str, int *len, t_op_elem cur_op, t_s *s)
 	return (n);
 }
 
-static void	add_code_types(char *str, int *len, t_op_elem cur_op, t_s *s)
+static void	add_code_types(char *str, int *len, t_op_elem cur_op)
 {
 	char	*binary;
 	int		i;
@@ -64,7 +64,7 @@ void		convert_operations_to_byte_code(t_s *s)
 		cur_op = s->operations[i];
 		res = add_command_index(s->byte_code, &len, cur_op, s);
 		if (res != 1 && res != 9 && res != 12 && res != 15)
-			add_code_types(s->byte_code, &len, cur_op, s);
+			add_code_types(s->byte_code, &len, cur_op);
 		add_args_code(s->byte_code, &len, cur_op, s);
 		i++;
 	}

@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 16:00:03 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/13 18:59:45 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 18:07:09 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ typedef struct	s_s
 	int			has_name;
 	int			has_comment;
 	int			comment_written;
-	unsigned char	*byte_code;
+	char		*byte_code;
 }				t_s;
 
 void			create_file(char **av, char *str);

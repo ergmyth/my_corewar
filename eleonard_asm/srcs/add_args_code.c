@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/29 15:00:23 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/29 15:00:27 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 18:11:04 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,15 +36,17 @@ static void	additional_code(char *str)
 	}
 }
 
-static char *get_str(char *temp, int size)
+static char	*get_str(char *temp, int size)
 {
-	int 	i;
+	int		i;
 	char	*str;
+	int		len;
 
 	if (!(str = ft_strnew(size)))
 		case_of_error(ERR_MALLOC);
 	i = 0;
-	while (i < size - ft_strlen(temp))
+	len = (int)ft_strlen(temp);
+	while (i < size - len)
 		str[i++] = '0';
 	ft_strcat(str, temp);
 	ft_strdel(&temp);

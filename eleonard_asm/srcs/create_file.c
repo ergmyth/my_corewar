@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 16:32:44 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/29 15:02:36 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 18:10:46 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void	wr_to_file(int fd, char *str)
 {
-	int 			i;
+	int				i;
 	char			*code;
 	unsigned char	b;
 	int 			size;
@@ -33,7 +33,7 @@ static void	wr_to_file(int fd, char *str)
 	}
 }
 
-void	create_file(char **av, char *str)
+void		create_file(char **av, char *str)
 {
 	int		fd;
 	char	*name;

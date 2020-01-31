@@ -1,48 +1,46 @@
-ASM_C = asm.c
-COREWAR_C = corewar.c
-ALL_C =     case_of_error.c \
+ALL_C = asm.c add_args_code.c add_null_octets.c add_str_to_byte_code.c add_till_cec.c case_of_error.c \
+		check_args.c check_labels.c check_name.c convert_labels_to_numbers.c convert_operations_to_byte_code.c \
+		create_file.c do_parse.c encrypt_line.c fill_by_zeroes.c get_args.c initialize.c print_func.c \
+		read_line.c read_operation.c wrong_end_of_line.c
 
-
-SRCDIR = srcs/
-OBJDIR = objs/
+SRCDIR = ./srcs
+OBJDIR = ./objs
 
 ALL_OBJ = $(ALL_C:%.c=%.o)
 
-OBJS = $(addprefix $(OBJDIR), $(ALL_OBJ))
-ASM_OBJS = $(addprefix $(OBJDIR), $(ASM_C:%.c=%.o))
-COREWAR_OBJS = $(addprefix $(OBJDIR), $(COREWAR_C:%.c=%.o))
+OBJS = $(addprefix $(OBJDIR)/, $(ALL_OBJ))
 
-NAME_ASM = asm
-NAME_COREWAR = corewar
+NAME = asm
 
-INCLUDES = ./includes/asm.h ./includes/corewar.h
+INCLUDES = ./includes/op.h ./includes/asm.h
 
-COMP_LIB = make -C libft/
+COMP_LIB = make -C libft
 
 FLAGS = -Wall -Wextra -Werror
 
-all: lib $(NAME_COREWAR) $(NAME_ASM)
+all: $(NAME)
 
-$(NAME_ASM): lib $(ASM_OBJS) $(OBJS)
-		@gcc $(FLAGS) -o $(NAME_ASM) $(ASM_OBJS) $(OBJS) -L./libft -lft
+$(NAME): ./libft/libft.a $(OBJS)
+	gcc $(FLAGS) $(OBJS) -L./libft -lft -o $@
 
-$(NAME_ASM): lib $(ASM_OBJS) $(OBJS)
-		@gcc $(FLAGS) -o $(NAME_ASM) $(ASM_OBJS) $(OBJS) -L./libft -lft
+$(OBJDIR):
+	/bin/mkdir -p $(OBJDIR)
 
-$(OBJDIR)%.o: $(SRCDIR)%.c $(INCLUDES)
-		@/bin/mkdir -p $(OBJDIR)
-		@gcc $(FLAGS) -I./includes -I./libft/includes -c $< -o $@
+$(OBJDIR)/%.o: $(SRCDIR)/%.c $(INCLUDES) | $(OBJDIR)
+	gcc $(FLAGS) -I./includes -I./libft/includes -c $< -o $@
+
+./libft/libft.a: lib
 
 lib:
-		@$(COMP_LIB)
+	@$(COMP_LIB)
 
 clean:
-	    @/bin/rm -rf $(OBJDIR)
-		@$(COMP_LIB) clean
+	@/bin/rm -rf $(OBJDIR)
+	@$(COMP_LIB) clean
 
 fclean: clean
-		@/bin/rm -rf $(NAME_COREWAR) $(NAME_ASM)
-		@$(COMP_LIB) fclean
+	@/bin/rm -rf $(NAME)
+	@$(COMP_LIB) fclean
 
 re: fclean all
 

@@ -6,7 +6,7 @@
 /*   By: eleonard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/13 15:56:42 by eleonard          #+#    #+#             */
-/*   Updated: 2020/01/29 15:01:08 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/01/31 18:05:03 by eleonard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,10 @@ static void	free_struct(t_s *s)
 
 static void	commands_to_code(char **av, t_s *s)
 {
-	int 	res;
+	int		res;
 	char	*str;
-	int 	len;
-	int 	i;
+	int		len;
+	int		i;
 
 	s->commands_start_ind = (int)ft_strlen(s->byte_code);
 	convert_labels_to_numbers(s);
@@ -71,7 +71,7 @@ int			main(int ac, char **av)
 				commands_to_code(av, s);
 		}
 		else
-			print_func(USAGE, av[1]);//Не подходит имя, что делать
+			print_func(USAGE, av[1]);
 		close(s->fd);
 		free_struct(s);
 	}
