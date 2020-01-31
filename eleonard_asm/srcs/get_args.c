@@ -35,7 +35,7 @@ static char	*edit_str(char *str)
 	while (str[i])
 		if (is_space(str[i++]))
 			k++;
-	size = ft_strlen(str) - k;
+	size = (int)ft_strlen(str) - k;
 	if (!(new_str = ft_strnew(size)))
 		case_of_error(ERR_MALLOC);
 	i = 0;
@@ -53,21 +53,22 @@ static void	put_args(t_s *s, char *str, int op_index)
 {
 	int k;
 	int index;
-	int size;
+	int len;
 
-	size = s->op_tab[op_index].arg_count + 1;
 	k = 0;
 	index = 0;
-	if (!(s->args = (char**)malloc(sizeof(char*) * size)))
-		case_of_error(ERR_MALLOC);
 	while (k < s->op_tab[op_index].arg_count)
 	{
 		if (k + 1 == s->op_tab[op_index].arg_count)
-			s->args[k] = (!k) ? ft_strdup(str) : ft_strdup(str + index);
+		{
+			if (!(s->args[k] = (!k) ? ft_strdup(str) : ft_strdup(str + index)))
+				case_of_error(ERR_MALLOC);
+		}
 		else
 		{
-			size = get_symbol_index(str + index, SEPARATOR_CHAR);
-			s->args[k] = ft_strsub(str, index, size);
+			len = get_symbol_index(str + index, SEPARATOR_CHAR);
+			if (!(s->args[k] = ft_strsub(str, index, len)))
+				case_of_error(ERR_MALLOC);
 			index += (int)ft_strlen(s->args[k]) + 1;
 		}
 		k++;

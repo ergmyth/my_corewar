@@ -116,6 +116,9 @@ static void	init_labels_struct(t_s *s)
 	l->labels_size = 128;
 	if (!(l->labels = (char**)malloc(sizeof(char*) * l->labels_size)))
 		case_of_error(ERR_MALLOC);
+	l->label_index = 0;
+	while (l->label_index < l->labels_size)
+		l->labels[l->label_index++] = 0;
 	l->labels[l->labels_size - 1] = 0;
 	l->label_index = 0;
 	if (!(l->line = (int*)malloc(sizeof(int) * l->labels_size)))

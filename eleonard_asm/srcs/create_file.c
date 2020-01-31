@@ -31,6 +31,7 @@ static void	wr_to_file(int fd, char *str)
 		write(fd, &b, 1);
 		i += 2;
 	}
+	ft_strdel(&code);
 }
 
 void		create_file(char **av, char *str)
