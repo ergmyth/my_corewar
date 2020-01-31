@@ -114,6 +114,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_freep.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_htod.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_isalnum.c">
 			<Option target="eleonard_asm"/>
 		</Unit>

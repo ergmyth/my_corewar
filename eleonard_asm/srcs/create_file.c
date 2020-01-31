@@ -14,19 +14,22 @@
 
 static void	wr_to_file(int fd, char *str)
 {
-	int i;
-	int k;
-	int l;
+	int 			i;
+	char			*code;
+	unsigned char	b;
+	int 			size;
 
+	size = (int)ft_strlen(str);
+	if (!(code = ft_strnew(2)))
+		case_of_error(ERR_MALLOC);
 	i = 0;
-	while (str[i])
+	while (i < size)
 	{
-		if (i && i % 32 == 0)
-			write(fd, "\n", 1);
-		else if (i && i % 4 == 0)
-			write(fd, " ", 1);
-		write(fd, &str[i], 1);
-		i++;
+		code[0] = str[i];
+		code[1] = str[i + 1];
+		b = ft_htod(code);
+		write(fd, &b, 1);
+		i += 2;
 	}
 }
 
@@ -42,6 +45,7 @@ void	create_file(char **av, char *str)
 	temp[len - 1] = 0;
 	name = ft_strjoin(av[1], "cor");
 	fd = open(name, O_CREAT | O_WRONLY, 384);
+	//	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH, 384);
 	if (fd == -1)
 		case_of_error(ERR_FD);
 	wr_to_file(fd, str);

@@ -312,6 +312,33 @@ libft/srcs/ft_freep.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_freep.c.s
 .PHONY : libft/srcs/ft_freep.c.s
 
+libft/srcs/ft_htod.o: libft/srcs/ft_htod.c.o
+
+.PHONY : libft/srcs/ft_htod.o
+
+# target to build an object file
+libft/srcs/ft_htod.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o
+.PHONY : libft/srcs/ft_htod.c.o
+
+libft/srcs/ft_htod.i: libft/srcs/ft_htod.c.i
+
+.PHONY : libft/srcs/ft_htod.i
+
+# target to preprocess a source file
+libft/srcs/ft_htod.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.i
+.PHONY : libft/srcs/ft_htod.c.i
+
+libft/srcs/ft_htod.s: libft/srcs/ft_htod.c.s
+
+.PHONY : libft/srcs/ft_htod.s
+
+# target to generate assembly for a file
+libft/srcs/ft_htod.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.s
+.PHONY : libft/srcs/ft_htod.c.s
+
 libft/srcs/ft_isalnum.o: libft/srcs/ft_isalnum.c.o
 
 .PHONY : libft/srcs/ft_isalnum.o
@@ -2745,6 +2772,9 @@ help:
 	@echo "... libft/srcs/ft_freep.o"
 	@echo "... libft/srcs/ft_freep.i"
 	@echo "... libft/srcs/ft_freep.s"
+	@echo "... libft/srcs/ft_htod.o"
+	@echo "... libft/srcs/ft_htod.i"
+	@echo "... libft/srcs/ft_htod.s"
 	@echo "... libft/srcs/ft_isalnum.o"
 	@echo "... libft/srcs/ft_isalnum.i"
 	@echo "... libft/srcs/ft_isalnum.s"

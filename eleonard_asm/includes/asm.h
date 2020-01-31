@@ -82,7 +82,7 @@ typedef struct	s_s
 	int			has_name;
 	int			has_comment;
 	int			comment_written;
-	char		*byte_code;
+	unsigned char	*byte_code;
 }				t_s;
 
 void			create_file(char **av, char *str);

@@ -27,6 +27,7 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
+char			ft_htod(char *str);
 int				only_numbers(const char *str);
 int 			only_spaces(char *str);
 char			*ft_itob(int n);
