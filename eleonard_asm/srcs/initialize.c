@@ -88,22 +88,26 @@ static void	init_operations(t_s *s)
 
 	labels_size = 10;
 	i = 0;
-	if (!(s->operations = (t_op_elem*)malloc((sizeof(t_op_elem)) * s->size)))
+	if (!(s->operations = (t_op_elem**)malloc((sizeof(t_op_elem*)) * s->size)))
 		case_of_error(ERR_MALLOC);
 	while (i < s->size)
 	{
-		s->operations[i].bytes_before = -1;
+		if (!(s->operations[i] = (t_op_elem*)malloc(sizeof(t_op_elem))))
+			case_of_error(ERR_MALLOC);
+		s->operations[i]->bytes_before = -1;
 		k = 0;
-		s->operations[i].labels = (char**)malloc(sizeof(char*) * labels_size);
+		if (!(s->operations[i]->labels = (char**)malloc(sizeof(char*) * labels_size)))
+			case_of_error(ERR_MALLOC);
 		while (k < labels_size)
-			s->operations[i].labels[k++] = 0;
+			s->operations[i]->labels[k++] = 0;
 		k = 0;
-		s->operations[i].value = (char**)malloc(sizeof(char*) * 4);
+		if (!(s->operations[i]->value = (char**)malloc(sizeof(char*) * 4)))
+			case_of_error(ERR_MALLOC);
 		while (k < 4)
-			s->operations[i].value[k++] = 0;
-		s->operations[i++].name = 0;
+			s->operations[i]->value[k++] = 0;
+		s->operations[i++]->name = 0;
 	}
-	s->operations[0].bytes_before = 0;
+	s->operations[0]->bytes_before = 0;
 }
 
 static void	init_labels_struct(t_s *s)

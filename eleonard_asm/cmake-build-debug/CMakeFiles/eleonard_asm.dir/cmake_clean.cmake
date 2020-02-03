@@ -90,6 +90,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/eleonard_asm.dir/srcs/do_parse.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/encrypt_line.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o"
+  "CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"

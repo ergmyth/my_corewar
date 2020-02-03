@@ -12,7 +12,7 @@
 
 #include "asm.h"
 
-static int	check_label(t_s *s, t_op_elem cur_op)
+static int	check_label(t_s *s, t_op_elem *cur_op)
 {
 	char	*cur_op_label;
 	char	*cur_arr_label;
@@ -20,9 +20,9 @@ static int	check_label(t_s *s, t_op_elem cur_op)
 	int		i;
 
 	k = 0;
-	while (cur_op.labels[k])
+	while (cur_op->labels[k])
 	{
-		cur_op_label = cur_op.labels[k];
+		cur_op_label = cur_op->labels[k];
 		i = 0;
 		while (i < s->labels->label_index)
 		{
@@ -42,7 +42,7 @@ static int	check_label(t_s *s, t_op_elem cur_op)
 int			check_labels(t_s *s)
 {
 	int			i;
-	t_op_elem	cur_op;
+	t_op_elem	*cur_op;
 
 	i = 0;
 	while (i < s->oper_index)

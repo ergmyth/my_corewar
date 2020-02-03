@@ -12,17 +12,17 @@
 
 #include "asm.h"
 
-static int	add_command_index(char *str, int *len, t_op_elem cur_op, t_s *s)
+static int	add_command_index(char *str, int *len, t_op_elem *cur_op, t_s *s)
 {
 	int n;
 
 	str[(*len)++] = '0';
-	n = s->op_tab[cur_op.index].index;
+	n = s->op_tab[cur_op->index].index;
 	str[(*len)++] = (n % 16 < 10) ? (n % 16) + 48 : (n % 16) + 87;
 	return (n);
 }
 
-static void	add_code_types(char *str, int *len, t_op_elem cur_op)
+static void	add_code_types(char *str, int *len, t_op_elem *cur_op)
 {
 	char	*binary;
 	int		i;
@@ -31,19 +31,20 @@ static void	add_code_types(char *str, int *len, t_op_elem cur_op)
 	if (!(binary = ft_strnew(9)))
 		case_of_error(ERR_MALLOC);
 	i = 0;
-	while (cur_op.args[i] > 0)
+	while (i < 3 && cur_op->args[i] > 0)
 	{
-		if (cur_op.args[i] == 1)
+		if (cur_op->args[i] == 1)
 			ft_strcat(binary, "01");
-		else if (cur_op.args[i] == 2)
+		else if (cur_op->args[i] == 2)
 			ft_strcat(binary, "10");
-		else if (cur_op.args[i] == 4)
+		else if (cur_op->args[i] == 4)
 			ft_strcat(binary, "11");
 		i++;
 	}
 	while (i++ <= 3)
 		ft_strcat(binary, "00");
-	hex = btoh(binary);
+	if (!(hex = btoh(binary)))
+		case_of_error(ERR_MALLOC);
 	str[(*len)++] = hex[0];
 	str[(*len)++] = hex[1];
 	ft_strdel(&binary);
@@ -53,7 +54,7 @@ static void	add_code_types(char *str, int *len, t_op_elem cur_op)
 void		convert_operations_to_byte_code(t_s *s)
 {
 	int			i;
-	t_op_elem	cur_op;
+	t_op_elem	*cur_op;
 	int			len;
 	int			res;
 

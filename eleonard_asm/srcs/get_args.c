@@ -82,7 +82,6 @@ static void	del_matrix(char **matrix, int size)
 	i = 0;
 	while (i < size)
 		ft_strdel(&matrix[i++]);
-	ft_strdel(matrix);
 }
 
 void		get_args(int op_index, t_s *s, char *str)
@@ -94,6 +93,9 @@ void		get_args(int op_index, t_s *s, char *str)
 	put_args(s, edited_str, op_index);
 	if (check_args(op_index, s))
 		s->oper_index++;
+	else
+		case_of_error(ERR_LEXICAL);
 	del_matrix(s->args, s->op_tab[op_index].arg_count);
+	ft_memdel((void**)&s->args);
 	ft_strdel(&edited_str);
 }

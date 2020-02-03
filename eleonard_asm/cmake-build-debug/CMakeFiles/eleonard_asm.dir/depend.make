@@ -287,6 +287,11 @@ CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o: ../srcs/fill_by_zeroes.c
 
+CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: ../srcs/free_struct.c
+
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../libft/includes/libft.h

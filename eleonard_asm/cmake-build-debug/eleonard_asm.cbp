@@ -366,6 +366,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/free_struct.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c">
 			<Option target="eleonard_asm"/>
 		</Unit>

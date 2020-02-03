@@ -30,3 +30,7 @@ fcntl.h
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 
+/Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+

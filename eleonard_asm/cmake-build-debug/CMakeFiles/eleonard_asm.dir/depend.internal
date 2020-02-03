@@ -287,6 +287,11 @@ CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o
  ../includes/op.h
  ../libft/includes/libft.h
  /Users/eleonard/my_corewar/eleonard_asm/srcs/fill_by_zeroes.c
+CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o
+ ../includes/asm.h
+ ../includes/op.h
+ ../libft/includes/libft.h
+ /Users/eleonard/my_corewar/eleonard_asm/srcs/free_struct.c
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o
  ../includes/asm.h
  ../includes/op.h

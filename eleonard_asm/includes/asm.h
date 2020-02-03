@@ -71,7 +71,7 @@ typedef struct	s_s
 	char		*name;
 	char		*comment;
 	int			fd;
-	t_op_elem	*operations;
+	t_op_elem	**operations;
 	int 		cec_ind;
 	int 		commands_start_ind;
 	int			size;
@@ -85,9 +85,10 @@ typedef struct	s_s
 	char		*byte_code;
 }				t_s;
 
+void			free_struct(t_s *s);
 void			create_file(char **av, char *str);
 void			convert_operations_to_byte_code(t_s *s);
-void			add_args_code(char *str, int *len, t_op_elem cur_op, t_s *s);
+void			add_args_code(char *str, int *len, t_op_elem *cur_op, t_s *s);
 void			convert_labels_to_numbers(t_s *s);
 int				check_labels(t_s *s);
 int				check_args(int op_index, t_s *s);

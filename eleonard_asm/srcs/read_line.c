@@ -32,9 +32,9 @@ static void	add_label(char *label, t_s *s)
 	int size;
 
 	k = 0;
-	while (s->operations[s->oper_index].labels[k])
+	while (s->operations[s->oper_index]->labels[k])
 		k++;
-	if (!(s->operations[s->oper_index].labels[k] = ft_strdup(label)))
+	if (!(s->operations[s->oper_index]->labels[k] = ft_strdup(label)))
 		case_of_error(ERR_MALLOC);
 	if (s->labels->labels_size == s->labels->label_index + 1)
 	{

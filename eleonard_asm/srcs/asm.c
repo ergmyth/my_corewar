@@ -12,37 +12,6 @@
 
 #include "asm.h"
 
-static void	free_struct(t_s *s)
-{
-	int i;
-	int k;
-
-	ft_strdel(&s->byte_code);
-	i = 0;
-	while (i < s->oper_index)
-	{
-		ft_strdel(&s->operations[i].name);
-		k = 0;
-		while (s->operations[i].labels[k])
-			ft_strdel(&s->operations[i].labels[k++]);
-		ft_strdel(s->operations[i].labels);
-		k = 0;
-		while (s->operations[i].args[k])
-			ft_strdel(&s->operations[i].value[k++]);
-		ft_strdel(s->operations[i++].value);
-	}
-	ft_memdel((void**)&s->operations);
-	i = -1;
-	k = 0;
-	while (++i < s->labels->label_index)
-		while (s->labels[i].labels[k])
-			ft_strdel(&s->labels[i].labels[k++]);
-	ft_memdel((void**)&s->labels->line);
-	ft_memdel((void**)&s->labels->labels);
-	ft_memdel((void**)&s->labels);
-	ft_memdel((void**)&s);
-}
-
 static void	commands_to_code(char **av, t_s *s)
 {
 	int		res;

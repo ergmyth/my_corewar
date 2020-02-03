@@ -1,7 +1,7 @@
 ALL_C = asm.c add_args_code.c add_null_octets.c add_str_to_byte_code.c add_till_cec.c case_of_error.c \
 		check_args.c check_labels.c check_name.c convert_labels_to_numbers.c convert_operations_to_byte_code.c \
 		create_file.c do_parse.c encrypt_line.c fill_by_zeroes.c get_args.c initialize.c print_func.c \
-		read_line.c read_operation.c wrong_end_of_line.c
+		read_line.c read_operation.c wrong_end_of_line.c free_struct.c
 
 SRCDIR = ./srcs
 OBJDIR = ./objs

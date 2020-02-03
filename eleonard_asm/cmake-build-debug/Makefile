@@ -2580,6 +2580,33 @@ srcs/fill_by_zeroes.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.s
 .PHONY : srcs/fill_by_zeroes.c.s
 
+srcs/free_struct.o: srcs/free_struct.c.o
+
+.PHONY : srcs/free_struct.o
+
+# target to build an object file
+srcs/free_struct.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o
+.PHONY : srcs/free_struct.c.o
+
+srcs/free_struct.i: srcs/free_struct.c.i
+
+.PHONY : srcs/free_struct.i
+
+# target to preprocess a source file
+srcs/free_struct.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.i
+.PHONY : srcs/free_struct.c.i
+
+srcs/free_struct.s: srcs/free_struct.c.s
+
+.PHONY : srcs/free_struct.s
+
+# target to generate assembly for a file
+srcs/free_struct.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.s
+.PHONY : srcs/free_struct.c.s
+
 srcs/get_args.o: srcs/get_args.c.o
 
 .PHONY : srcs/get_args.o
@@ -3024,6 +3051,9 @@ help:
 	@echo "... srcs/fill_by_zeroes.o"
 	@echo "... srcs/fill_by_zeroes.i"
 	@echo "... srcs/fill_by_zeroes.s"
+	@echo "... srcs/free_struct.o"
+	@echo "... srcs/free_struct.i"
+	@echo "... srcs/free_struct.s"
 	@echo "... srcs/get_args.o"
 	@echo "... srcs/get_args.i"
 	@echo "... srcs/get_args.s"

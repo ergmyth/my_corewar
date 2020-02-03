@@ -86,25 +86,25 @@ static void	add_arg(char *str, int *len, char *command_code)
 	ft_strdel(&command_code);
 }
 
-void		add_args_code(char *str, int *len, t_op_elem cur_op, t_s *s)
+void		add_args_code(char *str, int *len, t_op_elem *cur_op, t_s *s)
 {
 	int		i;
 	char	*res;
 
 	i = 0;
-	while (i < s->op_tab[cur_op.index].arg_count)
+	while (i < s->op_tab[cur_op->index].arg_count)
 	{
-		if (cur_op.args[i] == 1)
-			res = get_arg(cur_op.value[i], 1);
-		else if (cur_op.args[i] == 2)
+		if (cur_op->args[i] == 1)
+			res = get_arg(cur_op->value[i], 1);
+		else if (cur_op->args[i] == 2)
 		{
-			if (s->op_tab[cur_op.index].dir_size == 1)
-				res = get_arg(cur_op.value[i], 2);
+			if (s->op_tab[cur_op->index].dir_size == 1)
+				res = get_arg(cur_op->value[i], 2);
 			else
-				res = get_arg(cur_op.value[i], 4);
+				res = get_arg(cur_op->value[i], 4);
 		}
-		else if (cur_op.args[i] == 4)
-			res = get_arg(cur_op.value[i], 4);
+		else if (cur_op->args[i] == 4)
+			res = get_arg(cur_op->value[i], 4);
 		add_arg(str, len, res);
 		i++;
 	}

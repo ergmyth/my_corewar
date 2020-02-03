@@ -82,7 +82,7 @@ void		read_operation(char *line, t_s *s)
 	op_name = get_op_name(edited_str, &arg_index);
 	if (check_op_name(op_name, s, &op_index))
 	{
-		s->operations[s->oper_index].name = op_name;
+		s->operations[s->oper_index]->name = op_name;
 		get_args(op_index, s, edited_str + arg_index);
 	}
 	else

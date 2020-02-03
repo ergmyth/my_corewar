@@ -14,8 +14,10 @@
 
 char	*btoh(char *str)
 {
-	int n;
+	int		n;
+	char	*ret;
 
 	n = btoi(str);
-	return (pf_hex(n));
+	ret = pf_hex(n);
+	return (ret);
 }
