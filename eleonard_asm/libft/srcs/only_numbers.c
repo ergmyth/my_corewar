@@ -13,13 +13,20 @@
 int		only_numbers(const char *str)
 {
 	int i;
+	int	k;
 
 	i = 0;
-	while (str && str[i])
+	if (str[0] == '-')
+	    i++;
+	k = 0;
+	while (str[i])
 	{
 		if (str[i] < 48 || str[i] > 57)
 			return (0);
+		k = 1;
 		i++;
 	}
+	if (k == 0)
+		return (0);
 	return (1);
 }

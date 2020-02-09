@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static int	char2int(char chr)
+static unsigned int	char2int(unsigned chr)
 {
 	if (chr >= '0' && chr <= '9')
 		return (chr - '0');
@@ -21,16 +21,16 @@ static int	char2int(char chr)
 	return (-1);
 }
 
-char		ft_htod(char *str)
+unsigned char	ft_htod(char *str)
 {
-	int	res;
-	int i;
-	int step;
+	unsigned int	res;
+	int 			i;
+	int 			step;
 
 	step = 0;
 	i = (int)ft_strlen(str);
 	res = 0;
 	while (--i > -1)
 		res += char2int(str[i]) * ft_recursive_power(16, step++);
-	return ((char)res);
+	return ((unsigned char)res);
 }

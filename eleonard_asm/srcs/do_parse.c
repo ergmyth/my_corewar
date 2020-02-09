@@ -31,14 +31,10 @@ static int	not_a_comment(char *line)
 	int i;
 
 	i = 0;
-	while (line[i])
-	{
-		while (line[i] == ' ' || line[i] == '\t')
-			i++;
-		if (line[i] == '#')
-			return (0);
+	while (line[i] == ' ' || line[i] == '\t')
 		i++;
-	}
+	if (line[i] == COMMENT_CHAR || line[i] == ALT_COMMENT_CHAR)
+		return (0);
 	return (1);
 }
 
@@ -47,6 +43,7 @@ void		do_parse(t_s *s)
 	char	*line;
 	int		gnl_ret;
 
+	line = NULL;
 	while ((gnl_ret = get_next_line(s->fd, &line)))
 	{
 		if (gnl_ret == -1)

@@ -28,7 +28,7 @@ static void	wr_to_file(int fd, char *str)
 		code[0] = str[i];
 		code[1] = str[i + 1];
 		b = ft_htod(code);
-		write(fd, &b, 1);
+	 	write(fd, &b, 1);
 		i += 2;
 	}
 	ft_strdel(&code);

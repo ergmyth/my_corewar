@@ -7,6 +7,8 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o: ../libft/srcs/btoh.c
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o: ../libft/srcs/btoi.c
 
+CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o: ../libft/srcs/div_mod.c
+
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_abs.c.o: ../libft/srcs/ft_abs.c
 
@@ -206,9 +208,6 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.o: ../libft/srcs/is_space.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o: ../libft/srcs/only_numbers.c
 
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o: ../libft/includes/libft.h
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o: ../libft/srcs/only_spaces.c
-
 CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o: ../libft/srcs/pf_hex.c
 
@@ -246,11 +245,6 @@ CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o: ../srcs/check_args.c
-
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../includes/asm.h
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../includes/op.h
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../libft/includes/libft.h
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../srcs/check_labels.c
 
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/check_name.c.o: ../includes/op.h
@@ -297,10 +291,20 @@ CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o: ../srcs/get_args.c
 
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: ../srcs/init_operations.c
+
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o: ../srcs/initialize.c
+
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../srcs/only_spaces.c
 
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/op.h

@@ -60,13 +60,13 @@ void		convert_operations_to_byte_code(t_s *s)
 
 	i = 0;
 	len = (int)ft_strlen(s->byte_code);
-	while (i < s->oper_index)
+	while (i < s->op_i)
 	{
-		cur_op = s->operations[i];
+		cur_op = s->op[i];
 		res = add_command_index(s->byte_code, &len, cur_op, s);
 		if (res != 1 && res != 9 && res != 12 && res != 15)
 			add_code_types(s->byte_code, &len, cur_op);
-		add_args_code(s->byte_code, &len, cur_op, s);
+		add_args_code(&len, cur_op, s);
 		i++;
 	}
 }

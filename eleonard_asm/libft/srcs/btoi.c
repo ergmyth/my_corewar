@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	btoi(char *str)
+unsigned int	btoi(char *str)
 {
 	int	res;
 	int	len;
@@ -27,5 +27,5 @@ int	btoi(char *str)
 			res += ft_recursive_power(2, i);
 		i++;
 	}
-	return (res);
+	return ((unsigned int)res);
 }

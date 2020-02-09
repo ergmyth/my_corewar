@@ -22,7 +22,6 @@
 # define PARSE_COMPLETE_MSG "Writing output program to "
 
 # define ERR_MALLOC 3
-# define ERR_TOO_BIG_CHAMP_SIZE 4
 # define ERR_TOO_BIG_REG_NUMBER 5
 # define ERR_GNL 6
 # define ERR_NAME_OR_COMMENT 7
@@ -32,6 +31,8 @@
 # define ERR_TOO_LONG_COMMENT 11
 # define ERR_WRONG_OP_NAME 12
 # define ERR_FD 13
+# define ERR_NO_SUCH_LABEL 14
+# define ERR_NO_CODE 15
 
 
 typedef struct	s_op
@@ -48,10 +49,11 @@ typedef struct	s_op
 
 typedef struct	s_op_elem
 {
-	char		**labels;
+	char		**l;
 	char		*name;
 	int			args[3];
 	char		**value;
+	int			l_size;
 	int			bytes_before;
 	int			index;
 }				t_op_elem;
@@ -71,26 +73,28 @@ typedef struct	s_s
 	char		*name;
 	char		*comment;
 	int			fd;
-	t_op_elem	**operations;
+	t_op_elem	**op;
 	int 		cec_ind;
 	int 		commands_start_ind;
 	int			size;
 	t_labels	*labels;
 	int			line_index;
-	int			oper_index;
+	int			op_i;
 	t_op		op_tab[17];
 	int			has_name;
 	int			has_comment;
 	int			comment_written;
 	char		*byte_code;
+	int			byte_code_size;
 }				t_s;
 
+int				only_spaces(char *str);
+void            init_operations(t_s *s, int i);
 void			free_struct(t_s *s);
 void			create_file(char **av, char *str);
 void			convert_operations_to_byte_code(t_s *s);
-void			add_args_code(char *str, int *len, t_op_elem *cur_op, t_s *s);
+void			add_args_code(int *len, t_op_elem *cur_op, t_s *s);
 void			convert_labels_to_numbers(t_s *s);
-int				check_labels(t_s *s);
 int				check_args(int op_index, t_s *s);
 void			get_args(int op_index, t_s *s, char *str);
 void			read_operation(char *line, t_s *s);

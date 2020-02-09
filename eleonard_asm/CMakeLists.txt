@@ -95,7 +95,6 @@ add_executable(eleonard_asm
         srcs/read_operation.c
         srcs/get_args.c
         srcs/check_args.c
-        srcs/check_labels.c
         srcs/convert_labels_to_numbers.c
         libft/srcs/only_numbers.c
         srcs/convert_operations_to_byte_code.c
@@ -104,4 +103,4 @@ add_executable(eleonard_asm
         libft/srcs/btoi.c
         libft/srcs/ft_recursive_power.c
         libft/srcs/ft_itob.c
-        libft/srcs/ft_rev_binary.c libft/srcs/only_spaces.c libft/srcs/ft_htod.c srcs/free_struct.c)
+        libft/srcs/ft_rev_binary.c srcs/only_spaces.c libft/srcs/ft_htod.c srcs/free_struct.c srcs/init_operations.c libft/srcs/div_mod.c)

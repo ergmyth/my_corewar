@@ -21,13 +21,14 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, int index)
 	int			res;
 
 	i = 0;
-	while (i < s->oper_index)
+	while (i <= s->op_i)
 	{
-		dir_op = s->operations[i++];
+		dir_op = s->op[i++];
 		k = 0;
-		while (dir_op->labels[k])
+		while (dir_op->l[k])
 		{
-			dir_label = dir_op->labels[k++];
+			if (!(dir_label = dir_op->l[k++]))
+				break ;
 			if (ft_strequ(dir_label, cur_op->value[index]))
 			{
 				res = (cur_op->bytes_before - dir_op->bytes_before) * -1;
@@ -39,6 +40,7 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, int index)
 			}
 		}
 	}
+	case_of_error(ERR_NO_SUCH_LABEL);
 }
 
 void		convert_labels_to_numbers(t_s *s)
@@ -48,9 +50,9 @@ void		convert_labels_to_numbers(t_s *s)
 	int			k;
 
 	i = 0;
-	while (i < s->oper_index)
+	while (i <= s->op_i)
 	{
-		cur_op = s->operations[i];
+		cur_op = s->op[i];
 		k = 0;
 		while (cur_op->value[k])
 		{

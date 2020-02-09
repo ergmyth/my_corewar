@@ -44,7 +44,7 @@ static char	*get_op_name(char *str, int *arg_index)
 		case_of_error(ERR_MALLOC);
 	while (i < 5)
 	{
-		if (is_space(str[i]) || str[i] == '%')
+		if (is_space(str[i]) || str[i] == '%' || str[i] == '-')
 			break ;
 		name[i] = str[i];
 		i++;
@@ -82,7 +82,7 @@ void		read_operation(char *line, t_s *s)
 	op_name = get_op_name(edited_str, &arg_index);
 	if (check_op_name(op_name, s, &op_index))
 	{
-		s->operations[s->oper_index]->name = op_name;
+		s->op[s->op_i]->name = op_name;
 		get_args(op_index, s, edited_str + arg_index);
 	}
 	else

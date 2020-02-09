@@ -12,6 +12,14 @@
 
 #include "asm.h"
 
+static void	check_for_errors(t_s *s, int res)
+{
+	if (!s->has_name || !s->has_comment)
+		case_of_error(ERR_NAME_OR_COMMENT);
+	else if (res == 0)
+		case_of_error(ERR_NO_CODE);
+}
+
 static void	commands_to_code(char **av, t_s *s)
 {
 	int		res;
@@ -23,8 +31,7 @@ static void	commands_to_code(char **av, t_s *s)
 	convert_labels_to_numbers(s);
 	convert_operations_to_byte_code(s);
 	res = ((int)ft_strlen(s->byte_code) - s->commands_start_ind) / 2;
-	if (res > CHAMP_MAX_SIZE)
-		case_of_error(ERR_TOO_BIG_CHAMP_SIZE);
+	check_for_errors(s, res);
 	if (!(str = pf_hex(res)))
 		case_of_error(ERR_MALLOC);
 	len = (int)ft_strlen(str);
@@ -51,8 +58,7 @@ int			main(int ac, char **av)
 		else if (check_name(av[1]))
 		{
 			do_parse(s);
-			if (check_labels(s))
-				commands_to_code(av, s);
+			commands_to_code(av, s);
 		}
 		else
 			print_func(USAGE, av[1]);

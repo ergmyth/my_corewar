@@ -72,21 +72,27 @@ static char	*get_arg(char *value, int size)
 	return (str);
 }
 
-static void	add_arg(char *str, int *len, char *command_code)
+static void	add_arg(int *len, char *command_code, t_s *s)
 {
 	int i;
 
 	i = 0;
 	while (command_code && command_code[i])
 	{
-		str[*len] = command_code[i];
+		if (*len >= s->byte_code_size)
+		{
+			s->byte_code_size += 1000;
+			s->byte_code = (char*)realloc(s->byte_code, s->byte_code_size);
+			s->byte_code[s->byte_code_size - 1] = 0;
+		}
+		s->byte_code[*len] = command_code[i];
 		(*len)++;
 		i++;
 	}
 	ft_strdel(&command_code);
 }
 
-void		add_args_code(char *str, int *len, t_op_elem *cur_op, t_s *s)
+void		add_args_code(int *len, t_op_elem *cur_op, t_s *s)
 {
 	int		i;
 	char	*res;
@@ -104,8 +110,8 @@ void		add_args_code(char *str, int *len, t_op_elem *cur_op, t_s *s)
 				res = get_arg(cur_op->value[i], 4);
 		}
 		else if (cur_op->args[i] == 4)
-			res = get_arg(cur_op->value[i], 4);
-		add_arg(str, len, res);
+			res = get_arg(cur_op->value[i], 2);
+		add_arg(len, res, s);
 		i++;
 	}
 }

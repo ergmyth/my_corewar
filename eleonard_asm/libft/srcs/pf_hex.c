@@ -12,11 +12,11 @@
 
 #include "libft.h"
 
-char	*pf_hex(int n)
+char	*pf_hex(unsigned int n)
 {
-	int		len;
-	char	*arr;
-	int		nb;
+	int				len;
+	char			*arr;
+	unsigned int	nb;
 
 	len = 1;
 	nb = n;
@@ -25,8 +25,12 @@ char	*pf_hex(int n)
 	if (!(arr = (char*)malloc(len + 1)))
 		return (NULL);
 	arr[len] = '\0';
-	arr[--len] = (n % 16 < 10) ? (n % 16) + 48 : (n % 16) + 87;
+	nb = n % 16;
+	arr[--len] = (nb < 10) ? nb + 48 : nb + 87;
 	while (n /= 16)
-		arr[--len] = (n % 16 < 10) ? (n % 16) + 48 : (n % 16) + 87;
+	{
+		nb = n % 16;
+		arr[--len] = (nb < 10) ? nb + 48 : nb + 87;
+	}
 	return (arr);
 }

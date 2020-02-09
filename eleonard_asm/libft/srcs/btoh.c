@@ -14,8 +14,8 @@
 
 char	*btoh(char *str)
 {
-	int		n;
-	char	*ret;
+	unsigned int	n;
+	char			*ret;
 
 	n = btoi(str);
 	ret = pf_hex(n);

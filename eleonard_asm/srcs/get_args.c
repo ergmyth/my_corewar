@@ -67,12 +67,15 @@ static void	put_args(t_s *s, char *str, int op_index)
 		else
 		{
 			len = get_symbol_index(str + index, SEPARATOR_CHAR);
+			if (len == -1)
+			    case_of_error(ERR_LEXICAL);
 			if (!(s->args[k] = ft_strsub(str, index, len)))
 				case_of_error(ERR_MALLOC);
 			index += (int)ft_strlen(s->args[k]) + 1;
 		}
 		k++;
 	}
+
 }
 
 static void	del_matrix(char **matrix, int size)
@@ -92,7 +95,16 @@ void		get_args(int op_index, t_s *s, char *str)
 	edited_str = edit_str(str);
 	put_args(s, edited_str, op_index);
 	if (check_args(op_index, s))
-		s->oper_index++;
+    {
+	    s->op_i++;
+        if (s->op_i == s->size - 1)
+        {
+            s->size *= 2;
+            if (!(s->op = (t_op_elem**)realloc(s->op, sizeof(t_op_elem*) * s->size)))
+                case_of_error(ERR_MALLOC);
+            init_operations(s, s->op_i + 1);
+        }
+    }
 	else
 		case_of_error(ERR_LEXICAL);
 	del_matrix(s->args, s->op_tab[op_index].arg_count);

@@ -1162,22 +1162,9 @@ CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/check_args.c -o CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s
 
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: CMakeFiles/eleonard_asm.dir/flags.make
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o: ../srcs/check_labels.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/check_labels.c
-
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/check_labels.c > CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.i
-
-CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/check_labels.c -o CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.s
-
 CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o: ../srcs/convert_labels_to_numbers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/convert_labels_to_numbers.c
 
 CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.i: cmake_force
@@ -1190,7 +1177,7 @@ CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o: ../libft/srcs/only_numbers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_numbers.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.i: cmake_force
@@ -1203,7 +1190,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o: ../srcs/convert_operations_to_byte_code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/convert_operations_to_byte_code.c
 
 CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.i: cmake_force
@@ -1216,7 +1203,7 @@ CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.s: cmake_forc
 
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../srcs/add_args_code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c
 
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.i: cmake_force
@@ -1229,7 +1216,7 @@ CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o: ../libft/srcs/btoh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/btoh.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.i: cmake_force
@@ -1242,7 +1229,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/btoh.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o: ../libft/srcs/btoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/btoi.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.i: cmake_force
@@ -1255,7 +1242,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o: ../libft/srcs/ft_recursive_power.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_recursive_power.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.i: cmake_force
@@ -1268,7 +1255,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o: ../libft/srcs/ft_itob.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_itob.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.i: cmake_force
@@ -1281,7 +1268,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o: ../libft/srcs/ft_rev_binary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_rev_binary.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.i: cmake_force
@@ -1292,22 +1279,22 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_rev_binary.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.s
 
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o: CMakeFiles/eleonard_asm.dir/flags.make
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o: ../libft/srcs/only_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_spaces.c
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../srcs/only_spaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/only_spaces.c
 
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_spaces.c > CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.i
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/only_spaces.c > CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.i
 
-CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/only_spaces.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.s
+CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/only_spaces.c -o CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.s
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o: ../libft/srcs/ft_htod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/ft_htod.c
 
 CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.i: cmake_force
@@ -1320,7 +1307,7 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.s: cmake_force
 
 CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o: ../srcs/free_struct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/free_struct.c
 
 CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.i: cmake_force
@@ -1330,6 +1317,32 @@ CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.i: cmake_force
 CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/free_struct.c -o CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.s
+
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o: ../srcs/init_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c
+
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c > CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.i
+
+CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c -o CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.s
+
+CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o: ../libft/srcs/div_mod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/div_mod.c
+
+CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/div_mod.c > CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.i
+
+CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/libft/srcs/div_mod.c -o CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.s
 
 # Object files for target eleonard_asm
 eleonard_asm_OBJECTS = \
@@ -1418,7 +1431,6 @@ eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o" \
-"CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o" \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o" \
@@ -1428,9 +1440,11 @@ eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o" \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o" \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o" \
-"CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o" \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o" \
-"CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o"
+"CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o" \
+"CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o"
 
 # External object files for target eleonard_asm
 eleonard_asm_EXTERNAL_OBJECTS =
@@ -1520,7 +1534,6 @@ eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/get_args.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/check_args.c.o
-eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/convert_labels_to_numbers.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/convert_operations_to_byte_code.c.o
@@ -1530,12 +1543,14 @@ eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/ft_recursive_power.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/ft_itob.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/ft_rev_binary.c.o
-eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/ft_htod.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/free_struct.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/build.make
 eleonard_asm: CMakeFiles/eleonard_asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Linking C executable eleonard_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Linking C executable eleonard_asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eleonard_asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

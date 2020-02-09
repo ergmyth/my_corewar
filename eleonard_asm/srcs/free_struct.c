@@ -9,22 +9,22 @@ void	free_struct(t_s *s)
 	i = 0;
 	while (i < s->size)
 	{
-		ft_strdel(&s->operations[i]->name);
+		ft_strdel(&s->op[i]->name);
 		k = 0;
-		while (s->operations[i]->labels[k])
-			ft_strdel(&s->operations[i]->labels[k++]);
-		ft_memdel((void**)&s->operations[i]->labels);
+		while (s->op[i]->l[k])
+			ft_strdel(&s->op[i]->l[k++]);
+		ft_memdel((void**)&s->op[i]->l);
 		k = 0;
-		while (s->operations[i]->value[k])
+		while (s->op[i]->value[k])
 		{
-			ft_strdel(&s->operations[i]->value[k]);
+			ft_strdel(&s->op[i]->value[k]);
 			k++;
 		}
-		ft_strdel((char**)&s->operations[i]->value);
-		ft_memdel((void**)&s->operations[i]);
+		ft_strdel((char**)&s->op[i]->value);
+		ft_memdel((void**)&s->op[i]);
 		i++;
 	}
-	ft_memdel((void**)&s->operations);
+	ft_memdel((void**)&s->op);
 	k = 0;
 	while (k < s->labels->label_index)
 		ft_strdel(&s->labels->labels[k++]);

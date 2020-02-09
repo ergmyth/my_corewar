@@ -35,7 +35,7 @@ SRC =           ft_atoi.c 			ft_bzero.c 			ft_strchr.c \
 				pf_hex.c            btoh.c 				ft_recursive_power.c \
 				btoi.c              ft_itob.c           only_numbers.c \
                 ft_htod.c			ft_rev_binary.c		is_space.c \
-				only_spaces.c
+                div_mod.c
 
 NAME	= libft.a
 

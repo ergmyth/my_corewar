@@ -177,6 +177,33 @@ libft/srcs/btoi.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/btoi.c.s
 .PHONY : libft/srcs/btoi.c.s
 
+libft/srcs/div_mod.o: libft/srcs/div_mod.c.o
+
+.PHONY : libft/srcs/div_mod.o
+
+# target to build an object file
+libft/srcs/div_mod.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.o
+.PHONY : libft/srcs/div_mod.c.o
+
+libft/srcs/div_mod.i: libft/srcs/div_mod.c.i
+
+.PHONY : libft/srcs/div_mod.i
+
+# target to preprocess a source file
+libft/srcs/div_mod.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.i
+.PHONY : libft/srcs/div_mod.c.i
+
+libft/srcs/div_mod.s: libft/srcs/div_mod.c.s
+
+.PHONY : libft/srcs/div_mod.s
+
+# target to generate assembly for a file
+libft/srcs/div_mod.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/div_mod.c.s
+.PHONY : libft/srcs/div_mod.c.s
+
 libft/srcs/ft_abs.o: libft/srcs/ft_abs.c.o
 
 .PHONY : libft/srcs/ft_abs.o
@@ -2121,33 +2148,6 @@ libft/srcs/only_numbers.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.s
 .PHONY : libft/srcs/only_numbers.c.s
 
-libft/srcs/only_spaces.o: libft/srcs/only_spaces.c.o
-
-.PHONY : libft/srcs/only_spaces.o
-
-# target to build an object file
-libft/srcs/only_spaces.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.o
-.PHONY : libft/srcs/only_spaces.c.o
-
-libft/srcs/only_spaces.i: libft/srcs/only_spaces.c.i
-
-.PHONY : libft/srcs/only_spaces.i
-
-# target to preprocess a source file
-libft/srcs/only_spaces.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.i
-.PHONY : libft/srcs/only_spaces.c.i
-
-libft/srcs/only_spaces.s: libft/srcs/only_spaces.c.s
-
-.PHONY : libft/srcs/only_spaces.s
-
-# target to generate assembly for a file
-libft/srcs/only_spaces.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/only_spaces.c.s
-.PHONY : libft/srcs/only_spaces.c.s
-
 libft/srcs/pf_hex.o: libft/srcs/pf_hex.c.o
 
 .PHONY : libft/srcs/pf_hex.o
@@ -2363,33 +2363,6 @@ srcs/check_args.s: srcs/check_args.c.s
 srcs/check_args.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_args.c.s
 .PHONY : srcs/check_args.c.s
-
-srcs/check_labels.o: srcs/check_labels.c.o
-
-.PHONY : srcs/check_labels.o
-
-# target to build an object file
-srcs/check_labels.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.o
-.PHONY : srcs/check_labels.c.o
-
-srcs/check_labels.i: srcs/check_labels.c.i
-
-.PHONY : srcs/check_labels.i
-
-# target to preprocess a source file
-srcs/check_labels.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.i
-.PHONY : srcs/check_labels.c.i
-
-srcs/check_labels.s: srcs/check_labels.c.s
-
-.PHONY : srcs/check_labels.s
-
-# target to generate assembly for a file
-srcs/check_labels.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/check_labels.c.s
-.PHONY : srcs/check_labels.c.s
 
 srcs/check_name.o: srcs/check_name.c.o
 
@@ -2634,6 +2607,33 @@ srcs/get_args.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/get_args.c.s
 .PHONY : srcs/get_args.c.s
 
+srcs/init_operations.o: srcs/init_operations.c.o
+
+.PHONY : srcs/init_operations.o
+
+# target to build an object file
+srcs/init_operations.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o
+.PHONY : srcs/init_operations.c.o
+
+srcs/init_operations.i: srcs/init_operations.c.i
+
+.PHONY : srcs/init_operations.i
+
+# target to preprocess a source file
+srcs/init_operations.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.i
+.PHONY : srcs/init_operations.c.i
+
+srcs/init_operations.s: srcs/init_operations.c.s
+
+.PHONY : srcs/init_operations.s
+
+# target to generate assembly for a file
+srcs/init_operations.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.s
+.PHONY : srcs/init_operations.c.s
+
 srcs/initialize.o: srcs/initialize.c.o
 
 .PHONY : srcs/initialize.o
@@ -2660,6 +2660,33 @@ srcs/initialize.s: srcs/initialize.c.s
 srcs/initialize.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/initialize.c.s
 .PHONY : srcs/initialize.c.s
+
+srcs/only_spaces.o: srcs/only_spaces.c.o
+
+.PHONY : srcs/only_spaces.o
+
+# target to build an object file
+srcs/only_spaces.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o
+.PHONY : srcs/only_spaces.c.o
+
+srcs/only_spaces.i: srcs/only_spaces.c.i
+
+.PHONY : srcs/only_spaces.i
+
+# target to preprocess a source file
+srcs/only_spaces.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.i
+.PHONY : srcs/only_spaces.c.i
+
+srcs/only_spaces.s: srcs/only_spaces.c.s
+
+.PHONY : srcs/only_spaces.s
+
+# target to generate assembly for a file
+srcs/only_spaces.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.s
+.PHONY : srcs/only_spaces.c.s
 
 srcs/print_func.o: srcs/print_func.c.o
 
@@ -2784,6 +2811,9 @@ help:
 	@echo "... libft/srcs/btoi.o"
 	@echo "... libft/srcs/btoi.i"
 	@echo "... libft/srcs/btoi.s"
+	@echo "... libft/srcs/div_mod.o"
+	@echo "... libft/srcs/div_mod.i"
+	@echo "... libft/srcs/div_mod.s"
 	@echo "... libft/srcs/ft_abs.o"
 	@echo "... libft/srcs/ft_abs.i"
 	@echo "... libft/srcs/ft_abs.s"
@@ -3000,9 +3030,6 @@ help:
 	@echo "... libft/srcs/only_numbers.o"
 	@echo "... libft/srcs/only_numbers.i"
 	@echo "... libft/srcs/only_numbers.s"
-	@echo "... libft/srcs/only_spaces.o"
-	@echo "... libft/srcs/only_spaces.i"
-	@echo "... libft/srcs/only_spaces.s"
 	@echo "... libft/srcs/pf_hex.o"
 	@echo "... libft/srcs/pf_hex.i"
 	@echo "... libft/srcs/pf_hex.s"
@@ -3027,9 +3054,6 @@ help:
 	@echo "... srcs/check_args.o"
 	@echo "... srcs/check_args.i"
 	@echo "... srcs/check_args.s"
-	@echo "... srcs/check_labels.o"
-	@echo "... srcs/check_labels.i"
-	@echo "... srcs/check_labels.s"
 	@echo "... srcs/check_name.o"
 	@echo "... srcs/check_name.i"
 	@echo "... srcs/check_name.s"
@@ -3057,9 +3081,15 @@ help:
 	@echo "... srcs/get_args.o"
 	@echo "... srcs/get_args.i"
 	@echo "... srcs/get_args.s"
+	@echo "... srcs/init_operations.o"
+	@echo "... srcs/init_operations.i"
+	@echo "... srcs/init_operations.s"
 	@echo "... srcs/initialize.o"
 	@echo "... srcs/initialize.i"
 	@echo "... srcs/initialize.s"
+	@echo "... srcs/only_spaces.o"
+	@echo "... srcs/only_spaces.i"
+	@echo "... srcs/only_spaces.s"
 	@echo "... srcs/print_func.o"
 	@echo "... srcs/print_func.i"
 	@echo "... srcs/print_func.s"

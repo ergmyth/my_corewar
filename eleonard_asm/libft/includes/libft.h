@@ -27,14 +27,14 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
-char			ft_htod(char *str);
+void			ft_div_mod(int a, int b, int *div, int *mod);
+unsigned char	ft_htod(char *str);
 int				only_numbers(const char *str);
-int				only_spaces(char *str);
 char			*ft_itob(int n);
 void			ft_rev_binary(char *str);
-int				btoi(char *str);
+unsigned int	btoi(char *str);
 char			*btoh(char *str);
-char			*pf_hex(int n);
+char			*pf_hex(unsigned int n);
 int				ft_recursive_power(int n, int pow);
 int				is_space(char c);
 int				get_symbol_index(char *str, char c);

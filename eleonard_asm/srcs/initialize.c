@@ -20,7 +20,8 @@ static void	start_byte_code(char *code)
 	int		k;
 
 	i = 0;
-	str = pf_hex(COREWAR_EXEC_MAGIC);
+	if (!(str = pf_hex(COREWAR_EXEC_MAGIC)))
+		case_of_error(ERR_MALLOC);
 	magic_len = (int)ft_strlen(str);
 	while (magic_len + i < 8)
 	{
@@ -80,36 +81,6 @@ static void	create_op_tab(t_s *s)
 	t_op_add_to_struct(s, op_tab);
 }
 
-static void	init_operations(t_s *s)
-{
-	int	i;
-	int	k;
-	int	labels_size;
-
-	labels_size = 10;
-	i = 0;
-	if (!(s->operations = (t_op_elem**)malloc((sizeof(t_op_elem*)) * s->size)))
-		case_of_error(ERR_MALLOC);
-	while (i < s->size)
-	{
-		if (!(s->operations[i] = (t_op_elem*)malloc(sizeof(t_op_elem))))
-			case_of_error(ERR_MALLOC);
-		s->operations[i]->bytes_before = -1;
-		k = 0;
-		if (!(s->operations[i]->labels = (char**)malloc(sizeof(char*) * labels_size)))
-			case_of_error(ERR_MALLOC);
-		while (k < labels_size)
-			s->operations[i]->labels[k++] = 0;
-		k = 0;
-		if (!(s->operations[i]->value = (char**)malloc(sizeof(char*) * 4)))
-			case_of_error(ERR_MALLOC);
-		while (k < 4)
-			s->operations[i]->value[k++] = 0;
-		s->operations[i++]->name = 0;
-	}
-	s->operations[0]->bytes_before = 0;
-}
-
 static void	init_labels_struct(t_s *s)
 {
 	t_labels	*l;
@@ -136,19 +107,23 @@ t_s			*initialize(void)
 	if (!(s = (t_s*)malloc(sizeof(t_s))))
 		case_of_error(ERR_MALLOC);
 	s->has_name = 0;
+	s->byte_code_size = (COMMENT_LENGTH + PROG_NAME_LENGTH + 16 + CHAMP_MAX_SIZE) * 2;
 	s->comment_written = 0;
 	s->cec_ind = 0;
 	s->commands_start_ind = 0;
 	init_labels_struct(s);
 	s->line_index = 0;
 	s->has_comment = 0;
-	s->size = 128;
-	s->oper_index = 0;
+	s->size = 256;
+	s->op_i = 0;
 	create_op_tab(s);
-	if (!(s->byte_code = ft_strnew((COMMENT_LENGTH + PROG_NAME_LENGTH
-			+ 16 + CHAMP_MAX_SIZE) * 2 + 1)))
+	if (!(s->byte_code = ft_strnew(s->byte_code_size)))
 		case_of_error(ERR_MALLOC);
 	start_byte_code(s->byte_code);
-	init_operations(s);
+	if (!(s->op = (t_op_elem**)malloc(sizeof(t_op_elem*) * s->size)))
+	    case_of_error(ERR_MALLOC);
+	init_operations(s, 0);
+	s->name = 0;
+	s->comment = 0;
 	return (s);
 }
