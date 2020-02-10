@@ -100,6 +100,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/only_spaces.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o"
+  "/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/op.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_line.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
   "/Users/eleonard/my_corewar/eleonard_asm/srcs/read_operation.c" "/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o"

@@ -19,7 +19,7 @@ static int	add_command_index(int *len, t_op_elem *cur_op, t_s *s)
 
 	if (!(temp = ft_strnew(3)))
 		case_of_error(ERR_MALLOC, 0);
-	n = s->op_tab[cur_op->index].index;
+	n = g_op_tab[cur_op->index].index;
 	if (n % 16)
 	{
 		temp[0] = '0';

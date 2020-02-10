@@ -60,7 +60,7 @@ static int	check_op_name(char *name, t_s *s, int *op_index)
 	i = 0;
 	while (i < 16)
 	{
-		if (!ft_strcmp(name, s->op_tab[i].name))
+		if (!ft_strcmp(name, g_op_tab[i].name))
 		{
 			*op_index = i;
 			return (1);

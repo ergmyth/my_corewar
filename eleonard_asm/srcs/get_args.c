@@ -57,9 +57,9 @@ static void	put_args(t_s *s, char *str, int op_index)
 
 	k = 0;
 	index = 0;
-	while (k < s->op_tab[op_index].arg_count)
+	while (k < g_op_tab[op_index].arg_count)
 	{
-		if (k + 1 == s->op_tab[op_index].arg_count)
+		if (k + 1 == g_op_tab[op_index].arg_count)
 		{
 			if (!(s->args[k] = (!k) ? ft_strdup(str) : ft_strdup(str + index)))
 				case_of_error(ERR_MALLOC, 0);
@@ -91,7 +91,7 @@ void		get_args(int op_index, t_s *s, char *str)
 {
 	char	*edited_str;
 
-	init_cur_args(s, s->op_tab[op_index].arg_count);
+	init_cur_args(s, g_op_tab[op_index].arg_count);
 	edited_str = edit_str(str);
 	put_args(s, edited_str, op_index);
 	if (check_args(op_index, s))
@@ -107,7 +107,7 @@ void		get_args(int op_index, t_s *s, char *str)
     }
 	else
 		case_of_error(ERR_LEXICAL, s->line_index + 1);
-	del_matrix(s->args, s->op_tab[op_index].arg_count);
+	del_matrix(s->args, g_op_tab[op_index].arg_count);
 	ft_memdel((void**)&s->args);
 	ft_strdel(&edited_str);
 }

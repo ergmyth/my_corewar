@@ -26,7 +26,15 @@ string.h
 fcntl.h
 -
 
-/Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c
+/Users/eleonard/my_corewar/eleonard_asm/srcs/get_args.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/initialize.c
+asm.h
+/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
+
+/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 

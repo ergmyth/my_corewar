@@ -311,6 +311,11 @@ CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o: ../srcs/only_spaces.c
 
+CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/op.c.o: ../srcs/op.c
+
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o: ../libft/includes/libft.h

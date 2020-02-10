@@ -95,6 +95,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/eleonard_asm.dir/srcs/init_operations.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/initialize.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.o"
+  "CMakeFiles/eleonard_asm.dir/srcs/op.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/read_operation.c.o"

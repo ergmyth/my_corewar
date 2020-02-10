@@ -103,4 +103,4 @@ add_executable(eleonard_asm
         libft/srcs/btoi.c
         libft/srcs/ft_recursive_power.c
         libft/srcs/ft_itob.c
-        libft/srcs/ft_rev_binary.c srcs/only_spaces.c libft/srcs/ft_htod.c srcs/free_struct.c srcs/init_operations.c libft/srcs/div_mod.c srcs/add_arg.c)
+        libft/srcs/ft_rev_binary.c srcs/only_spaces.c libft/srcs/ft_htod.c srcs/free_struct.c srcs/init_operations.c libft/srcs/div_mod.c srcs/add_arg.c srcs/op.c)

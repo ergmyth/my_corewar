@@ -34,7 +34,6 @@
 # define ERR_NO_SUCH_LABEL ", no such label. Error at line "
 # define ERR_NO_CODE "Champion code error"
 
-
 typedef struct	s_op
 {
 	char		*name;
@@ -46,6 +45,8 @@ typedef struct	s_op
 	int			arg_type;
 	int			dir_size;
 }				t_op;
+
+extern t_op 	g_op_tab[17];
 
 typedef struct	s_op_elem
 {

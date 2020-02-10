@@ -80,13 +80,13 @@ void		add_args_code(int *len, t_op_elem *cur_op, t_s *s)
 	char	*res;
 
 	i = 0;
-	while (i < s->op_tab[cur_op->index].arg_count)
+	while (i < g_op_tab[cur_op->index].arg_count)
 	{
 		if (cur_op->args[i] == 1)
 			res = get_arg(cur_op->value[i], 1);
 		else if (cur_op->args[i] == 2)
 		{
-			if (s->op_tab[cur_op->index].dir_size == 1)
+			if (g_op_tab[cur_op->index].dir_size == 1)
 				res = get_arg(cur_op->value[i], 2);
 			else
 				res = get_arg(cur_op->value[i], 4);

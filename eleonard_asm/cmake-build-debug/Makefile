@@ -2715,6 +2715,33 @@ srcs/only_spaces.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/only_spaces.c.s
 .PHONY : srcs/only_spaces.c.s
 
+srcs/op.o: srcs/op.c.o
+
+.PHONY : srcs/op.o
+
+# target to build an object file
+srcs/op.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.o
+.PHONY : srcs/op.c.o
+
+srcs/op.i: srcs/op.c.i
+
+.PHONY : srcs/op.i
+
+# target to preprocess a source file
+srcs/op.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.i
+.PHONY : srcs/op.c.i
+
+srcs/op.s: srcs/op.c.s
+
+.PHONY : srcs/op.s
+
+# target to generate assembly for a file
+srcs/op.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/op.c.s
+.PHONY : srcs/op.c.s
+
 srcs/print_func.o: srcs/print_func.c.o
 
 .PHONY : srcs/print_func.o
@@ -3120,6 +3147,9 @@ help:
 	@echo "... srcs/only_spaces.o"
 	@echo "... srcs/only_spaces.i"
 	@echo "... srcs/only_spaces.s"
+	@echo "... srcs/op.o"
+	@echo "... srcs/op.i"
+	@echo "... srcs/op.s"
 	@echo "... srcs/print_func.o"
 	@echo "... srcs/print_func.i"
 	@echo "... srcs/print_func.s"

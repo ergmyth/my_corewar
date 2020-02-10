@@ -64,7 +64,7 @@ static int	check_dir(const char *str, t_s *s, int op_index, int index)
 	{
 		if (!(check_ind(str + 1, s, index)))
             return (0);
-		if (s->op_tab[op_index].dir_size == 0)
+		if (g_op_tab[op_index].dir_size == 0)
 			s->byte_value += 2;
 		s->op[s->op_i]->args[index] = 2;
 		return (1);
@@ -76,7 +76,7 @@ static void nullify_empty_args(t_s *s, t_op_elem *cur)
 {
     int i;
 
-    i = s->op_tab[cur->index].arg_count;
+    i = g_op_tab[cur->index].arg_count;
     while (i < 3)
         cur->args[i++] = 0;
 }
@@ -91,9 +91,9 @@ int			check_args(int op_index, t_s *s)
 	total_size = 0;
 	i = 0;
 	s->op[s->op_i]->index = op_index;
-	while (i < s->op_tab[op_index].arg_count)
+	while (i < g_op_tab[op_index].arg_count)
 	{
-		cur = s->op_tab[op_index].arr[i];
+		cur = g_op_tab[op_index].arr[i];
 		if ((cur % 2 == 1 && check_reg(s->args[i], s, i)) ||
 			(((cur >= 2 && cur < 4) || cur >= 6) &&
 				check_dir(s->args[i], s, op_index, i)) ||
@@ -103,7 +103,7 @@ int			check_args(int op_index, t_s *s)
 			return (0);
 		i++;
 	}
-	total_size += (s->op_tab[op_index].arg_type == 1) ? 2 : 1;
+	total_size += (g_op_tab[op_index].arg_type == 1) ? 2 : 1;
 	res = total_size + s->op[s->op_i]->bytes_before;
 	s->op[s->op_i + 1]->bytes_before = res;
 	nullify_empty_args(s, s->op[s->op_i]);

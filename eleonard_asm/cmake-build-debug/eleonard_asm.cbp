@@ -381,6 +381,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/only_spaces.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/op.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/print_func.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
