@@ -26,7 +26,7 @@ string.h
 fcntl.h
 -
 
-/Users/eleonard/my_corewar/eleonard_asm/srcs/convert_operations_to_byte_code.c
+/Users/eleonard/my_corewar/eleonard_asm/srcs/init_operations.c
 asm.h
 /Users/eleonard/my_corewar/eleonard_asm/srcs/asm.h
 

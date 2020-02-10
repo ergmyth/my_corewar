@@ -7,17 +7,17 @@ void    init_operations(t_s *s, int i)
     while (i < s->size)
     {
         if (!(s->op[i] = (t_op_elem*)malloc(sizeof(t_op_elem))))
-            case_of_error(ERR_MALLOC);
+            case_of_error(ERR_MALLOC, 0);
         s->op[i]->bytes_before = -1;
 		s->op[i]->l_size = 10;
 		k = 0;
         if (!(s->op[i]->l = (char**)malloc(sizeof(char*) * s->op[i]->l_size)))
-            case_of_error(ERR_MALLOC);
+            case_of_error(ERR_MALLOC, 0);
         while (k < s->op[i]->l_size)
             s->op[i]->l[k++] = 0;
         k = 0;
         if (!(s->op[i]->value = (char**)malloc(sizeof(char*) * 4)))
-            case_of_error(ERR_MALLOC);
+            case_of_error(ERR_MALLOC, 0);
         while (k < 4)
             s->op[i]->value[k++] = 0;
 		s->op[i++]->name = 0;

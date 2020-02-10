@@ -30,7 +30,7 @@ static char	*edit_str(char *str)
 			i++;
 	new_str_len = i - start_index;
 	if (!(new_str = ft_strsub(str, start_index, new_str_len)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	return (new_str);
 }
 
@@ -41,7 +41,7 @@ static char	*get_op_name(char *str, int *arg_index)
 
 	i = 0;
 	if (!(name = ft_strnew(6)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	while (i < 5)
 	{
 		if (is_space(str[i]) || str[i] == '%' || str[i] == '-')
@@ -86,6 +86,6 @@ void		read_operation(char *line, t_s *s)
 		get_args(op_index, s, edited_str + arg_index);
 	}
 	else
-		case_of_error(ERR_WRONG_OP_NAME);
+		case_of_error(ERR_WRONG_OP_NAME, s->line_index + 1);
 	ft_strdel(&edited_str);
 }

@@ -21,7 +21,7 @@ static void	wr_to_file(int fd, char *str)
 
 	size = (int)ft_strlen(str);
 	if (!(code = ft_strnew(2)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	i = 0;
 	while (i < size)
 	{
@@ -48,7 +48,7 @@ void		create_file(char **av, char *str)
 	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, 384);
 	//	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH, 384);
 	if (fd == -1)
-		case_of_error(ERR_FD);
+		case_of_error(ERR_FD, 0);
 	wr_to_file(fd, str);
 	print_func(PARSE_COMPLETE_MSG, name);
 	close(fd);

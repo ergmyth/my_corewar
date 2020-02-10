@@ -21,19 +21,18 @@
 # define INVALID_READ_MSG "Can't read source file "
 # define PARSE_COMPLETE_MSG "Writing output program to "
 
-# define ERR_MALLOC 3
-# define ERR_TOO_BIG_REG_NUMBER 5
-# define ERR_GNL 6
-# define ERR_NAME_OR_COMMENT 7
-# define ERR_HAVENT_END_QUOTE 8
-# define ERR_LEXICAL 9
-# define ERR_TOO_LONG_NAME 10
-# define ERR_TOO_LONG_COMMENT 11
-# define ERR_WRONG_OP_NAME 12
-# define ERR_FD 13
-# define ERR_NO_SUCH_LABEL 14
-# define ERR_NO_CODE 15
-# define ERR_NO_NEWLINE_AT_END 16
+# define ERR_MALLOC "Allocation error"
+# define ERR_TOO_BIG_REG_NUMBER "Register number error at line "
+# define ERR_GNL "get_next_line_error"
+# define ERR_NAME_OR_COMMENT "Champion name or comment error at line "
+# define ERR_HAVENT_END_QUOTE "Haven't end quote. Error at line "
+# define ERR_LEXICAL "Lexical error at line "
+# define ERR_TOO_LONG_NAME "Long name error at line "
+# define ERR_TOO_LONG_COMMENT "Long comment error at line "
+# define ERR_WRONG_OP_NAME "Operation name error at line "
+# define ERR_FD "File error"
+# define ERR_NO_SUCH_LABEL ", no such label. Error at line "
+# define ERR_NO_CODE "Champion code error"
 
 
 typedef struct	s_op
@@ -110,7 +109,7 @@ t_s				*initialize(void);
 void			print_func(char *msg, char *src_name);
 int				check_name(char *name);
 void			do_parse(t_s *s);
-void			case_of_error(int n);
 int				add_null_octets(t_s *s);
+void			case_of_error(char *n, int line);
 
 #endif

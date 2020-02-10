@@ -12,8 +12,14 @@
 
 #include "asm.h"
 
-void	case_of_error(int n)
+void	case_of_error(char *n, int line)
 {
-	ft_putnbr_fd(n, 2);
+	if (line)
+	{
+		ft_putstr_fd(n, 2);
+		ft_putnbr_fd(line, 2);
+	}
+	else
+		ft_putstr_fd(n, 2);
 	exit(1);
 }

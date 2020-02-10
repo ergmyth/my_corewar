@@ -38,21 +38,21 @@ static void	add_label(char *label, t_s *s)
 	{
 		s->op[s->op_i]->l_size *= 2;
 		if (!(s->op[s->op_i]->l = (char**)realloc(s->op[s->op_i]->l, s->op[s->op_i]->l_size)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 	}
 	else if (!(s->op[s->op_i]->l[k] = ft_strdup(label)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	if (s->labels->labels_size == s->labels->label_index + 1)
 	{
 		s->labels->labels_size *= 2;
 		size = sizeof(char*) * s->labels->labels_size + 1;
 		if (!(s->labels->labels = (char**)realloc(s->labels->labels, size)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 		if (!(s->labels->line = (int*)realloc(s->labels->line, size)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 	}
 	if (!(s->labels->labels[s->labels->label_index++] = ft_strdup(label)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	ft_strdel(&label);
 }
 
@@ -68,13 +68,13 @@ static void	read_label(char *line, int label_c_index, t_s *s)
 	while (is_space(line[i]))
 		i++;
 	if (!(label = ft_strsub(line, i, label_c_index - i)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	if (is_label(label))
 	{
 		add_label(label, s);
 		end = (int)ft_strlen(line) - label_c_index - 1;
 		if (!(end_of_string = ft_strsub(line, label_c_index + 1, end)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 		if (!only_spaces(end_of_string))
 			read_operation(end_of_string, s);
 	}

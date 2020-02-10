@@ -17,7 +17,7 @@ static void	init_cur_args(t_s *s, int size)
 	int i;
 
 	if (!(s->args = (char**)malloc(sizeof(char*) * (size + 1))))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, s->line_index + 1);
 	i = 0;
 	while (i <= size)
 		s->args[i++] = 0;
@@ -37,7 +37,7 @@ static char	*edit_str(char *str)
 			k++;
 	size = (int)ft_strlen(str) - k;
 	if (!(new_str = ft_strnew(size)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	i = 0;
 	k = 0;
 	while (str[i])
@@ -62,15 +62,15 @@ static void	put_args(t_s *s, char *str, int op_index)
 		if (k + 1 == s->op_tab[op_index].arg_count)
 		{
 			if (!(s->args[k] = (!k) ? ft_strdup(str) : ft_strdup(str + index)))
-				case_of_error(ERR_MALLOC);
+				case_of_error(ERR_MALLOC, 0);
 		}
 		else
 		{
 			len = get_symbol_index(str + index, SEPARATOR_CHAR);
 			if (len == -1)
-			    case_of_error(ERR_LEXICAL);
+			    case_of_error(ERR_LEXICAL, s->line_index + 1);
 			if (!(s->args[k] = ft_strsub(str, index, len)))
-				case_of_error(ERR_MALLOC);
+				case_of_error(ERR_MALLOC, 0);
 			index += (int)ft_strlen(s->args[k]) + 1;
 		}
 		k++;
@@ -101,12 +101,12 @@ void		get_args(int op_index, t_s *s, char *str)
         {
             s->size *= 2;
             if (!(s->op = (t_op_elem**)realloc(s->op, sizeof(t_op_elem*) * s->size)))
-                case_of_error(ERR_MALLOC);
+                case_of_error(ERR_MALLOC, 0);
             init_operations(s, s->op_i + 1);
         }
     }
 	else
-		case_of_error(ERR_LEXICAL);
+		case_of_error(ERR_LEXICAL, s->line_index + 1);
 	del_matrix(s->args, s->op_tab[op_index].arg_count);
 	ft_memdel((void**)&s->args);
 	ft_strdel(&edited_str);

@@ -43,7 +43,7 @@ static char	*get_str(char *temp, int size)
 	int		len;
 
 	if (!(str = ft_strnew(size)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	i = 0;
 	len = (int)ft_strlen(temp);
 	while (i < size - len)

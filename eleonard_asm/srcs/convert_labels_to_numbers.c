@@ -34,13 +34,14 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, int index)
 				res = (cur_op->bytes_before - dir_op->bytes_before) * -1;
 				ft_strdel(&cur_op->value[index]);
 				if (!(cur_op->value[index] = ft_itoa(res)))
-					case_of_error(ERR_MALLOC);
+					case_of_error(ERR_MALLOC, 0);
 
 				return ;
 			}
 		}
 	}
-	case_of_error(ERR_NO_SUCH_LABEL);
+	ft_putstr_fd(cur_op->value[index], 2);
+	case_of_error(ERR_NO_SUCH_LABEL, s->line_index + 1);
 }
 
 void		convert_labels_to_numbers(t_s *s)

@@ -18,7 +18,7 @@ static int	add_command_index(int *len, t_op_elem *cur_op, t_s *s)
 	char	*temp;
 
 	if (!(temp = ft_strnew(3)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	n = s->op_tab[cur_op->index].index;
 	if (n % 16)
 	{
@@ -41,7 +41,7 @@ static void	add_code_types(t_s *s, int *len, t_op_elem *cur_op)
 	char	*hex;
 
 	if (!(binary = ft_strnew(9)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	i = 0;
 	while (i < 3 && cur_op->args[i] > 0)
 	{
@@ -56,7 +56,7 @@ static void	add_code_types(t_s *s, int *len, t_op_elem *cur_op)
 	while (i++ <= 3)
 		ft_strcat(binary, "00");
 	if (!(hex = btoh(binary)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	add_arg(len, hex, s);
 	ft_strdel(&binary);
 }

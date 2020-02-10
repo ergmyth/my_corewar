@@ -23,13 +23,13 @@ static int	check_reg(const char *str, t_s *s, int index)
 		if (res <= REG_NUMBER)
 		{
 			if (!(s->op[s->op_i]->value[index] = ft_strdup(str + 1)))
-				case_of_error(ERR_MALLOC);
+				case_of_error(ERR_MALLOC, 0);
 			s->op[s->op_i]->args[index] = 1;
 			s->byte_value = 1;
 			return (1);
 		}
 		else
-			case_of_error(ERR_TOO_BIG_REG_NUMBER);
+			case_of_error(ERR_TOO_BIG_REG_NUMBER, s->line_index + 1);
 	}
 	return (0);
 }
@@ -40,7 +40,7 @@ static int	check_ind(const char *str, t_s *s, int index)
 	if (only_numbers(str))
 	{
 		if (!(s->op[s->op_i]->value[index] = ft_strdup(str)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 		s->byte_value = 2;
 		s->op[s->op_i]->args[index] = 4;
         return (1);
@@ -48,7 +48,7 @@ static int	check_ind(const char *str, t_s *s, int index)
 	else if (str[0] == LABEL_CHAR)
 	{
 		if (!(s->op[s->op_i]->value[index] = ft_strdup(str + 1)))
-			case_of_error(ERR_MALLOC);
+			case_of_error(ERR_MALLOC, 0);
 		s->labels->line[s->labels->label_index] = s->line_index;
 		s->op[s->op_i]->args[index] = 4;
 		s->byte_value = 2;

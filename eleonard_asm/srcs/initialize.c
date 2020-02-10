@@ -21,7 +21,7 @@ static void	start_byte_code(char *code)
 
 	i = 0;
 	if (!(str = pf_hex(COREWAR_EXEC_MAGIC)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	magic_len = (int)ft_strlen(str);
 	while (magic_len + i < 8)
 	{
@@ -86,18 +86,18 @@ static void	init_labels_struct(t_s *s)
 	t_labels	*l;
 
 	if (!(s->labels = (t_labels*)malloc(sizeof(t_labels))))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	l = s->labels;
 	l->labels_size = 128;
 	if (!(l->labels = (char**)malloc(sizeof(char*) * l->labels_size)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	l->label_index = 0;
 	while (l->label_index < l->labels_size)
 		l->labels[l->label_index++] = 0;
 	l->labels[l->labels_size - 1] = 0;
 	l->label_index = 0;
 	if (!(l->line = (int*)malloc(sizeof(int) * l->labels_size)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 }
 
 t_s			*initialize(void)
@@ -105,7 +105,7 @@ t_s			*initialize(void)
 	t_s	*s;
 
 	if (!(s = (t_s*)malloc(sizeof(t_s))))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	s->has_name = 0;
 	s->byte_code_size = (COMMENT_LENGTH + PROG_NAME_LENGTH + 16 + CHAMP_MAX_SIZE) * 2;
 	s->comment_written = 0;
@@ -118,10 +118,10 @@ t_s			*initialize(void)
 	s->op_i = 0;
 	create_op_tab(s);
 	if (!(s->byte_code = ft_strnew(s->byte_code_size)))
-		case_of_error(ERR_MALLOC);
+		case_of_error(ERR_MALLOC, 0);
 	start_byte_code(s->byte_code);
 	if (!(s->op = (t_op_elem**)malloc(sizeof(t_op_elem*) * s->size)))
-	    case_of_error(ERR_MALLOC);
+	    case_of_error(ERR_MALLOC, 0);
 	init_operations(s, 0);
 	s->name = 0;
 	s->comment = 0;

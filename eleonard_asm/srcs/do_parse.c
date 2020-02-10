@@ -47,7 +47,7 @@ void		do_parse(t_s *s)
 	while ((gnl_ret = get_next_line(s->fd, &line)))
 	{
 		if (gnl_ret == -1)
-			case_of_error(ERR_GNL);
+			case_of_error(ERR_GNL, 0);
 		else if (line && not_a_comment(line) && not_empty_line(line))
 			encrypt_line(line, s);
 		s->line_index++;
