@@ -45,7 +45,7 @@ void		create_file(char **av, char *str)
 	temp = av[1];
 	temp[len - 1] = 0;
 	name = ft_strjoin(av[1], "cor");
-	fd = open(name, O_CREAT | O_WRONLY, 384);
+	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, 384);
 	//	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH, 384);
 	if (fd == -1)
 		case_of_error(ERR_FD);

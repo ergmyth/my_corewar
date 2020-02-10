@@ -321,6 +321,9 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/libft/srcs/pf_hex.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_arg.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>

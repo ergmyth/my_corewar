@@ -22,7 +22,7 @@ static void	additional_code(char *str)
 	while (str && str[i])
 		if (str[i++] == '0')
 			break ;
-	if (i == len)
+	if (i == len + 1)
 		return ;
 	while (--len > -1)
 	{
@@ -72,25 +72,7 @@ static char	*get_arg(char *value, int size)
 	return (str);
 }
 
-static void	add_arg(int *len, char *command_code, t_s *s)
-{
-	int i;
 
-	i = 0;
-	while (command_code && command_code[i])
-	{
-		if (*len >= s->byte_code_size)
-		{
-			s->byte_code_size += 1000;
-			s->byte_code = (char*)realloc(s->byte_code, s->byte_code_size);
-			s->byte_code[s->byte_code_size - 1] = 0;
-		}
-		s->byte_code[*len] = command_code[i];
-		(*len)++;
-		i++;
-	}
-	ft_strdel(&command_code);
-}
 
 void		add_args_code(int *len, t_op_elem *cur_op, t_s *s)
 {

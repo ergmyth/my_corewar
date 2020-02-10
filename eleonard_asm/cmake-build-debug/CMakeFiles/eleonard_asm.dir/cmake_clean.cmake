@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/eleonard_asm.dir/libft/srcs/is_space.c.o"
   "CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o"
   "CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o"
+  "CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o"
   "CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o"

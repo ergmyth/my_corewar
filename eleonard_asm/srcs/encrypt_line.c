@@ -107,19 +107,26 @@ static void	getter(t_s *s, char *line, char c)
 
 void		encrypt_line(char *line, t_s *s)
 {
+	char	*str;
+	int		i;
+
+	i = 0;
+	while(is_space(line[i]))
+		i++;
+	str = line + i;
 	if (s->has_comment && s->has_name)
 	{
 		if (!s->comment_written)
 			add_till_cec(s);
-		if (ft_strncmp(".extend", line, 7))
-			read_line(line, s);
+		if (ft_strncmp(".extend", str, 7))
+			read_line(str, s);
 	}
 	else
 	{
-		if (!s->has_name && !ft_strncmp(NAME_CMD_STRING, line, 5))
-			getter(s, line, 'n');
-		else if (!s->has_comment && !ft_strncmp(COMMENT_CMD_STRING, line, 5))
-			getter(s, line, 'c');
+		if (!s->has_name && !ft_strncmp(NAME_CMD_STRING, str, 5))
+			getter(s, str, 'n');
+		else if (!s->has_comment && !ft_strncmp(COMMENT_CMD_STRING, str, 5))
+			getter(s, str, 'c');
         else
             case_of_error(ERR_NAME_OR_COMMENT);
 	}

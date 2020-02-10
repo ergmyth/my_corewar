@@ -33,6 +33,7 @@
 # define ERR_FD 13
 # define ERR_NO_SUCH_LABEL 14
 # define ERR_NO_CODE 15
+# define ERR_NO_NEWLINE_AT_END 16
 
 
 typedef struct	s_op
@@ -88,6 +89,7 @@ typedef struct	s_s
 	int			byte_code_size;
 }				t_s;
 
+void			add_arg(int *len, char *command_code, t_s *s);
 int				only_spaces(char *str);
 void            init_operations(t_s *s, int i);
 void			free_struct(t_s *s);

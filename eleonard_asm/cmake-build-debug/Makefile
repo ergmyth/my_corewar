@@ -2175,6 +2175,33 @@ libft/srcs/pf_hex.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.s
 .PHONY : libft/srcs/pf_hex.c.s
 
+srcs/add_arg.o: srcs/add_arg.c.o
+
+.PHONY : srcs/add_arg.o
+
+# target to build an object file
+srcs/add_arg.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o
+.PHONY : srcs/add_arg.c.o
+
+srcs/add_arg.i: srcs/add_arg.c.i
+
+.PHONY : srcs/add_arg.i
+
+# target to preprocess a source file
+srcs/add_arg.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.i
+.PHONY : srcs/add_arg.c.i
+
+srcs/add_arg.s: srcs/add_arg.c.s
+
+.PHONY : srcs/add_arg.s
+
+# target to generate assembly for a file
+srcs/add_arg.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.s
+.PHONY : srcs/add_arg.c.s
+
 srcs/add_args_code.o: srcs/add_args_code.c.o
 
 .PHONY : srcs/add_args_code.o
@@ -3033,6 +3060,9 @@ help:
 	@echo "... libft/srcs/pf_hex.o"
 	@echo "... libft/srcs/pf_hex.i"
 	@echo "... libft/srcs/pf_hex.s"
+	@echo "... srcs/add_arg.o"
+	@echo "... srcs/add_arg.i"
+	@echo "... srcs/add_arg.s"
 	@echo "... srcs/add_args_code.o"
 	@echo "... srcs/add_args_code.i"
 	@echo "... srcs/add_args_code.s"

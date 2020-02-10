@@ -211,6 +211,11 @@ CMakeFiles/eleonard_asm.dir/libft/srcs/only_numbers.c.o: ../libft/srcs/only_numb
 CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/libft/srcs/pf_hex.c.o: ../libft/srcs/pf_hex.c
 
+CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/add_arg.c.o: ../srcs/add_arg.c
+
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../libft/includes/libft.h

@@ -12,17 +12,29 @@
 
 #include "asm.h"
 
-static int	add_command_index(char *str, int *len, t_op_elem *cur_op, t_s *s)
+static int	add_command_index(int *len, t_op_elem *cur_op, t_s *s)
 {
-	int n;
+	int 	n;
+	char	*temp;
 
-	str[(*len)++] = '0';
+	if (!(temp = ft_strnew(3)))
+		case_of_error(ERR_MALLOC);
 	n = s->op_tab[cur_op->index].index;
-	str[(*len)++] = (n % 16 < 10) ? (n % 16) + 48 : (n % 16) + 87;
+	if (n % 16)
+	{
+		temp[0] = '0';
+		temp[1] = (n % 16 < 10) ? (n % 16) + 48 : (n % 16) + 87;
+	}
+	else
+	{
+		temp[0] = '1';
+		temp[1]= '0';
+	}
+	add_arg(len, temp, s);
 	return (n);
 }
 
-static void	add_code_types(char *str, int *len, t_op_elem *cur_op)
+static void	add_code_types(t_s *s, int *len, t_op_elem *cur_op)
 {
 	char	*binary;
 	int		i;
@@ -45,10 +57,8 @@ static void	add_code_types(char *str, int *len, t_op_elem *cur_op)
 		ft_strcat(binary, "00");
 	if (!(hex = btoh(binary)))
 		case_of_error(ERR_MALLOC);
-	str[(*len)++] = hex[0];
-	str[(*len)++] = hex[1];
+	add_arg(len, hex, s);
 	ft_strdel(&binary);
-	ft_strdel(&hex);
 }
 
 void		convert_operations_to_byte_code(t_s *s)
@@ -63,9 +73,9 @@ void		convert_operations_to_byte_code(t_s *s)
 	while (i < s->op_i)
 	{
 		cur_op = s->op[i];
-		res = add_command_index(s->byte_code, &len, cur_op, s);
+		res = add_command_index(&len, cur_op, s);
 		if (res != 1 && res != 9 && res != 12 && res != 15)
-			add_code_types(s->byte_code, &len, cur_op);
+			add_code_types(s, &len, cur_op);
 		add_args_code(&len, cur_op, s);
 		i++;
 	}
