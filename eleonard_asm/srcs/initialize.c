@@ -64,7 +64,8 @@ t_s			*initialize(void)
 	if (!(s = (t_s*)malloc(sizeof(t_s))))
 		case_of_error(ERR_MALLOC, 0);
 	s->has_name = 0;
-	s->byte_code_size = (COMMENT_LENGTH + PROG_NAME_LENGTH + 16 + CHAMP_MAX_SIZE) * 2;
+	s->byte_code_size = (COMMENT_LENGTH + PROG_NAME_LENGTH +
+			16 + CHAMP_MAX_SIZE) * 2;
 	s->comment_written = 0;
 	s->cec_ind = 0;
 	s->commands_start_ind = 0;
@@ -77,7 +78,7 @@ t_s			*initialize(void)
 		case_of_error(ERR_MALLOC, 0);
 	start_byte_code(s->byte_code);
 	if (!(s->op = (t_op_elem**)malloc(sizeof(t_op_elem*) * s->size)))
-	    case_of_error(ERR_MALLOC, 0);
+		case_of_error(ERR_MALLOC, 0);
 	init_operations(s, 0);
 	s->name = 0;
 	s->comment = 0;

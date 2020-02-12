@@ -14,7 +14,7 @@
 
 static int	add_command_index(int *len, t_op_elem *cur_op, t_s *s)
 {
-	int 	n;
+	int		n;
 	char	*temp;
 
 	if (!(temp = ft_strnew(3)))
@@ -28,7 +28,7 @@ static int	add_command_index(int *len, t_op_elem *cur_op, t_s *s)
 	else
 	{
 		temp[0] = '1';
-		temp[1]= '0';
+		temp[1] = '0';
 	}
 	add_arg(len, temp, s);
 	return (n);

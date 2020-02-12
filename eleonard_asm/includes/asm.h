@@ -46,7 +46,7 @@ typedef struct	s_op
 	int			dir_size;
 }				t_op;
 
-extern t_op 	g_op_tab[17];
+extern t_op		g_op_tab[17];
 
 typedef struct	s_op_elem
 {
@@ -75,8 +75,8 @@ typedef struct	s_s
 	char		*comment;
 	int			fd;
 	t_op_elem	**op;
-	int 		cec_ind;
-	int 		commands_start_ind;
+	int			cec_ind;
+	int			commands_start_ind;
 	int			size;
 	t_labels	*labels;
 	int			line_index;
@@ -91,7 +91,7 @@ typedef struct	s_s
 
 void			add_arg(int *len, char *command_code, t_s *s);
 int				only_spaces(char *str);
-void            init_operations(t_s *s, int i);
+void			init_operations(t_s *s, int i);
 void			free_struct(t_s *s);
 void			create_file(char **av, char *str);
 void			convert_operations_to_byte_code(t_s *s);
@@ -101,7 +101,7 @@ int				check_args(int op_index, t_s *s);
 void			get_args(int op_index, t_s *s, char *str);
 void			read_operation(char *line, t_s *s);
 void			read_line(char *line, t_s *s);
-void			add_till_cec(t_s *s);
+void			add_cec(t_s *s);
 void			fill_by_zeroes(char *str, int len);
 void			add_str_to_byte_code(t_s *s, char *str, int len);
 void			encrypt_line(char *line, t_s *s);

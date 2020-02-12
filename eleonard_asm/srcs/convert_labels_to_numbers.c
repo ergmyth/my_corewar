@@ -12,13 +12,22 @@
 
 #include "asm.h"
 
+static void	convert_func(t_op_elem *cur_op, t_op_elem *dir_op, int index)
+{
+	int	res;
+
+	res = (cur_op->bytes_before - dir_op->bytes_before) * -1;
+	ft_strdel(&cur_op->value[index]);
+	if (!(cur_op->value[index] = ft_itoa(res)))
+		case_of_error(ERR_MALLOC, 0);
+}
+
 static void	convert_label(t_op_elem *cur_op, t_s *s, int index)
 {
 	int			i;
 	t_op_elem	*dir_op;
 	char		*dir_label;
 	int			k;
-	int			res;
 
 	i = 0;
 	while (i <= s->op_i)
@@ -31,11 +40,7 @@ static void	convert_label(t_op_elem *cur_op, t_s *s, int index)
 				break ;
 			if (ft_strequ(dir_label, cur_op->value[index]))
 			{
-				res = (cur_op->bytes_before - dir_op->bytes_before) * -1;
-				ft_strdel(&cur_op->value[index]);
-				if (!(cur_op->value[index] = ft_itoa(res)))
-					case_of_error(ERR_MALLOC, 0);
-
+				convert_func(cur_op, dir_op, index);
 				return ;
 			}
 		}

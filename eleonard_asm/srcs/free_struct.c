@@ -12,12 +12,11 @@
 
 #include "asm.h"
 
-void	free_struct(t_s *s)
+static void	free_op_struct(t_s *s)
 {
 	int i;
 	int k;
 
-	ft_strdel(&s->byte_code);
 	i = 0;
 	while (i < s->size)
 	{
@@ -36,6 +35,14 @@ void	free_struct(t_s *s)
 		ft_memdel((void**)&s->op[i]);
 		i++;
 	}
+}
+
+void		free_struct(t_s *s)
+{
+	int k;
+
+	ft_strdel(&s->byte_code);
+	free_op_struct(s);
 	ft_memdel((void**)&s->op);
 	k = 0;
 	while (k < s->labels->label_index)

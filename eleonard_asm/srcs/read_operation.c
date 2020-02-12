@@ -53,7 +53,7 @@ static char	*get_op_name(char *str, int *arg_index)
 	return (name);
 }
 
-static int	check_op_name(char *name, t_s *s, int *op_index)
+static int	check_op_name(char *name, int *op_index)
 {
 	int i;
 
@@ -80,7 +80,7 @@ void		read_operation(char *line, t_s *s)
 	op_index = -1;
 	edited_str = edit_str(line);
 	op_name = get_op_name(edited_str, &arg_index);
-	if (check_op_name(op_name, s, &op_index))
+	if (check_op_name(op_name, &op_index))
 	{
 		s->op[s->op_i]->name = op_name;
 		get_args(op_index, s, edited_str + arg_index);

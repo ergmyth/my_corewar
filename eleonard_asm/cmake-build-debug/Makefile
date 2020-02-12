@@ -2229,6 +2229,33 @@ srcs/add_args_code.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.s
 .PHONY : srcs/add_args_code.c.s
 
+srcs/add_cec.o: srcs/add_cec.c.o
+
+.PHONY : srcs/add_cec.o
+
+# target to build an object file
+srcs/add_cec.c.o:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o
+.PHONY : srcs/add_cec.c.o
+
+srcs/add_cec.i: srcs/add_cec.c.i
+
+.PHONY : srcs/add_cec.i
+
+# target to preprocess a source file
+srcs/add_cec.c.i:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.i
+.PHONY : srcs/add_cec.c.i
+
+srcs/add_cec.s: srcs/add_cec.c.s
+
+.PHONY : srcs/add_cec.s
+
+# target to generate assembly for a file
+srcs/add_cec.c.s:
+	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.s
+.PHONY : srcs/add_cec.c.s
+
 srcs/add_null_octets.o: srcs/add_null_octets.c.o
 
 .PHONY : srcs/add_null_octets.o
@@ -2282,33 +2309,6 @@ srcs/add_str_to_byte_code.s: srcs/add_str_to_byte_code.c.s
 srcs/add_str_to_byte_code.c.s:
 	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
 .PHONY : srcs/add_str_to_byte_code.c.s
-
-srcs/add_till_cec.o: srcs/add_till_cec.c.o
-
-.PHONY : srcs/add_till_cec.o
-
-# target to build an object file
-srcs/add_till_cec.c.o:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o
-.PHONY : srcs/add_till_cec.c.o
-
-srcs/add_till_cec.i: srcs/add_till_cec.c.i
-
-.PHONY : srcs/add_till_cec.i
-
-# target to preprocess a source file
-srcs/add_till_cec.c.i:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.i
-.PHONY : srcs/add_till_cec.c.i
-
-srcs/add_till_cec.s: srcs/add_till_cec.c.s
-
-.PHONY : srcs/add_till_cec.s
-
-# target to generate assembly for a file
-srcs/add_till_cec.c.s:
-	$(MAKE) -f CMakeFiles/eleonard_asm.dir/build.make CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.s
-.PHONY : srcs/add_till_cec.c.s
 
 srcs/asm.o: srcs/asm.c.o
 
@@ -3093,15 +3093,15 @@ help:
 	@echo "... srcs/add_args_code.o"
 	@echo "... srcs/add_args_code.i"
 	@echo "... srcs/add_args_code.s"
+	@echo "... srcs/add_cec.o"
+	@echo "... srcs/add_cec.i"
+	@echo "... srcs/add_cec.s"
 	@echo "... srcs/add_null_octets.o"
 	@echo "... srcs/add_null_octets.i"
 	@echo "... srcs/add_null_octets.s"
 	@echo "... srcs/add_str_to_byte_code.o"
 	@echo "... srcs/add_str_to_byte_code.i"
 	@echo "... srcs/add_str_to_byte_code.s"
-	@echo "... srcs/add_till_cec.o"
-	@echo "... srcs/add_till_cec.i"
-	@echo "... srcs/add_till_cec.s"
 	@echo "... srcs/asm.o"
 	@echo "... srcs/asm.i"
 	@echo "... srcs/asm.s"

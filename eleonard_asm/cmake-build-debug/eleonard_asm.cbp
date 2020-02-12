@@ -327,13 +327,13 @@
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_args_code.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
+		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_cec.c">
+			<Option target="eleonard_asm"/>
+		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_null_octets.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c">
-			<Option target="eleonard_asm"/>
-		</Unit>
-		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_cec.c">
 			<Option target="eleonard_asm"/>
 		</Unit>
 		<Unit filename="/Users/eleonard/my_corewar/eleonard_asm/srcs/asm.c">

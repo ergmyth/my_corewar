@@ -1058,18 +1058,18 @@ CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_str_to_byte_code.c -o CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.s
 
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: CMakeFiles/eleonard_asm.dir/flags.make
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: ../srcs/add_till_cec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_cec.c
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: CMakeFiles/eleonard_asm.dir/flags.make
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: ../srcs/add_cec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eleonard/my_corewar/eleonard_asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o   -c /Users/eleonard/my_corewar/eleonard_asm/srcs/add_cec.c
 
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_cec.c > CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.i
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eleonard/my_corewar/eleonard_asm/srcs/add_cec.c > CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.i
 
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_till_cec.c -o CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.s
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eleonard/my_corewar/eleonard_asm/srcs/add_cec.c -o CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.s
 
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: CMakeFiles/eleonard_asm.dir/flags.make
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../srcs/add_null_octets.c
@@ -1449,7 +1449,7 @@ eleonard_asm_OBJECTS = \
 "CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o" \
-"CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o" \
+"CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o" \
 "CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o" \
@@ -1554,7 +1554,7 @@ eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/print_func.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/libft/srcs/get_symbol_index.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/wrong_end_of_line.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o
-eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o
+eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/fill_by_zeroes.c.o
 eleonard_asm: CMakeFiles/eleonard_asm.dir/srcs/read_line.c.o

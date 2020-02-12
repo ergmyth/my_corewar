@@ -221,6 +221,11 @@ CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/add_args_code.c.o: ../srcs/add_args_code.c
 
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: ../includes/asm.h
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: ../includes/op.h
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: ../libft/includes/libft.h
+CMakeFiles/eleonard_asm.dir/srcs/add_cec.c.o: ../srcs/add_cec.c
+
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_null_octets.c.o: ../libft/includes/libft.h
@@ -230,11 +235,6 @@ CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../includes/op.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../libft/includes/libft.h
 CMakeFiles/eleonard_asm.dir/srcs/add_str_to_byte_code.c.o: ../srcs/add_str_to_byte_code.c
-
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: ../includes/asm.h
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: ../includes/op.h
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: ../libft/includes/libft.h
-CMakeFiles/eleonard_asm.dir/srcs/add_till_cec.c.o: ../srcs/add_till_cec.c
 
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../includes/asm.h
 CMakeFiles/eleonard_asm.dir/srcs/asm.c.o: ../includes/op.h

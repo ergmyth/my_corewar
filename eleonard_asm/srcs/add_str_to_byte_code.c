@@ -24,7 +24,7 @@ void	add_str_to_byte_code(t_s *s, char *str, int len)
 	post_len = pre_len;
 	while (str[i])
 	{
-		temp = pf_hex((unsigned char)str[i]);
+		temp = pf_hex((unsigned char)str[i++]);
 		if (ft_strlen(temp) == 1)
 		{
 			s->byte_code[post_len] = '0';
@@ -37,7 +37,6 @@ void	add_str_to_byte_code(t_s *s, char *str, int len)
 		}
 		ft_strdel(&temp);
 		post_len += 2;
-		i++;
 	}
 	fill_by_zeroes(s->byte_code, len - (post_len - pre_len));
 }

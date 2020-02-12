@@ -77,7 +77,7 @@ static char	*put_after_quote(char *str, t_s *s)
 	if (wrong_end_of_line(str + end_quote_ind + 1))
 		case_of_error(ERR_LEXICAL, s->line_index + 1);
 	ft_strdel(&str);
-return (res);
+	return (res);
 }
 
 static void	getter(t_s *s, char *line, char c)
@@ -111,13 +111,13 @@ void		encrypt_line(char *line, t_s *s)
 	int		i;
 
 	i = 0;
-	while(is_space(line[i]))
+	while (is_space(line[i]))
 		i++;
 	str = line + i;
 	if (s->has_comment && s->has_name)
 	{
 		if (!s->comment_written)
-			add_till_cec(s);
+			add_cec(s);
 		if (ft_strncmp(".extend", str, 7))
 			read_line(str, s);
 	}
@@ -127,7 +127,7 @@ void		encrypt_line(char *line, t_s *s)
 			getter(s, str, 'n');
 		else if (!s->has_comment && !ft_strncmp(COMMENT_CMD_STRING, str, 5))
 			getter(s, str, 'c');
-        else
-            case_of_error(ERR_NAME_OR_COMMENT, s->line_index + 1);
+		else
+			case_of_error(ERR_NAME_OR_COMMENT, s->line_index + 1);
 	}
 }

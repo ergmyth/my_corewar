@@ -17,7 +17,7 @@ static void	wr_to_file(int fd, char *str)
 	int				i;
 	char			*code;
 	unsigned char	b;
-	int 			size;
+	int				size;
 
 	size = (int)ft_strlen(str);
 	if (!(code = ft_strnew(2)))
@@ -28,7 +28,7 @@ static void	wr_to_file(int fd, char *str)
 		code[0] = str[i];
 		code[1] = str[i + 1];
 		b = ft_htod(code);
-	 	write(fd, &b, 1);
+		write(fd, &b, 1);
 		i += 2;
 	}
 	ft_strdel(&code);
@@ -46,7 +46,6 @@ void		create_file(char **av, char *str)
 	temp[len - 1] = 0;
 	name = ft_strjoin(av[1], "cor");
 	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, 384);
-	//	fd = open(name, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH, 384);
 	if (fd == -1)
 		case_of_error(ERR_FD, 0);
 	wr_to_file(fd, str);

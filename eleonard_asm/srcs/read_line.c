@@ -28,19 +28,19 @@ static int	is_label(char *label)
 
 static void	add_label(char *label, t_s *s)
 {
-	int     k;
-	size_t  size;
+	size_t	size;
 
-	k = 0;
-	while (s->op[s->op_i]->l[k])
-		k++;
-	if (k == s->op[s->op_i]->l_size)
+	size = 0;
+	while (s->op[s->op_i]->l[size])
+		size++;
+	if ((int)size == s->op[s->op_i]->l_size)
 	{
 		s->op[s->op_i]->l_size *= 2;
-		if (!(s->op[s->op_i]->l = (char**)realloc(s->op[s->op_i]->l, s->op[s->op_i]->l_size)))
+		if (!(s->op[s->op_i]->l = (char**)realloc(s->op[s->op_i]->l,
+				s->op[s->op_i]->l_size)))
 			case_of_error(ERR_MALLOC, 0);
 	}
-	else if (!(s->op[s->op_i]->l[k] = ft_strdup(label)))
+	else if (!(s->op[s->op_i]->l[size] = ft_strdup(label)))
 		case_of_error(ERR_MALLOC, 0);
 	if (s->labels->labels_size == s->labels->label_index + 1)
 	{
@@ -53,7 +53,6 @@ static void	add_label(char *label, t_s *s)
 	}
 	if (!(s->labels->labels[s->labels->label_index++] = ft_strdup(label)))
 		case_of_error(ERR_MALLOC, 0);
-	ft_strdel(&label);
 }
 
 static void	read_label(char *line, int label_c_index, t_s *s)
@@ -79,10 +78,8 @@ static void	read_label(char *line, int label_c_index, t_s *s)
 			read_operation(end_of_string, s);
 	}
 	else
-	{
-		ft_strdel(&label);
 		read_operation(line, s);
-	}
+	ft_strdel(&label);
 	ft_strdel(&end_of_string);
 }
 
