@@ -6,7 +6,7 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/18 15:39:14 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/15 09:11:07 by clianne          ###   ########.fr       */
+/*   Updated: 2020/02/18 21:32:40 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,22 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-static int		get_int_code(unsigned int *buf_int1)
+static int		get_int_code(unsigned int *buf_int1, t_player *player,
+	size_t flag)
 {
-	return ((buf_int1[0] << 24) +
+	int		code;
+
+	code = (buf_int1[0] << 24) +
 			(buf_int1[1] << 16) +
 			(buf_int1[2] << 8) +
-			(buf_int1[3]));
+			(buf_int1[3]);
+	if (flag == 1 && code != COREWAR_EXEC_MAGIC)
+		ret_file_error("Error: failed magic_code in the file ",
+			player->filename, "\n", -1);
+	if (flag == 2 && code > CHAMP_MAX_SIZE)
+		ret_file_error("Error: size of exec_code more than MAX_SIZE ",
+			player->filename, "\n", -1);
+	return (code);
 }
 
 void			player_parse_part_25l(size_t idx, unsigned int *buf_int1,
@@ -29,7 +39,7 @@ void			player_parse_part_25l(size_t idx, unsigned int *buf_int1,
 	{
 		buf_int1[idx] = (unsigned int)buf[0];
 		if (idx == sizeof(int) - 1)
-			player->magic_code = get_int_code(buf_int1);
+			player->magic_code = get_int_code(buf_int1, player, 1);
 	}
 	else if (idx < sizeof(int) + PROG_NAME_LENGTH)
 		player->name[idx - sizeof(int)] = (unsigned char)buf[0];
@@ -72,7 +82,7 @@ void			player_file_check_read_parse(int fd, t_player *player)
 			buf_int2[idx - (sizeof(int) + PROG_NAME_LENGTH + 4)] =
 				(unsigned int)buf[0];
 			if (idx == 2 * sizeof(int) + PROG_NAME_LENGTH + 3)
-				player->size_exec_code = get_int_code(buf_int2);
+				player->size_exec_code = get_int_code(buf_int2, player, 2);
 		}
 		else
 			player_parse_part_25l(idx, buf_int1, buf, player);
@@ -99,10 +109,6 @@ void			players_check_and_fill(t_player *players,
 				"\n", -1);
 		player_file_check_read_parse(fd, &players[idx]);
 		close(fd);
-		if (players[idx].magic_code != COREWAR_EXEC_MAGIC ||
-			players[idx].size_exec_code >= CHAMP_MAX_SIZE)
-			ret_file_error("Error: failed exec_code data in the file ",
-				players[idx].filename, "\n", -1);
 		idx++;
 	}
 }
