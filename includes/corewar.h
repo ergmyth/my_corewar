@@ -6,15 +6,16 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/14 13:25:50 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/15 12:43:20 by eleonard         ###   ########.fr       */
+/*   Updated: 2020/02/22 14:24:17 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef COREWAR_H
 # define COREWAR_H
 
+# include <stdlib.h>
 # include "op.h"
-# include "ft_printf.h"
+# include "../ft_printf/includes/ft_printf.h"
 
 typedef struct			s_op
 {
@@ -51,7 +52,7 @@ typedef struct			s_carriage
 	int					last_cycle_alive;
 	int					cycles_countdown;
 	char				*current_position;
-	int					reg[REG_NUMBER_VM];
+	int					reg[16];
 	struct s_carriage	*next;
 }						t_carriage;
 
@@ -83,7 +84,7 @@ int						ret_file_error(char *msg_1, char *filename,
 	char *msg_2, int code);
 int						ret_diff_size_error(char *filename);
 int						ret_small_champ_error(char *filename);
-
+int						ret_usage(void);
 int						players_get_q(int gc, char **gv);
 void					player_init(t_player *players, int q_players);
 int						player_get_number(t_player *players, int q_players);

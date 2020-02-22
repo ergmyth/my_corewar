@@ -6,13 +6,14 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/18 15:39:14 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/18 21:32:40 by clianne          ###   ########.fr       */
+/*   Updated: 2020/02/19 21:22:42 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "corewar.h"
 #include <unistd.h>
 #include <fcntl.h>
+#include <errno.h>
 
 static int		get_int_code(unsigned int *buf_int1, t_player *player,
 	size_t flag)
@@ -26,8 +27,8 @@ static int		get_int_code(unsigned int *buf_int1, t_player *player,
 	if (flag == 1 && code != COREWAR_EXEC_MAGIC)
 		ret_file_error("Error: failed magic_code in the file ",
 			player->filename, "\n", -1);
-	if (flag == 2 && code > CHAMP_MAX_SIZE)
-		ret_file_error("Error: size of exec_code more than MAX_SIZE ",
+	if (flag == 2 && (code > CHAMP_MAX_SIZE || code < 0))
+		ret_file_error("Error: invalid size of exec_code",
 			player->filename, "\n", -1);
 	return (code);
 }
@@ -45,15 +46,15 @@ void			player_parse_part_25l(size_t idx, unsigned int *buf_int1,
 		player->name[idx - sizeof(int)] = (unsigned char)buf[0];
 	else if (idx >= 2 * sizeof(int) + PROG_NAME_LENGTH + 8 + COMMENT_LENGTH)
 	{
+		if ((int)(idx - player->ch_size) > player->size_exec_code - 1)
+			ret_file_error("Error: File ", player->filename,
+			" has a code size that differ from what its header says\n", -1);
 		if (idx == 2 * sizeof(int) + PROG_NAME_LENGTH + 8 + COMMENT_LENGTH)
 		{
 			player->exec_code = (char *)malloc(sizeof(char) *
 				player->size_exec_code);
 			ft_bzero(player->exec_code, player->size_exec_code);
 		}
-		if ((int)(idx - player->ch_size) > player->size_exec_code - 1)
-			ret_file_error("Error: File ", player->filename,
-			" has a code size that differ from what its header says\n", -1);
 		player->exec_code[idx - player->ch_size] = (unsigned char)buf[0];
 	}
 	else if (idx >= 2 * sizeof(int) + PROG_NAME_LENGTH + 4 &&
@@ -104,7 +105,8 @@ void			players_check_and_fill(t_player *players,
 	idx = 0;
 	while (idx < cwoptions->q_players)
 	{
-		if ((fd = open(players[idx].filename, O_RDONLY)) == -1)
+		fd = open(players[idx].filename, O_RDONLY);
+		if (fd < 0)
 			ret_file_error("Error: unable to open file ", players[idx].filename,
 				"\n", -1);
 		player_file_check_read_parse(fd, &players[idx]);

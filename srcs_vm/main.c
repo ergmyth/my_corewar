@@ -6,7 +6,7 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/14 13:33:44 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/14 08:39:47 by clianne          ###   ########.fr       */
+/*   Updated: 2020/02/19 21:23:38 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int			main(int gc, char **gv)
 	t_cwoptions	cwoptions;
 	t_player	*players;
 
+	if (gc < 2)
+		ret_usage();
 	cwoptions.q_players = players_get_q(gc, gv);
 	cwoptions.list = (t_carriage**)malloc(sizeof(t_carriage*));
 	cwoptions.q_cycles = 0;

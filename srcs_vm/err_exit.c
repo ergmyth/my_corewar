@@ -6,7 +6,7 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/13 07:41:18 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/14 08:08:19 by clianne          ###   ########.fr       */
+/*   Updated: 2020/02/22 14:09:43 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,24 @@ int			ret_small_champ_error(char *filename)
 {
 	ret_file_error("Error: File ", filename,
 		" is too small to be a champion\n", -1);
+	exit(-1);
+}
+
+int			ret_usage(void)
+{
+	ft_putstr_fd("Usage:\n  corewar [-n <number> <num_player_file>] ", 2);
+	ft_putstr_fd("[-dump <nbr_cycles>] [-d <nbr_cycles>] [-a] ", 2);
+	ft_putstr_fd("<player_file> ... <player_file>\n", 2);
+	ft_putstr_fd("  [-n <number> <num_player_file>] : ", 2);
+	ft_putstr_fd("to set number for player <num_player_file>\n", 2);
+	ft_putstr_fd("  [-dump <nbr_cycles>] : to print the memory ", 2);
+	ft_putstr_fd("(64 octets per line) and quit the game at the end ", 2);
+	ft_putstr_fd("of nbr_cycles of executions\n", 2);
+	ft_putstr_fd("  [-d <nbr_cycles>] : to print the memory (32 ", 2);
+	ft_putstr_fd("octets per line) as well as live operations and quit", 2);
+	ft_putstr_fd(" the game at the end of nbr_cycles of executions\n", 2);
+	ft_putstr_fd("  [-a] : to switch on display of <aff> ", 2);
+	ft_putstr_fd("operation output\n", 2);
+	ft_putstr_fd("  <player_file> : file name of champion\n", 2);
 	exit(-1);
 }
