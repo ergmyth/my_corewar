@@ -6,7 +6,7 @@
 /*   By: clianne <clianne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/18 15:39:14 by clianne           #+#    #+#             */
-/*   Updated: 2020/02/19 21:22:42 by clianne          ###   ########.fr       */
+/*   Updated: 2020/02/26 10:35:48 by clianne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static int		get_int_code(unsigned int *buf_int1, t_player *player,
 		ret_file_error("Error: failed magic_code in the file ",
 			player->filename, "\n", -1);
 	if (flag == 2 && (code > CHAMP_MAX_SIZE || code < 0))
-		ret_file_error("Error: invalid size of exec_code",
+		ret_file_error("Error: invalid size of exec_code ",
 			player->filename, "\n", -1);
 	return (code);
 }
